@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="3">
+      <داده_x0020_ها Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
+        <Alias>داده ها</Alias>
+        <Columns isList="true" count="4">
+          <value>گزارش,&lt;&gt;f__AnonymousType25`32[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.Int64],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.Boolean,System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.String,System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.Boolean,System.Boolean,System.Boolean,System.String,System.String]</value>
+          <value>گردش_حساب,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType26`28[System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.Int64],System.Int64,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.DateTime,System.TimeSpan,System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String]]</value>
+          <value>_ID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>داده ها</Name>
+        <NameInSource>داده ها</NameInSource>
+      </داده_x0020_ها>
+      <داده_x0020_ها_گزارش Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
+        <Alias>داده ها_گزارش</Alias>
+        <Columns isList="true" count="35">
+          <value>نام_شرکت,System.String</value>
+          <value>آدرس,System.String</value>
+          <value>کد_پستی,System.String</value>
+          <value>تلفن,System.String</value>
+          <value>فکس,System.String</value>
+          <value>شماره_اقتصادی,System.String</value>
+          <value>شناسه_ملی,System.String</value>
+          <value>شماره_ثبت,System.String</value>
+          <value>نام_کاربر,System.String</value>
+          <value>کد_دوره,System.Int64</value>
+          <value>نام_دوره,System.String</value>
+          <value>تاریخ_شروع_دوره_شمسی,System.String</value>
+          <value>تاریخ_پایان_دوره_شمسی,System.String</value>
+          <value>تاریخ_شروع_دوره_میلادی,System.DateTime</value>
+          <value>تاریخ_پایان_دوره_میلادی,System.DateTime</value>
+          <value>وضعیت_دوره,System.String</value>
+          <value>از_تاریخ_شمسی,System.String</value>
+          <value>تا_تاریخ_شمسی,System.String</value>
+          <value>از_تاریخ_میلادی,System.DateTime</value>
+          <value>تا_تاریخ_میلادی,System.DateTime</value>
+          <value>نام_حساب,System.String</value>
+          <value>محاسبه_مانده_از_قبل,System.Boolean</value>
+          <value>گردش_بدهکار_ابتدای_دوره,System.Decimal</value>
+          <value>گردش_بستانکار_ابتدای_دوره,System.Decimal</value>
+          <value>تشخیص_مانده_ابتدای_دوره,System.String</value>
+          <value>مانده_ابتدای_دوره,System.Decimal</value>
+          <value>مانده_علامتدار_ابتدای_دوره,System.Decimal</value>
+          <value>بدون_اسناد_افتتاحیه,System.Boolean</value>
+          <value>بدون_اسناد_اختتامیه,System.Boolean</value>
+          <value>بدون_اسناد_سود_و_زیان,System.Boolean</value>
+          <value>کد_لایه_تفکیکی,System.String</value>
+          <value>نام_لایه_تفکیکی,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>داده ها_گزارش</Name>
+        <NameInSource>داده ها_گزارش</NameInSource>
+      </داده_x0020_ها_گزارش>
+      <داده_x0020_ها_گردش_حساب Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
+        <Alias>داده ها_گردش_حساب</Alias>
+        <Columns isList="true" count="31">
+          <value>ردیف,System.Int32</value>
+          <value>کد_گروه,System.String</value>
+          <value>کد_کل,System.String</value>
+          <value>نام_کل,System.String</value>
+          <value>کد_معین,System.String</value>
+          <value>نام_معین,System.String</value>
+          <value>کد_حساب,System.String</value>
+          <value>کد_لایه,System.String</value>
+          <value>کد_تفصیل,System.String</value>
+          <value>شماره,System.Int64</value>
+          <value>کد_بایگانی,System.Int64</value>
+          <value>کد_فرعی,System.String</value>
+          <value>کد_ارجاع,System.String</value>
+          <value>کد_پیگیری,System.String</value>
+          <value>تاریخ_پیگیری_میلادی,System.DateTime</value>
+          <value>تاریخ_پیگیری_شمسی,System.String</value>
+          <value>تاریخ_شمسی,System.String</value>
+          <value>تاریخ_میلادی,System.DateTime</value>
+          <value>ساعت_ثبت,System.TimeSpan</value>
+          <value>گردش_بدهکار,System.Decimal</value>
+          <value>گردش_بستانکار,System.Decimal</value>
+          <value>تشخیص,System.String</value>
+          <value>مانده,System.Decimal</value>
+          <value>مانده_علامتدار,System.Decimal</value>
+          <value>شرح_ردیف,System.String</value>
+          <value>شرح_سند,System.String</value>
+          <value>کد_تفصیل_تفکیکی,System.String</value>
+          <value>نام_تفصیل_تفکیکی,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>داده ها_گردش_حساب</Name>
+        <NameInSource>داده ها_گردش_حساب</NameInSource>
+      </داده_x0020_ها_گردش_حساب>
+    </DataSources>
+    <Relations isList="true" count="2">
+      <داده_x0020_ها Ref="5" type="DataRelation" isKey="true">
+        <Alias>داده ها</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Name>داده ها</Name>
+        <NameInSource>داده ها_گزارشRelation</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </داده_x0020_ها>
+      <داده_x0020_ها Ref="6" type="DataRelation" isKey="true">
+        <Alias>داده ها</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>داده ها</Name>
+        <NameInSource>داده ها_گردش_حسابRelation</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </داده_x0020_ها>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV1</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <NumberOfPass>DoublePass</NumberOfPass>
+  <Pages isList="true" count="1">
+    <Page1 Ref="7" type="Page" isKey="true">
+      <Border>All;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <ReportTitleBand1 Ref="8" type="ReportTitleBand" isKey="true">
+          <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,2.8</ClientRectangle>
+          <Components isList="true" count="7">
+            <Text26 Ref="9" type="Text" isKey="true">
+              <AutoWidth>True</AutoWidth>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.55,0.4,2.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,14,Bold</Font>
+              <Guid>378b714f35b5499abd3093dd2d21d31c</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{داده_ها_گزارش.نام_شرکت}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text26>
+            <Text41 Ref="10" type="Text" isKey="true">
+              <AutoWidth>True</AutoWidth>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.55,1.2,2.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,16,Bold</Font>
+              <Guid>5bad2d97d59f4d86929fdf3dace0bb6f</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text41</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>لیست ماتریسی حساب ها</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text41>
+            <Text5 Ref="11" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.4,2,18.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12</Font>
+              <Guid>e548aafdb3d24c81821412b0fbfa05ed</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{داده_ها_گزارش.نام_حساب}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text7 Ref="12" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.4,0.4,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12</Font>
+              <Guid>a18fc1c624124a92a6f30379107dd4e3</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{داده_ها_گزارش.از_تاریخ_شمسی}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text10 Ref="13" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>2.4,0.4,1.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12</Font>
+              <Guid>d70d5713b6b14b0ea1ca3d9fa4332794</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>از تاریخ:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text11 Ref="14" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.4,1.2,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12</Font>
+              <Guid>1ff732361237463fa90168c839bb69d6</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{داده_ها_گزارش.تا_تاریخ_شمسی}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text12 Ref="15" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>2.4,1.2,1.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12</Font>
+              <Guid>3e894ca3123f46c08c877597cb940a81</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>تا تاریخ:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>ed6a7decffca4939818b6dd7d47f03e4</Guid>
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </ReportTitleBand1>
+        <Text32 Ref="16" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>-0.6,24.6,0.6,3</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Tahoma,8</Font>
+          <Guid>8c68823783714f16b7ed6dfdeab0df25</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text32</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>www.hooshkar.com</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <VertAlignment>Bottom</VertAlignment>
+        </Text32>
+        <Text28 Ref="17" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>-0.6,0,0.6,3</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Tahoma,8</Font>
+          <Guid>938dbde8d991426c8423174dca12bd24</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text28</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{PageNofM}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <VertAlignment>Bottom</VertAlignment>
+        </Text28>
+        <CrossTab1 Ref="18" type="Stimulsoft.Report.CrossTab.StiCrossTab" isKey="true">
+          <Border>Top;Black;1;Solid;False;4;Black</Border>
+          <Brush>[240:240:240]</Brush>
+          <ClientRectangle>0,3.6,19,24.1</ClientRectangle>
+          <Components isList="true" count="13">
+            <CrossTab1_Row1_Title Ref="19" type="CrossTitle" isKey="true">
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>0,0.65,4.21,0.6</ClientRectangle>
+              <Font>B Nazanin,10</Font>
+              <Guid>d7ac990985e042a8b8775306caae914c</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Row1_Title</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>معین</Text>
+              <TextBrush>[0:56:85]</TextBrush>
+              <TypeOfComponent>Row:CrossTab1_Row1</TypeOfComponent>
+            </CrossTab1_Row1_Title>
+            <CrossTab1_LeftTitle Ref="20" type="CrossTitle" isKey="true">
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>0,0,4.21,0.6</ClientRectangle>
+              <Font>B Nazanin,10</Font>
+              <Guid>5780514cb0df4730ae4948aa7455abba</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_LeftTitle</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>حساب ها</Text>
+              <TextBrush>[0:56:85]</TextBrush>
+              <TypeOfComponent>LeftTitle</TypeOfComponent>
+            </CrossTab1_LeftTitle>
+            <CrossTab1_SumHeader1 Ref="21" type="Stimulsoft.Report.CrossTab.StiCrossSummaryHeader" isKey="true">
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>2.29,1.3,1.91,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,10</Font>
+              <Guid>55c1cc52878b4477892282e9b76ffea6</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_SumHeader1</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>بدهکار</Text>
+              <TextBrush>[0:56:85]</TextBrush>
+            </CrossTab1_SumHeader1>
+            <CrossTab1_SumHeader2 Ref="22" type="Stimulsoft.Report.CrossTab.StiCrossSummaryHeader" isKey="true">
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>2.29,1.9,1.91,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,10</Font>
+              <Guid>0d4bb666dd5044ed9f6b3741f1b23876</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_SumHeader2</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>بستانکار</Text>
+              <TextBrush>[0:56:85]</TextBrush>
+            </CrossTab1_SumHeader2>
+            <CrossTab1_SumHeader3 Ref="23" type="Stimulsoft.Report.CrossTab.StiCrossSummaryHeader" isKey="true">
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>2.29,2.5,1.91,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,10</Font>
+              <Guid>613a18f7cf9b465fa2631255ba0c4e0b</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_SumHeader3</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>مانده</Text>
+              <TextBrush>[0:56:85]</TextBrush>
+            </CrossTab1_SumHeader3>
+            <CrossTab1_RightTitle Ref="24" type="CrossTitle" isKey="true">
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>4.26,0,6.12,0.6</ClientRectangle>
+              <Font>B Nazanin,10</Font>
+              <Guid>f851ca52e99a43cea959518cbbd70a6d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_RightTitle</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>{داده_ها_گزارش.نام_لایه_تفکیکی}</Text>
+              <TextBrush>[0:56:85]</TextBrush>
+              <TypeOfComponent>RightTitle</TypeOfComponent>
+            </CrossTab1_RightTitle>
+            <CrossTab1_RowTotal1 Ref="25" type="CrossRowTotal" isKey="true">
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>[225:225:225]</Brush>
+              <ClientRectangle>0,3.1,4.21,1.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,10</Font>
+              <Guid>b0110c7693bb472083576d3f4f871132</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_RowTotal1</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>جمع</Text>
+              <TextBrush>Black</TextBrush>
+            </CrossTab1_RowTotal1>
+            <CrossTab1_Row1 Ref="26" type="CrossRow" isKey="true">
+              <Alias>نام_معین</Alias>
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>0,1.3,2.29,1.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <DisplayValue>{داده_ها_گردش_حساب.نام_معین}</DisplayValue>
+              <Font>B Nazanin,10</Font>
+              <Guid>32c91ca1bb114c5cade7286064447bcb</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Row1</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>نام_معین</Text>
+              <TextBrush>[0:56:85]</TextBrush>
+              <TotalGuid>b0110c7693bb472083576d3f4f871132</TotalGuid>
+              <Value>{داده_ها_گردش_حساب.نام_معین}</Value>
+            </CrossTab1_Row1>
+            <CrossTab1_Column1 Ref="27" type="CrossColumn" isKey="true">
+              <Alias>نام_تفصیل_تفکیکی</Alias>
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>4.26,0.65,4.59,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <DisplayValue>{داده_ها_گردش_حساب.نام_تفصیل_تفکیکی}</DisplayValue>
+              <Font>B Nazanin,10</Font>
+              <Guid>f60e1956e7ba4f398c454d46d37ab1ba</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Column1</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>نام_تفصیل_تفکیکی</Text>
+              <TextBrush>[0:56:85]</TextBrush>
+              <TotalGuid>21d8f545c47f4cf8a14d2feb9128b9b1</TotalGuid>
+              <Value>{داده_ها_گردش_حساب.نام_تفصیل_تفکیکی}</Value>
+            </CrossTab1_Column1>
+            <CrossTab1_Sum1 Ref="28" type="CrossSummary" isKey="true">
+              <Alias>گردش_بدهکار</Alias>
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.26,1.3,4.59,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,10</Font>
+              <Guid>05005f9fb50440b393af5d12a080c356</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Sum1</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>0</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="29" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>،</GroupSeparator>
+                <NegativePattern>3</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Value>{داده_ها_گردش_حساب.گردش_بدهکار}</Value>
+            </CrossTab1_Sum1>
+            <CrossTab1_Sum2 Ref="30" type="CrossSummary" isKey="true">
+              <Alias>گردش_بستانکار</Alias>
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.26,1.9,4.59,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,10</Font>
+              <Guid>c47e797a0cab4cf2a183d6cc04dc2249</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Sum2</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>0</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="31" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>،</GroupSeparator>
+                <NegativePattern>3</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Value>{داده_ها_گردش_حساب.گردش_بستانکار}</Value>
+            </CrossTab1_Sum2>
+            <CrossTab1_Sum3 Ref="32" type="CrossSummary" isKey="true">
+              <Alias>مانده_علامتدار</Alias>
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.26,2.5,4.59,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,10</Font>
+              <Guid>e6ce67448c4943929ebbc39e71d760f1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Sum3</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>0</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="33" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>،</GroupSeparator>
+                <NegativePattern>3</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Value>{داده_ها_گردش_حساب.گردش_بدهکار - داده_ها_گردش_حساب.گردش_بستانکار}</Value>
+            </CrossTab1_Sum3>
+            <CrossTab1_ColTotal1 Ref="34" type="CrossColumnTotal" isKey="true">
+              <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
+              <Brush>[225:225:225]</Brush>
+              <ClientRectangle>8.85,0.65,1.53,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,10</Font>
+              <Guid>21d8f545c47f4cf8a14d2feb9128b9b1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_ColTotal1</Name>
+              <Page isRef="7" />
+              <Parent isRef="18" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>جمع</Text>
+              <TextBrush>Black</TextBrush>
+            </CrossTab1_ColTotal1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <CrossTabStyleIndex>5</CrossTabStyleIndex>
+          <DataRelationName />
+          <DataSourceName>داده ها_گردش_حساب</DataSourceName>
+          <DockStyle>Fill</DockStyle>
+          <EmptyValue />
+          <Filters isList="true" count="0" />
+          <HorAlignment>Width</HorAlignment>
+          <Name>CrossTab1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Sort isList="true" count="0" />
+        </CrossTab1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>9dce88938eaa49d1aead2306ab66594d</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <RightToLeft>True</RightToLeft>
+      <Watermark Ref="35" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="36" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="5">
+    <value>Core</value>
+    <value>System</value>
+    <value>System.Drawing</value>
+    <value>System.Windows.Forms</value>
+    <value>System.Data</value>
+  </ReferencedAssemblies>
+  <ReportAlias>گزارش</ReportAlias>
+  <ReportChanged>3/4/2018 5:17:09 PM</ReportChanged>
+  <ReportCreated>6/25/2013 2:15:39 PM</ReportCreated>
+  <ReportFile>E:\My Project\Sayan\Sayan\Publish\Reports\اتوماسیون مالی و حسابداری\مرور دفاتر و گردش حساب\با تفکیک لایه\ماتریس معین به لایه - عمودی.mrt</ReportFile>
+  <ReportGuid>f9dc271a46484eb0847d84afbe32ae2d</ReportGuid>
+  <ReportName>گزارش</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2010.1.700</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class گزارش : Stimulsoft.Report.StiReport
+    {
+        
+        public گزارش()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

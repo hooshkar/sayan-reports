@@ -1,0 +1,813 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="4">
+      <داده_x0020_ها Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
+        <Alias>داده ها</Alias>
+        <Columns isList="true" count="4">
+          <value>گزارش,&lt;&gt;f__AnonymousType0`11[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]</value>
+          <value>فیش_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType34`55[System.Int64,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType10`11[System.Int64,System.Int32,System.String,System.String,System.String,System.String,System.Nullable`1[System.Int32],System.Nullable`1[System.Boolean],System.Nullable`1[System.Boolean],System.String,System.String]]]]</value>
+          <value>_ID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>داده ها</Name>
+        <NameInSource>داده ها</NameInSource>
+      </داده_x0020_ها>
+      <داده_x0020_ها_گزارش Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
+        <Alias>داده ها_گزارش</Alias>
+        <Columns isList="true" count="17">
+          <value>نام_شرکت,System.String</value>
+          <value>آدرس,System.String</value>
+          <value>کد_پستی,System.String</value>
+          <value>تلفن,System.String</value>
+          <value>فکس,System.String</value>
+          <value>شماره_اقتصادی,System.String</value>
+          <value>شناسه_ملی,System.String</value>
+          <value>شماره_ثبت,System.String</value>
+          <value>نام_کاربر,System.String</value>
+          <value>سال_ماه,System.String</value>
+          <value>سال_ماه_حروف,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+          <value>نام_پایگاه_داده,System.String</value>
+          <value>نام_سرور,System.String</value>
+          <value>نام_کاربر_سرور,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>داده ها_گزارش</Name>
+        <NameInSource>داده ها_گزارش</NameInSource>
+      </داده_x0020_ها_گزارش>
+      <داده_x0020_ها_فیش_ها Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
+        <Alias>داده ها_فیش_ها</Alias>
+        <Columns isList="true" count="58">
+          <value>کد_حکم,System.Int64</value>
+          <value>نوع_حکم,System.String</value>
+          <value>سال_ماه_اجرا,System.String</value>
+          <value>سال_ماه_اجرا_حروف,System.String</value>
+          <value>تاریخ_استخدام_شمسی,System.String</value>
+          <value>تاریخ_استخدام_میلادی,System.DateTime</value>
+          <value>تاریخ_ترک_کار_شمسی,System.String</value>
+          <value>تاریخ_ترک_کار_میلادی,System.DateTime</value>
+          <value>کد_پرسنلی,System.String</value>
+          <value>جنسیت,System.String</value>
+          <value>نام,System.String</value>
+          <value>نام_خانوادگی,System.String</value>
+          <value>نام_کامل,System.String</value>
+          <value>نام_پدر,System.String</value>
+          <value>کد_ملی,System.String</value>
+          <value>شماره_شناسنامه,System.String</value>
+          <value>کد_اقتصادی,System.String</value>
+          <value>تاریخ_تولد_میلادی,System.DateTime</value>
+          <value>تاریخ_تولد_شمسی,System.String</value>
+          <value>استان,System.String</value>
+          <value>شهر,System.String</value>
+          <value>آدرس,System.String</value>
+          <value>آدرس_2,System.String</value>
+          <value>کد_پستی,System.String</value>
+          <value>تلفن,System.String</value>
+          <value>فکس,System.String</value>
+          <value>تلفن_همراه,System.String</value>
+          <value>آدرس_ایمیل,System.String</value>
+          <value>آدرس_وب,System.String</value>
+          <value>نام_بانک,System.String</value>
+          <value>شماره_حساب,System.String</value>
+          <value>شماره_کارت,System.String</value>
+          <value>کد_نوع_قرارداد,System.String</value>
+          <value>نوع_قرارداد,System.String</value>
+          <value>کد_شغل,System.String</value>
+          <value>نام_شغل,System.String</value>
+          <value>رسته_شغلی,System.String</value>
+          <value>کد_شغلی,System.String</value>
+          <value>کد_سختی_شغل,System.String</value>
+          <value>کد_تحصیلات,System.Int32</value>
+          <value>تحصیلات,System.String</value>
+          <value>کد_تابعیت,System.Int32</value>
+          <value>تابعیت,System.String</value>
+          <value>کشور,System.String</value>
+          <value>کد_نوع_بیمه,System.String</value>
+          <value>نام_بیمه,System.String</value>
+          <value>شماره_بیمه,System.String</value>
+          <value>کد_محل_خدمت,System.String</value>
+          <value>نام_محل_خدمت,System.String</value>
+          <value>توضیحات_حکم,System.String</value>
+          <value>توضیحات,System.String</value>
+          <value>جمع_مزایا,System.Decimal</value>
+          <value>جمع_کسورات,System.Decimal</value>
+          <value>خالص_پرداختی,System.Decimal</value>
+          <value>ردیف_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType10`11[System.Int64,System.Int32,System.String,System.String,System.String,System.String,System.Nullable`1[System.Int32],System.Nullable`1[System.Boolean],System.Nullable`1[System.Boolean],System.String,System.String]]</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>داده ها_فیش_ها</Name>
+        <NameInSource>داده ها_فیش_ها</NameInSource>
+      </داده_x0020_ها_فیش_ها>
+      <داده_x0020_ها_فیش_ها_ردیف_ها Ref="5" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
+        <Alias>داده ها_فیش_ها_ردیف_ها</Alias>
+        <Columns isList="true" count="14">
+          <value>کد,System.Int64</value>
+          <value>ردیف,System.Int32</value>
+          <value>نام,System.String</value>
+          <value>نوع,System.String</value>
+          <value>تاثیر,System.String</value>
+          <value>نوع_پرداختی,System.String</value>
+          <value>ترتیب_در_چاپ,System.Int32</value>
+          <value>نمایش_در_چاپ,System.Boolean</value>
+          <value>نمایش_در_فیش,System.Boolean</value>
+          <value>مقدار,System.String</value>
+          <value>مقدار_غنی,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>داده ها_فیش_ها_ردیف_ها</Name>
+        <NameInSource>داده ها_فیش_ها_ردیف_ها</NameInSource>
+      </داده_x0020_ها_فیش_ها_ردیف_ها>
+    </DataSources>
+    <Relations isList="true" count="3">
+      <داده_x0020_ها Ref="6" type="DataRelation" isKey="true">
+        <Alias>داده ها</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Name>داده ها</Name>
+        <NameInSource>داده ها_گزارشRelation</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </داده_x0020_ها>
+      <داده_x0020_ها Ref="7" type="DataRelation" isKey="true">
+        <Alias>داده ها</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>داده ها</Name>
+        <NameInSource>داده ها_فیش_هاRelation</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </داده_x0020_ها>
+      <داده_x0020_ها_فیش_ها Ref="8" type="DataRelation" isKey="true">
+        <Alias>داده ها_فیش_ها</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>داده ها_فیش_ها</Name>
+        <NameInSource>داده ها_فیش_ها_ردیف_هاRelation</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </داده_x0020_ها_فیش_ها>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV1</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="9" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Text32 Ref="10" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>-0.6,9.65,0.6,3</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Tahoma,8</Font>
+          <Guid>27aa4a2b02544b0f9c8cea4f9bfc2e4b</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text32</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+          <Text>www.hooshkar.com</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <VertAlignment>Bottom</VertAlignment>
+        </Text32>
+        <DataBand1 Ref="11" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,0.4,19,12.4</ClientRectangle>
+          <Components isList="true" count="15">
+            <Container1 Ref="12" type="Container" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,1.2,6,9.2</ClientRectangle>
+              <Components isList="true" count="2">
+                <HeaderBand1 Ref="13" type="HeaderBand" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0.4,6,0.8</ClientRectangle>
+                  <Components isList="true" count="2">
+                    <Text4 Ref="14" type="Text" isKey="true">
+                      <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+                      <Brush>[240:240:240]</Brush>
+                      <ClientRectangle>3.4,0,2.6,0.8</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,12,Bold</Font>
+                      <Guid>eeb9f2b886bf4321a3a6e6fbac0d8f7a</Guid>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text4</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="13" />
+                      <Text>سایر عوامل</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text4>
+                    <Text5 Ref="15" type="Text" isKey="true">
+                      <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+                      <Brush>[240:240:240]</Brush>
+                      <ClientRectangle>0,0,3.4,0.8</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,12,Bold</Font>
+                      <Guid>640a2e786a154554aff60ca7609f522c</Guid>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text5</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="13" />
+                      <Text>مقدار</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text5>
+                  </Components>
+                  <Conditions isList="true" count="0" />
+                  <Name>HeaderBand1</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="12" />
+                </HeaderBand1>
+                <DataBand2 Ref="16" type="DataBand" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <BusinessObjectGuid isNull="true" />
+                  <ClientRectangle>0,2,6,0.6</ClientRectangle>
+                  <Components isList="true" count="2">
+                    <Text9 Ref="17" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>3.4,0,2.6,0.6</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,11</Font>
+                      <Guid>f7ddc4a2499b44ac82bab83e32d9372a</Guid>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text9</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="16" />
+                      <ShrinkFontToFit>True</ShrinkFontToFit>
+                      <Text>{داده_ها_فیش_ها_ردیف_ها.نام}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text9>
+                    <Text10 Ref="18" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>0,0,3.4,0.6</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,11</Font>
+                      <Guid>46daf3d751bf4bb0aae75eaf001b1288</Guid>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text10</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="16" />
+                      <ShrinkFontToFit>True</ShrinkFontToFit>
+                      <Text>{داده_ها_فیش_ها_ردیف_ها.مقدار_غنی}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text10>
+                  </Components>
+                  <Conditions isList="true" count="0" />
+                  <DataRelationName>داده ها_فیش_ها_ردیف_هاRelation</DataRelationName>
+                  <DataSourceName>داده ها_فیش_ها_ردیف_ها</DataSourceName>
+                  <Filters isList="true" count="4">
+                    <value>تاثیر,EqualTo,سایر,,String</value>
+                    <value>نمایش_در_فیش,EqualTo,true,,Boolean</value>
+                    <value>مقدار,NotEqualTo,,,String</value>
+                    <value>مقدار,NotEqualTo,_x0030_,,String</value>
+                  </Filters>
+                  <MasterComponent isRef="11" />
+                  <Name>DataBand2</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="12" />
+                  <Sort isList="true" count="0" />
+                </DataBand2>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <MinSize>0,9.2</MinSize>
+              <Name>Container1</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+            </Container1>
+            <Container2 Ref="19" type="Container" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.2,1.2,4.4,8.4</ClientRectangle>
+              <Components isList="true" count="2">
+                <HeaderBand2 Ref="20" type="HeaderBand" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0.4,4.4,0.8</ClientRectangle>
+                  <Components isList="true" count="2">
+                    <Text1 Ref="21" type="Text" isKey="true">
+                      <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+                      <Brush>[240:240:240]</Brush>
+                      <ClientRectangle>2,0,2.4,0.8</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,12,Bold</Font>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text1</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="20" />
+                      <Text>کسورات</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text1>
+                    <Text3 Ref="22" type="Text" isKey="true">
+                      <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+                      <Brush>[240:240:240]</Brush>
+                      <ClientRectangle>0,0,2,0.8</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,12,Bold</Font>
+                      <Guid>7d11be36002342349596deffc131cf1e</Guid>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text3</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="20" />
+                      <Text>مبلغ / ریال</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text3>
+                  </Components>
+                  <Conditions isList="true" count="0" />
+                  <Guid>ac71ecac626445f2b5b5171f00ef8d57</Guid>
+                  <Name>HeaderBand2</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="19" />
+                </HeaderBand2>
+                <DataBand3 Ref="23" type="DataBand" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <BusinessObjectGuid isNull="true" />
+                  <ClientRectangle>0,2,4.4,0.6</ClientRectangle>
+                  <Components isList="true" count="2">
+                    <Text6 Ref="24" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>2,0,2.4,0.6</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,11</Font>
+                      <Guid>724d333557f14e76a0a72989c55bfe25</Guid>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text6</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="23" />
+                      <ShrinkFontToFit>True</ShrinkFontToFit>
+                      <Text>{داده_ها_فیش_ها_ردیف_ها.نام}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text6>
+                    <Text8 Ref="25" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>0,0,2,0.6</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,11</Font>
+                      <Guid>766d191449fe464097eb4d89625d07ef</Guid>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text8</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="23" />
+                      <ShrinkFontToFit>True</ShrinkFontToFit>
+                      <Text>{داده_ها_فیش_ها_ردیف_ها.مقدار_غنی}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text8>
+                  </Components>
+                  <Conditions isList="true" count="0" />
+                  <DataRelationName>داده ها_فیش_ها_ردیف_هاRelation</DataRelationName>
+                  <DataSourceName>داده ها_فیش_ها_ردیف_ها</DataSourceName>
+                  <Filters isList="true" count="4">
+                    <value>تاثیر,EqualTo,کسورات,,String</value>
+                    <value>نمایش_در_فیش,EqualTo,true,,Boolean</value>
+                    <value>مقدار,NotEqualTo,,,String</value>
+                    <value>مقدار,NotEqualTo,_x0030_,,String</value>
+                  </Filters>
+                  <Guid>654fa6dc6635459b8167bf7d09c02145</Guid>
+                  <MasterComponent isRef="11" />
+                  <Name>DataBand3</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="19" />
+                  <Sort isList="true" count="0" />
+                </DataBand3>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>828235ff0bd74fec9adef350f2336212</Guid>
+              <MinSize>0,8.4</MinSize>
+              <Name>Container2</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+            </Container2>
+            <Text11 Ref="26" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.4,19,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <Text>صورت حساب حقوق {داده_ها_گزارش.سال_ماه_حروف}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text12 Ref="27" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>15.2,1.2,3.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12,Bold</Font>
+              <Guid>22e60b4a51e043ce83c705e157afd276</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <Text>مشخصات پرسنلی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text15 Ref="28" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.2,2,3.8,3.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,11</Font>
+              <Guid>7af9d21c4d4f452d822252e840f6f46e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Text>کد پرسنلی: {داده_ها_فیش_ها.کد_پرسنلی}
+نام: {داده_ها_فیش_ها.نام_کامل}
+کد ملی: {داده_ها_فیش_ها.کد_ملی}
+تابعیت: {داده_ها_فیش_ها.تابعیت}
+تحصیلات: {داده_ها_فیش_ها.تحصیلات}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Text15>
+            <Text16 Ref="29" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.2,6.2,3.8,3.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,11</Font>
+              <Guid>fc88481f812849f483a650359c6d4720</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Text>نوع قراداد: {داده_ها_فیش_ها.نوع_قرارداد}
+شغل : {داده_ها_فیش_ها.نام_شغل}
+بیمه: {داده_ها_فیش_ها.نام_بیمه}
+کد بیمه: {داده_ها_فیش_ها.شماره_بیمه}
+محل خدمت: {داده_ها_فیش_ها.نام_محل_خدمت}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Text16>
+            <Text20 Ref="30" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>6.2,10.4,8.8,2.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12,Bold</Font>
+              <Guid>09d3d871a5934b10874e4172a00b7248</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Text>مبلغ خالص پرداختی
+{Core.StringHelper.InsertSeparator(داده_ها_فیش_ها.خالص_پرداختی)}
+{Core.StringHelper.GetNumberLetters(داده_ها_فیش_ها.خالص_پرداختی)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text23 Ref="31" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.6,9.6,4.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12</Font>
+              <Guid>5425e2c88cf14ccc8f0c3923e0b6e97f</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Text>{Core.StringHelper.InsertSeparator(داده_ها_فیش_ها.جمع_مزایا)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text24 Ref="32" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.2,9.6,4.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12</Font>
+              <Guid>998b0205adb44be2b39fba283ece438d</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Text>{Core.StringHelper.InsertSeparator(داده_ها_فیش_ها.جمع_کسورات)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text22 Ref="33" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,10.4,6,2.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12</Font>
+              <Guid>1ad250294bff49cfb03518538faec8db</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Text>* همکار محترم در صورت مشاهده مغایرت در اسرع وقت به واحد مالی مراجعه نمایید.
+{داده_ها_فیش_ها.توضیحات}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Text22>
+            <Container3 Ref="34" type="Container" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.6,1.2,4.4,8.4</ClientRectangle>
+              <Components isList="true" count="2">
+                <HeaderBand3 Ref="35" type="HeaderBand" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0.4,4.4,0.8</ClientRectangle>
+                  <Components isList="true" count="2">
+                    <Text2 Ref="36" type="Text" isKey="true">
+                      <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+                      <Brush>[240:240:240]</Brush>
+                      <ClientRectangle>2,0,2.4,0.8</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,12,Bold</Font>
+                      <Guid>39ceb5f13b05403eb38086f95a1c21c0</Guid>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text2</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="35" />
+                      <Text>پرداخت ها</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text2>
+                    <Text7 Ref="37" type="Text" isKey="true">
+                      <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+                      <Brush>[240:240:240]</Brush>
+                      <ClientRectangle>0,0,2,0.8</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,12,Bold</Font>
+                      <Guid>de8147b804e2421896f25166b94118fd</Guid>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text7</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="35" />
+                      <Text>مبلغ / ریال</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text7>
+                  </Components>
+                  <Conditions isList="true" count="0" />
+                  <Guid>1e864d266ea14d159ac313218e8fc0b3</Guid>
+                  <Name>HeaderBand3</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="34" />
+                </HeaderBand3>
+                <DataBand4 Ref="38" type="DataBand" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <BusinessObjectGuid isNull="true" />
+                  <ClientRectangle>0,2,4.4,0.6</ClientRectangle>
+                  <Components isList="true" count="2">
+                    <Text27 Ref="39" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>2,0,2.4,0.6</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,11</Font>
+                      <Guid>b3460fced87e494d8e91aa7a46be9ba9</Guid>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text27</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="38" />
+                      <ShrinkFontToFit>True</ShrinkFontToFit>
+                      <Text>{داده_ها_فیش_ها_ردیف_ها.نام}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text27>
+                    <Text28 Ref="40" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>0,0,2,0.6</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>B Nazanin,11</Font>
+                      <Guid>604c48f0212d46258ca3cc1205a43a77</Guid>
+                      <HorAlignment>Right</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text28</Name>
+                      <Page isRef="9" />
+                      <Parent isRef="38" />
+                      <ShrinkFontToFit>True</ShrinkFontToFit>
+                      <Text>{داده_ها_فیش_ها_ردیف_ها.مقدار_غنی}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text28>
+                  </Components>
+                  <Conditions isList="true" count="0" />
+                  <DataRelationName>داده ها_فیش_ها_ردیف_هاRelation</DataRelationName>
+                  <DataSourceName>داده ها_فیش_ها_ردیف_ها</DataSourceName>
+                  <Filters isList="true" count="4">
+                    <value>تاثیر,EqualTo,پرداختی,,String</value>
+                    <value>نمایش_در_فیش,EqualTo,true,,Boolean</value>
+                    <value>مقدار,NotEqualTo,,,String</value>
+                    <value>مقدار,NotEqualTo,_x0030_,,String</value>
+                  </Filters>
+                  <Guid>e6ca41a0c81d4100ac7baa4885108827</Guid>
+                  <MasterComponent isRef="11" />
+                  <Name>DataBand4</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="34" />
+                  <Sort isList="true" count="0" />
+                </DataBand4>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>9a356dae61574792a35c6bb61400d289</Guid>
+              <MinSize>0,8.4</MinSize>
+              <Name>Container3</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+            </Container3>
+            <Text19 Ref="41" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,-0.4,19,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,14,Bold</Font>
+              <Guid>7922b2c83066406789f4e40a25b3f766</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <Text>{داده_ها_گزارش.نام_شرکت}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text13 Ref="42" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>15.2,5.4,3.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12,Bold</Font>
+              <Guid>5c709583fe144eeaa1a40aa4f0057476</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <Text>مشخصات حکمی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text14 Ref="43" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.2,10.4,3.8,2.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12</Font>
+              <Guid>b75c495609614e56a8d4a0019a884b48</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Text>بانک: {داده_ها_فیش_ها.نام_بانک}
+حساب: {داده_ها_فیش_ها.شماره_حساب} 
+کارت: {داده_ها_فیش_ها.شماره_کارت}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Text14>
+            <Text17 Ref="44" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[240:240:240]</Brush>
+              <ClientRectangle>15.2,9.6,3.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12,Bold</Font>
+              <Guid>0d6b82124cdd433e952278f466f8737b</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="9" />
+              <Parent isRef="11" />
+              <Text>حساب بانکی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>داده ها_فیش_ها</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+          <Sort isList="true" count="0" />
+          <StartNewPage>True</StartNewPage>
+        </DataBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>f0ecbfc3fd3e4d7bb1c9cdae80c3521b</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>14.8</PageHeight>
+      <PageWidth>21</PageWidth>
+      <PaperSize>A5</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="45" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="46" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="5">
+    <value>Core</value>
+    <value>System</value>
+    <value>System.Drawing</value>
+    <value>System.Windows.Forms</value>
+    <value>System.Data</value>
+  </ReferencedAssemblies>
+  <ReportAlias>گزارش</ReportAlias>
+  <ReportChanged>10/28/2019 3:00:28 PM</ReportChanged>
+  <ReportCreated>1/8/2013 11:40:48 AM</ReportCreated>
+  <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\حقوق و دستمزد\محاسبه حقوق\فیش حقوقی A5.mrt</ReportFile>
+  <ReportGuid>564a2e331c9744fdad236ae1e9319cc6</ReportGuid>
+  <ReportName>گزارش</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2010.1.700</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class گزارش : Stimulsoft.Report.StiReport
+    {
+        
+        public گزارش()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

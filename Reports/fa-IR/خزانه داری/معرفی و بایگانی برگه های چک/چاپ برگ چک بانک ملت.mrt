@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="3">
+      <داده_x0020_ها Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
+        <Alias>داده ها</Alias>
+        <Columns isList="true" count="4">
+          <value>گزارش,&lt;&gt;f__AnonymousType0`9[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]</value>
+          <value>چک_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType1`21[System.Int64,System.String,System.String,System.String,System.String,System.Int64,System.Nullable`1[System.DateTime],System.String,System.String,System.Nullable`1[System.Int32],System.Nullable`1[System.Decimal],System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String]]</value>
+          <value>_ID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>داده ها</Name>
+        <NameInSource>داده ها</NameInSource>
+      </داده_x0020_ها>
+      <داده_x0020_ها_گزارش Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
+        <Alias>داده ها_گزارش</Alias>
+        <Columns isList="true" count="15">
+          <value>نام_شرکت,System.String</value>
+          <value>آدرس,System.String</value>
+          <value>کد_پستی,System.String</value>
+          <value>تلفن,System.String</value>
+          <value>فکس,System.String</value>
+          <value>شماره_اقتصادی,System.String</value>
+          <value>شناسه_ملی,System.String</value>
+          <value>شماره_ثبت,System.String</value>
+          <value>نام_کاربر,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+          <value>نام_پایگاه_داده,System.String</value>
+          <value>نام_سرور,System.String</value>
+          <value>نام_کاربر_سرور,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>داده ها_گزارش</Name>
+        <NameInSource>داده ها_گزارش</NameInSource>
+      </داده_x0020_ها_گزارش>
+      <داده_x0020_ها_چک_ها Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
+        <Alias>داده ها_چک_ها</Alias>
+        <Columns isList="true" count="25">
+          <value>کد_انحصاری,System.Int64</value>
+          <value>نوع,System.String</value>
+          <value>صاحب_چک,System.String</value>
+          <value>کد_دسته_چک,System.String</value>
+          <value>سری_چک,System.String</value>
+          <value>سریال_چک,System.Int64</value>
+          <value>تاریخ_وصول_میلادی,System.DateTime</value>
+          <value>تاریخ_وصول_شمسی,System.String</value>
+          <value>تاریخ_وصول_شمسی_حروف,System.String</value>
+          <value>روز_تا_وصول,System.Int32</value>
+          <value>مبلغ_چک,System.Decimal</value>
+          <value>مبلغ_چک_به_حروف,System.String</value>
+          <value>در_وجه,System.String</value>
+          <value>نمره,System.String</value>
+          <value>حواله_کرد,System.Boolean</value>
+          <value>حواله_کرد_متنی,System.String</value>
+          <value>شماره_حساب,System.String</value>
+          <value>بانک,System.String</value>
+          <value>شعبه,System.String</value>
+          <value>وضعیت,System.String</value>
+          <value>توضیحات,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+          <value>کد_صاحب_چک,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>داده ها_چک_ها</Name>
+        <NameInSource>داده ها_چک_ها</NameInSource>
+      </داده_x0020_ها_چک_ها>
+    </DataSources>
+    <Relations isList="true" count="2">
+      <داده_x0020_ها Ref="5" type="DataRelation" isKey="true">
+        <Alias>داده ها</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Name>داده ها</Name>
+        <NameInSource>داده ها_گزارشRelation</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </داده_x0020_ها>
+      <داده_x0020_ها Ref="6" type="DataRelation" isKey="true">
+        <Alias>داده ها</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>داده ها</Name>
+        <NameInSource>داده ها_چک_هاRelation</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </داده_x0020_ها>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV1</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="7" type="Page" isKey="true">
+      <Border>None;White;2;None;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="9">
+        <Text32 Ref="8" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>-0.6,16,0.6,3</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Tahoma,8</Font>
+          <Guid>4b0b91ca8c4a42b2bb7232683196ebe2</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text32</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>www.hooshkar.com</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <VertAlignment>Bottom</VertAlignment>
+        </Text32>
+        <Text1 Ref="9" type="Text" isKey="true">
+          <AutoWidth>True</AutoWidth>
+          <Brush>White</Brush>
+          <ClientRectangle>21.6,8.4,5.6,0.8</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>B Nazanin,10,Bold</Font>
+          <HorAlignment>Right</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Substring(Core.StringHelper.GetDateLetters(داده_ها_چک_ها.تاریخ_وصول_شمسی),0,Core.StringHelper.GetDateLetters(داده_ها_چک_ها.تاریخ_وصول_شمسی).Length - 5)} {Core.StringHelper.GetNumberLetters(int.Parse(Substring(داده_ها_چک_ها.تاریخ_وصول_شمسی,0,4)))}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text1>
+        <Text2 Ref="10" type="Text" isKey="true">
+          <AutoWidth>True</AutoWidth>
+          <Brush>White</Brush>
+          <ClientRectangle>15.2,9.2,9.2,0.8</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>B Nazanin,14,Bold</Font>
+          <Guid>bb21026f873f49bf81a0ebb670fcfcce</Guid>
+          <HorAlignment>Right</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text2</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Core.StringHelper.GetNumberLetters((Int64?)(داده_ها_چک_ها.مبلغ_چک))}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text2>
+        <Text3 Ref="11" type="Text" isKey="true">
+          <Brush>White</Brush>
+          <ClientRectangle>22.6,10.2,4.6,0.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>B Nazanin,13,Bold</Font>
+          <Guid>816145d42c9b45a7b8a84fd20e575321</Guid>
+          <HorAlignment>Right</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text3</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{داده_ها_چک_ها.در_وجه}</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Bottom</VertAlignment>
+        </Text3>
+        <Text7 Ref="12" type="Text" isKey="true">
+          <Border>None;White;1;Solid;False;4;Black</Border>
+          <Brush>[216:216:216]</Brush>
+          <ClientRectangle>22,11.6,6.2,0.8</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,17,Bold</Font>
+          <Guid>1de532fa5d584e6bb8257f09ef978d1f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text7</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{داده_ها_چک_ها.مبلغ_چک}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="13" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>3</NegativePattern>
+            <UseLocalSetting>False</UseLocalSetting>
+          </TextFormat>
+        </Text7>
+        <TextInCells1 Ref="14" type="Stimulsoft.Report.Components.StiTextInCells" isKey="true">
+          <Border>None;Black;2;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <CellHeight>0.8</CellHeight>
+          <CellWidth>0.42</CellWidth>
+          <ClientRectangle>13.5,11.9,6.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>B Nazanin,18,Bold</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>TextInCells1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Core.StringHelper.RemoveZeros(داده_ها_چک_ها.مبلغ_چک)}***************</Text>
+          <TextBrush>Black</TextBrush>
+        </TextInCells1>
+        <TextInCells2 Ref="15" type="Stimulsoft.Report.Components.StiTextInCells" isKey="true">
+          <Border>None;Black;2;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <CellHeight>0.5</CellHeight>
+          <CellWidth>0.4</CellWidth>
+          <ClientRectangle>24,7.6,3.3,0.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>B Nazanin,14,Bold</Font>
+          <HorAlignment>Right</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>TextInCells2</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Remove(Remove(داده_ها_چک_ها.تاریخ_وصول_شمسی,4,1),6,1)}</Text>
+          <TextBrush>Black</TextBrush>
+        </TextInCells2>
+        <HorizontalLinePrimitive1 Ref="16" type="HorizontalLinePrimitive" isKey="true">
+          <ClientRectangle>21.8,12.1,6.8,0.0254</ClientRectangle>
+          <Color>White</Color>
+          <EndCap Ref="17" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Name>HorizontalLinePrimitive1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Size>2</Size>
+          <StartCap Ref="18" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </HorizontalLinePrimitive1>
+        <HorizontalLinePrimitive2 Ref="19" type="HorizontalLinePrimitive" isKey="true">
+          <ClientRectangle>22,11.8,6.8,0.0254</ClientRectangle>
+          <Color>White</Color>
+          <EndCap Ref="20" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>fb2e63c0ab884febba52ef817563e0fe</Guid>
+          <Name>HorizontalLinePrimitive2</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <StartCap Ref="21" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </HorizontalLinePrimitive2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>be69c262d49846dd8d7e791ab5c107d3</Guid>
+      <Margins>0,0,0,0</Margins>
+      <Name>Page1</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>21</PageHeight>
+      <PageWidth>29.7</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="22" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="23" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="5">
+    <value>Core</value>
+    <value>System</value>
+    <value>System.Drawing</value>
+    <value>System.Windows.Forms</value>
+    <value>System.Data</value>
+  </ReferencedAssemblies>
+  <ReportAlias>گزارش</ReportAlias>
+  <ReportChanged>3/5/2018 2:24:32 AM</ReportChanged>
+  <ReportCreated>3/12/2012 9:10:16 AM</ReportCreated>
+  <ReportFile>E:\My Project\Sayan\Sayan\Publish\Reports\اتوماسیون خزانه داری\معرفی و بایگانی برگه های چک\چاپ برگ چک بانک ملت.mrt</ReportFile>
+  <ReportGuid>c856dae3180c4e16a776ec007c0d8218</ReportGuid>
+  <ReportName>گزارش</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2010.1.700</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class گزارش : Stimulsoft.Report.StiReport
+    {
+        
+        public گزارش()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
