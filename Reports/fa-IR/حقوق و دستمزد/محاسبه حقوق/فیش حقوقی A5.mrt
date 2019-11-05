@@ -293,11 +293,12 @@
                   <Conditions isList="true" count="0" />
                   <DataRelationName>داده ها_فیش_ها_ردیف_هاRelation</DataRelationName>
                   <DataSourceName>داده ها_فیش_ها_ردیف_ها</DataSourceName>
-                  <Filters isList="true" count="4">
+                  <Filters isList="true" count="5">
                     <value>تاثیر,EqualTo,سایر,,String</value>
                     <value>نمایش_در_فیش,EqualTo,true,,Boolean</value>
                     <value>مقدار,NotEqualTo,,,String</value>
                     <value>مقدار,NotEqualTo,_x0030_,,String</value>
+                    <value>مقدار,NotEqualTo,_x0030_:0:0,,String</value>
                   </Filters>
                   <MasterComponent isRef="11" />
                   <Name>DataBand2</Name>
@@ -777,10 +778,10 @@
     <value>System.Data</value>
   </ReferencedAssemblies>
   <ReportAlias>گزارش</ReportAlias>
-  <ReportChanged>10/28/2019 3:00:28 PM</ReportChanged>
+  <ReportChanged>11/5/2019 12:46:48 PM</ReportChanged>
   <ReportCreated>1/8/2013 11:40:48 AM</ReportCreated>
   <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\حقوق و دستمزد\محاسبه حقوق\فیش حقوقی A5.mrt</ReportFile>
-  <ReportGuid>564a2e331c9744fdad236ae1e9319cc6</ReportGuid>
+  <ReportGuid>23b8b3546345442e8b691147bc833590</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2010.1.700</ReportVersion>
