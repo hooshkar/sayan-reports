@@ -49,7 +49,7 @@
           <value>نام_واحد,System.String</value>
           <value>واحد_فرعی,System.String</value>
           <value>ضریب_فرعی,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
           <value>کالا_های_زیر_مجموعه,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType44`12[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]]</value>
           <value>_ID,System.Int32</value>
@@ -73,7 +73,7 @@
           <value>نام_واحد,System.String</value>
           <value>واحد_فرعی,System.String</value>
           <value>ضریب_فرعی,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
@@ -404,7 +404,7 @@
               <Name>Text17</Name>
               <Page isRef="9" />
               <Parent isRef="22" />
-              <Text>{داده_ها_لیست_کالا_ها.وضیت}</Text>
+              <Text>{داده_ها_لیست_کالا_ها.وضعیت}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
@@ -533,7 +533,7 @@
               <Name>Text12</Name>
               <Page isRef="9" />
               <Parent isRef="29" />
-              <Text>{داده_ها_لیست_کالا_ها_کالا_های_زیر_مجموعه.وضیت}</Text>
+              <Text>{داده_ها_لیست_کالا_ها_کالا_های_زیر_مجموعه.وضعیت}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>

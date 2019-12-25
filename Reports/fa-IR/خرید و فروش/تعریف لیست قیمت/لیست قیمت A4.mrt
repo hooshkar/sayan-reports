@@ -37,7 +37,7 @@
         <Columns isList="true" count="10">
           <value>کد,System.String</value>
           <value>عنوان,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>کد_گروه,System.String</value>
           <value>نام_گروه,System.String</value>
           <value>توضیحات,System.String</value>

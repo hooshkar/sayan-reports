@@ -58,7 +58,7 @@
           <value>عنوان,System.String</value>
           <value>کد_کالا,System.String</value>
           <value>نام_کالا,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
           <value>لیست_مواد,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType10`7[System.Int16,System.String,System.String,System.String,System.String,System.String,System.String]]</value>
           <value>فرمول_های_زیر_مجموعه,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType11`10[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType10`7[System.Int16,System.String,System.String,System.String,System.String,System.String,System.String]]]]</value>
@@ -98,7 +98,7 @@
           <value>عنوان,System.String</value>
           <value>کد_کالا,System.String</value>
           <value>نام_کالا,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
           <value>لیست_مواد,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType10`7[System.Int16,System.String,System.String,System.String,System.String,System.String,System.String]]</value>
           <value>_ID,System.Int32</value>

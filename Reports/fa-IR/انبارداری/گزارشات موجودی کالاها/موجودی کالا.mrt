@@ -86,7 +86,7 @@
           <value>واحد_فرعی,System.String</value>
           <value>ضریب_فرعی,System.String</value>
           <value>اعشار_فرعی,System.Int32</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
           <value>مقدار_ورود_ابتدای_دوره,System.Decimal</value>
           <value>مقدار_خروج_ابتدای_دوره,System.Decimal</value>
