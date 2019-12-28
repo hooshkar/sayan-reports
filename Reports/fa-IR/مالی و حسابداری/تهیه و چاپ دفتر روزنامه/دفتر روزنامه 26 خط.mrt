@@ -80,7 +80,7 @@
           <value>تاریخ_پیگیری_شمسی,System.String</value>
           <value>تاریخ_شمسی,System.String</value>
           <value>تاریخ_میلادی,System.DateTime</value>
-          <value>ساعت_ثبت,System.Nullable`1[System.TimeSpan]</value>
+          <value>ساعت_ثبت,System.TimeSpan</value>
           <value>گردش_بدهکار,System.Decimal</value>
           <value>گردش_بستانکار,System.Decimal</value>
           <value>شرح_ردیف,System.String</value>
@@ -334,7 +334,7 @@
             <Text8 Ref="21" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,3,1.4</ClientRectangle>
+              <ClientRectangle>0,0,3.2,1.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>e350bf6ad9c540678b22e0619dde9c85</Guid>
@@ -352,7 +352,7 @@
             <Text9 Ref="22" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>3,0,3,1.4</ClientRectangle>
+              <ClientRectangle>3.2,0,3.2,1.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>4a29f8dce104423491e84a839094d4d3</Guid>
@@ -370,7 +370,7 @@
             <Headerداده_ها_اسناد_شرح_سند Ref="23" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>6,0,9.8,1.4</ClientRectangle>
+              <ClientRectangle>6.4,0,9.4,1.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <HorAlignment>Center</HorAlignment>
@@ -457,7 +457,7 @@
             <Text40 Ref="28" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,3,0.8</ClientRectangle>
+              <ClientRectangle>0,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>b7d2d11b8f164e58a4a8ef2ef4ac1b9a</Guid>
@@ -480,7 +480,7 @@
             <Text41 Ref="30" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>3,0,3,0.8</ClientRectangle>
+              <ClientRectangle>3.2,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>64e0d55fb1114e5f804ed982be0a15f7</Guid>
@@ -503,7 +503,7 @@
             <Text42 Ref="32" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>6,0,13,0.8</ClientRectangle>
+              <ClientRectangle>6.4,0,12.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>72bfa8301c4247938e3b0db629dd3163</Guid>
@@ -533,7 +533,7 @@
             <Text34 Ref="34" type="Text" isKey="true">
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,3,0.8</ClientRectangle>
+              <ClientRectangle>0,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>069dd72323af487c94bf51ab886eb042</Guid>
@@ -556,7 +556,7 @@
             <Text35 Ref="36" type="Text" isKey="true">
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>3,0,3,0.8</ClientRectangle>
+              <ClientRectangle>3.2,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>f11d534097414673ba47955ae5e75eae</Guid>
@@ -579,7 +579,7 @@
             <Text36 Ref="38" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>6,0,13,0.8</ClientRectangle>
+              <ClientRectangle>6.4,0,12.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>efc448f48e874666b48e81649b5450d8</Guid>
@@ -608,7 +608,7 @@
             <Text10 Ref="40" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,3,0.8</ClientRectangle>
+              <ClientRectangle>0,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
               <Guid>5ae7703f2b3b4bff8f2f9f19a1d2e7f8</Guid>
@@ -630,7 +630,7 @@
             <Text11 Ref="42" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>3,0,3,0.8</ClientRectangle>
+              <ClientRectangle>3.2,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
               <Guid>90f986694f48421687a78d24107cce98</Guid>
@@ -720,9 +720,9 @@
             <Text43 Ref="48" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>6,0,1.4,0.8</ClientRectangle>
+              <ClientRectangle>6.4,0,1,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>B Nazanin,10</Font>
               <Guid>56dfea8d6fa841078727747b224e4522</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text43</Name>
@@ -770,7 +770,7 @@
             <Dataداده_ها_اسناد_ردیف_ها_مبلغ_بستانکار Ref="52" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,3,0.8</ClientRectangle>
+              <ClientRectangle>0,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
               <Margins>0,0,0,0</Margins>
@@ -792,7 +792,7 @@
             <Dataداده_ها_اسناد_ردیف_ها_مبلغ_بدهکار Ref="54" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>3,0,3,0.8</ClientRectangle>
+              <ClientRectangle>3.2,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
               <Margins>0,0,0,0</Margins>
@@ -883,9 +883,9 @@
             <Text31 Ref="60" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>6,0,1.4,0.8</ClientRectangle>
+              <ClientRectangle>6.4,0,1,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>B Nazanin,10</Font>
               <Guid>07c203d126c243af811e864f9f721c7d</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -969,7 +969,7 @@ else
             <Text23 Ref="63" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,3,0.8</ClientRectangle>
+              <ClientRectangle>0,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
               <Guid>4c622b2d46634efbbe5d80f31636f733</Guid>
@@ -991,7 +991,7 @@ else
             <Text26 Ref="65" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>3,0,3,0.8</ClientRectangle>
+              <ClientRectangle>3.2,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
               <Guid>62d54ec1cea9414489356472a1859738</Guid>
@@ -1081,9 +1081,9 @@ else
             <Text32 Ref="71" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>6,0,1.4,0.8</ClientRectangle>
+              <ClientRectangle>6.4,0,1,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>B Nazanin,10</Font>
               <Guid>3cbac3e7e8b146648f6369de939dc7e7</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text32</Name>
@@ -1114,7 +1114,7 @@ else
             <Text46 Ref="74" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,3,0.8</ClientRectangle>
+              <ClientRectangle>0,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>7e4820b12da04c89bf5124a9658d5cb8</Guid>
@@ -1137,7 +1137,7 @@ else
             <Text47 Ref="76" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>3,0,3,0.8</ClientRectangle>
+              <ClientRectangle>3.2,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>29240044271742d28d2d978f0d8c1e9d</Guid>
@@ -1160,7 +1160,7 @@ else
             <Text48 Ref="78" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>6,0,13,0.8</ClientRectangle>
+              <ClientRectangle>6.4,0,12.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>897e7e0757d44df28b36433514bfe26d</Guid>
@@ -1192,7 +1192,7 @@ else
             <Text5 Ref="80" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,3,0.8</ClientRectangle>
+              <ClientRectangle>0,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
               <Guid>191f76fea9014b3ab8a65623773d4a65</Guid>
@@ -1214,7 +1214,7 @@ else
             <Text6 Ref="82" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>3,0,3,0.8</ClientRectangle>
+              <ClientRectangle>3.2,0,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
               <Guid>84379c500f424e3e8b5caae56134c17c</Guid>
@@ -1303,9 +1303,9 @@ else
             <Text33 Ref="88" type="Text" isKey="true">
               <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>6,0,1.4,0.8</ClientRectangle>
+              <ClientRectangle>6.4,0,1,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>B Nazanin,10</Font>
               <Guid>e32d80a703f844e48868a18b58a5ec75</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text33</Name>
@@ -1352,10 +1352,10 @@ else
     <value>System.Data</value>
   </ReferencedAssemblies>
   <ReportAlias>گزارش</ReportAlias>
-  <ReportChanged>12/28/2019 2:33:34 PM</ReportChanged>
+  <ReportChanged>12/28/2019 3:08:05 PM</ReportChanged>
   <ReportCreated>2/9/2011 1:42:50 AM</ReportCreated>
-  <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ دفتر روزنامه\دفتر روزنامه 26 خط - جدید.mrt</ReportFile>
-  <ReportGuid>eb665044c04549bb98ae97baef5aa971</ReportGuid>
+  <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ دفتر روزنامه\دفتر روزنامه 26 خط.mrt</ReportFile>
+  <ReportGuid>ca627211590f40bdb54ba45a9a770142</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2010.1.700</ReportVersion>
