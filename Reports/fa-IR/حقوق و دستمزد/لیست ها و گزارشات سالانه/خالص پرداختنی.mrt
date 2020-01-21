@@ -7,8 +7,8 @@
       <داده_x0020_ها Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها</Alias>
         <Columns isList="true" count="4">
-          <value>گزارش,&lt;&gt;f__AnonymousType29`13[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]</value>
-          <value>فیش_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType30`25[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Decimal,System.Decimal,System.Decimal,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType31`3[System.String,System.String,System.String]]]]</value>
+          <value>گزارش,&lt;&gt;f__AnonymousType34`13[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]</value>
+          <value>فیش_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType35`25[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Decimal,System.Decimal,System.Decimal,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType36`7[System.Int32,System.String,System.String,System.String,System.String,System.String,System.String]]]]</value>
           <value>_ID,System.Int32</value>
           <value>_Current,System.Object</value>
         </Columns>
@@ -28,10 +28,10 @@
           <value>شناسه_ملی,System.String</value>
           <value>شماره_ثبت,System.String</value>
           <value>نام_کاربر,System.String</value>
-          <value>سال_ماه_شروع,System.String</value>
-          <value>سال_ماه_شروع_حروف,System.String</value>
-          <value>سال_ماه_پایان,System.String</value>
-          <value>سال_ماه_پایان_حروف,System.String</value>
+          <value>از_سال_ماه,System.String</value>
+          <value>از_سال_ماه_حروف,System.String</value>
+          <value>تا_سال_ماه,System.String</value>
+          <value>تا_سال_ماه_حروف,System.String</value>
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
           <value>_Current,System.Object</value>
@@ -67,7 +67,7 @@
           <value>جمع_مزایا,System.Decimal</value>
           <value>جمع_کسورات,System.Decimal</value>
           <value>خالص_پرداختی,System.Decimal</value>
-          <value>ردیف_ها,System.Collections.Generic.IEnumerable_x0060_1_x005B__x003C__x003E_f__AnonymousType31_x0060_3_x005B_System.String,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType31`3[System.String,System.String,System.String]]</value>
+          <value>ردیف_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType36`7[System.Int32,System.String,System.String,System.String,System.String,System.String,System.String]]</value>
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
           <value>_Current,System.Object</value>
@@ -78,10 +78,14 @@
       </داده_x0020_ها_فیش_ها>
       <داده_x0020_ها_فیش_ها_ردیف_ها Ref="5" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها_فیش_ها_ردیف_ها</Alias>
-        <Columns isList="true" count="6">
+        <Columns isList="true" count="10">
+          <value>ردیف,System.Int32</value>
           <value>نام,System.String</value>
           <value>نوع,System.String</value>
+          <value>تاثیر,System.String</value>
+          <value>نوع_پرداختی,System.String</value>
           <value>مقدار,System.String</value>
+          <value>مقدار_غنی,System.String</value>
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
           <value>_Current,System.Object</value>
@@ -162,7 +166,7 @@
               <Name>Text7</Name>
               <Page isRef="9" />
               <Parent isRef="10" />
-              <Text>{داده_ها_گزارش.سال_ماه_شروع}</Text>
+              <Text>{داده_ها_گزارش.از_سال_ماه}</Text>
               <TextBrush>Black</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text7>
@@ -177,7 +181,7 @@
               <Name>Text9</Name>
               <Page isRef="9" />
               <Parent isRef="10" />
-              <Text>{داده_ها_گزارش.سال_ماه_پایان}</Text>
+              <Text>{داده_ها_گزارش.تا_سال_ماه}</Text>
               <TextBrush>Black</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text9>
@@ -224,7 +228,7 @@
               <Name>Text1</Name>
               <Page isRef="9" />
               <Parent isRef="10" />
-              <Text>خلاصه خالص پرداختنی</Text>
+              <Text>خالص پرداختنی</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
@@ -682,10 +686,10 @@
     <value>System.Data</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>10/29/2019 4:03:25 PM</ReportChanged>
+  <ReportChanged>1/21/2020 2:03:08 PM</ReportChanged>
   <ReportCreated>10/22/2019 2:55:43 AM</ReportCreated>
-  <ReportFile>C:\Users\Rashvand\Documents\Sayan Documents\\Reports\fa-IR\حقوق و دستمزد\لیست ها و گزارشات سالانه\خلاصه خالص پرداختنی.mrt</ReportFile>
-  <ReportGuid>2a39643024754e51a4a7f04d7a20772d</ReportGuid>
+  <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\حقوق و دستمزد\لیست ها و گزارشات سالانه\خلاصه خالص پرداختنی.mrt</ReportFile>
+  <ReportGuid>421f2451aa414f3783a4214a5a0f483e</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>
   <ReportVersion>2010.1.700</ReportVersion>
