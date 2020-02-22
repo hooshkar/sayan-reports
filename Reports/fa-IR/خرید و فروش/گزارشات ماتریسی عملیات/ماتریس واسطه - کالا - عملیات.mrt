@@ -7,8 +7,8 @@
       <داده_x0020_ها Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها</Alias>
         <Columns isList="true" count="4">
-          <value>گزارش,&lt;&gt;f__AnonymousType0`33[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.Int64],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]</value>
-          <value>ردیف_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType1`90[System.Int64,System.Int16,System.String,System.Int64,System.Int64,System.Nullable`1[System.Int64],System.String,System.DateTime,System.String,System.TimeSpan,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.Decimal],System.Nullable`1[System.Int32],System.Decimal,System.Nullable`1[System.Decimal],System.Decimal,System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.String]]</value>
+          <value>گزارش,&lt;&gt;f__AnonymousType6`35[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.Int64],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]</value>
+          <value>ردیف_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType7`119[System.Int64,System.Int16,System.String,System.String,System.String,System.Int64,System.Int64,System.Nullable`1[System.Int64],System.String,System.DateTime,System.String,System.TimeSpan,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.String,System.String,System.String,System.Nullable`1[System.Decimal],System.Nullable`1[System.Int32],System.Decimal,System.Nullable`1[System.Decimal],System.Decimal,System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.String]]</value>
           <value>_ID,System.Int32</value>
           <value>_Current,System.Object</value>
         </Columns>
@@ -18,7 +18,7 @@
       </داده_x0020_ها>
       <داده_x0020_ها_گزارش Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها_گزارش</Alias>
-        <Columns isList="true" count="36">
+        <Columns isList="true" count="38">
           <value>نام_شرکت,System.String</value>
           <value>آدرس,System.String</value>
           <value>کد_پستی,System.String</value>
@@ -45,6 +45,8 @@
           <value>نام_شخص,System.String</value>
           <value>کد_واسطه,System.String</value>
           <value>نام_واسطه,System.String</value>
+          <value>کد_رابط,System.String</value>
+          <value>نام_رابط,System.String</value>
           <value>کد_شعبه,System.String</value>
           <value>نام_شعبه,System.String</value>
           <value>کد_پروژه,System.String</value>
@@ -62,20 +64,23 @@
       </داده_x0020_ها_گزارش>
       <داده_x0020_ها_ردیف_ها Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها_ردیف_ها</Alias>
-        <Columns isList="true" count="93">
+        <Columns isList="true" count="122">
           <value>کد_ردیف,System.Int64</value>
           <value>کد_تاثیر,System.Int16</value>
           <value>کد_رهگیری,System.String</value>
+          <value>جزئیات,System.String</value>
+          <value>کد_ارجاع,System.String</value>
           <value>کد_دوره,System.Int64</value>
           <value>کد_بایگانی,System.Int64</value>
           <value>شماره,System.Int64</value>
           <value>کد_فرعی,System.String</value>
           <value>تاریخ_سند_میلادی,System.DateTime</value>
           <value>تاریخ_سند_شمسی,System.String</value>
-          <value>ساعت_ثبت,System.Nullable`1[System.TimeSpan]</value>
+          <value>ساعت_ثبت,System.TimeSpan</value>
           <value>ماه_سند,System.String</value>
           <value>کد_عملیات,System.String</value>
           <value>نام_عملیات,System.String</value>
+          <value>نوع_دوره_عملیات,System.String</value>
           <value>کد_شخص,System.String</value>
           <value>جنسیت_شخص,System.String</value>
           <value>نام_شخص,System.String</value>
@@ -120,6 +125,28 @@
           <value>آدرس_ایمیل_واسطه,System.String</value>
           <value>آدرس_وب_واسطه,System.String</value>
           <value>توضیحات_واسطه,System.String</value>
+          <value>کد_رابط,System.String</value>
+          <value>جنسیت_رابط,System.String</value>
+          <value>نام_رابط,System.String</value>
+          <value>نام_خانوادگی_رابط,System.String</value>
+          <value>نام_کامل_رابط,System.String</value>
+          <value>نام_پدر_رابط,System.String</value>
+          <value>کد_ملی_رابط,System.String</value>
+          <value>شماره_شناسنامه_رابط,System.String</value>
+          <value>کد_اقتصادی_رابط,System.String</value>
+          <value>تاریخ_تولد_میلادی_رابط,System.DateTime</value>
+          <value>تاریخ_تولد_شمسی_رابط,System.String</value>
+          <value>استان_رابط,System.String</value>
+          <value>شهر_رابط,System.String</value>
+          <value>آدرس_رابط,System.String</value>
+          <value>آدرس_2_رابط,System.String</value>
+          <value>کد_پستی_رابط,System.String</value>
+          <value>تلفن_رابط,System.String</value>
+          <value>فکس_رابط,System.String</value>
+          <value>تلفن_همراه_رابط,System.String</value>
+          <value>آدرس_ایمیل_رابط,System.String</value>
+          <value>آدرس_وب_رابط,System.String</value>
+          <value>توضیحات_رابط,System.String</value>
           <value>کد_انبار,System.String</value>
           <value>نام_انبار,System.String</value>
           <value>کد_شعبه,System.String</value>
@@ -132,12 +159,16 @@
           <value>ثبت_کننده,System.String</value>
           <value>تاریخ_آخرین_عملیات,System.String</value>
           <value>نحوه_تسویه,System.String</value>
+          <value>کد_محل_تسویه,System.String</value>
+          <value>نام_محل_تسویه,System.String</value>
           <value>کد_کالا,System.String</value>
           <value>نام_کالا,System.String</value>
           <value>نام_گروه_کالا,System.String</value>
           <value>کد_فنی_کالا,System.String</value>
           <value>شناسه_کالا,System.String</value>
           <value>قفسه_کالا,System.String</value>
+          <value>عرض,System.Decimal</value>
+          <value>طول,System.Decimal</value>
           <value>کد_واحد,System.String</value>
           <value>نام_واحد,System.String</value>
           <value>واحد_فرعی,System.String</value>
@@ -576,6 +607,7 @@
               <Page isRef="7" />
               <Parent isRef="17" />
               <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <SortDirection>None</SortDirection>
               <Text>کد_عملیات</Text>
               <TextBrush>[0:56:85]</TextBrush>
               <TotalGuid>801fd54ae5f543afacb7cbc472a40cad</TotalGuid>
@@ -698,8 +730,8 @@
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>7/14/2016 11:24:06 AM</ReportChanged>
   <ReportCreated>6/25/2013 2:15:39 PM</ReportCreated>
-  <ReportFile>E:\My Project\Sayan\Sayan\Publish\Reports\اتوماسیون خرید و فروش\گزارشات ماتریسی عملیات فروش\ماتریس واسطه - کالا - عملیات.mrt</ReportFile>
-  <ReportGuid>5ba767efac5c47da8663db0482bfcb50</ReportGuid>
+  <ReportFile>C:\Users\Pc\Documents\Sayan Documents\\Reports\fa-IR\انبارداری\گزارشات ماتریسی عملیات\ماتریس واسطه - کالا - عملیات.mrt</ReportFile>
+  <ReportGuid>0b0ac4738a7a454ab236d5637b8e09d0</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2010.1.700</ReportVersion>
