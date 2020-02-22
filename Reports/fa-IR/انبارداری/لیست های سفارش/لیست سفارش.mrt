@@ -50,7 +50,7 @@
           <value>کد_مرکز_هزینه,System.String</value>
           <value>کد_شعبه,System.String</value>
           <value>کد_پروژه,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
           <value>ردیف_ها,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType6`13[System.String,System.String,System.String,System.Int64,System.String,System.String,System.String,System.Decimal,System.Decimal,System.Nullable`1[System.Decimal],System.Nullable`1[System.Decimal],System.String,System.String]]</value>
           <value>_ID,System.Int32</value>

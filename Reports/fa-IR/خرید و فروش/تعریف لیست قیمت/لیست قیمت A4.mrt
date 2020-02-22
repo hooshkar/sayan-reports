@@ -7,8 +7,8 @@
       <داده_x0020_ها Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها</Alias>
         <Columns isList="true" count="4">
-          <value>گزارش,&lt;&gt;f__AnonymousType0`5[System.String,System.String,System.String,System.String,System.String]</value>
-          <value>لیست_قیمت,&lt;&gt;f__AnonymousType2`7[System.String,System.String,System.String,System.String,System.String,System.String,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType1`9[System.String,System.String,System.String,System.Int64,System.String,System.String,System.String,System.Int64,System.String]]]</value>
+          <value>گزارش,&lt;&gt;f__AnonymousType3`9[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]</value>
+          <value>لیست_قیمت,&lt;&gt;f__AnonymousType4`7[System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType5`19[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.Decimal],System.Nullable`1[System.Int32],System.String,System.String,System.Decimal,System.String,System.Nullable`1[System.Decimal],System.String,System.Nullable`1[System.Decimal],System.String,System.String]]]</value>
           <value>_ID,System.Int32</value>
           <value>_Current,System.Object</value>
         </Columns>
@@ -18,15 +18,22 @@
       </داده_x0020_ها>
       <داده_x0020_ها_گزارش Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها_گزارش</Alias>
-        <Columns isList="true" count="8">
-          <value>نام_پایگاه_داده,System.String</value>
+        <Columns isList="true" count="15">
           <value>نام_شرکت,System.String</value>
-          <value>نام_سرور,System.String</value>
+          <value>آدرس,System.String</value>
+          <value>کد_پستی,System.String</value>
+          <value>تلفن,System.String</value>
+          <value>فکس,System.String</value>
+          <value>شماره_اقتصادی,System.String</value>
+          <value>شناسه_ملی,System.String</value>
+          <value>شماره_ثبت,System.String</value>
           <value>نام_کاربر,System.String</value>
-          <value>نام_کاربر_سرور,System.String</value>
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
           <value>_Current,System.Object</value>
+          <value>نام_پایگاه_داده,System.String</value>
+          <value>نام_سرور,System.String</value>
+          <value>نام_کاربر_سرور,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Name>داده ها_گزارش</Name>
@@ -34,17 +41,18 @@
       </داده_x0020_ها_گزارش>
       <داده_x0020_ها_لیست_قیمت Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها_لیست_قیمت</Alias>
-        <Columns isList="true" count="10">
+        <Columns isList="true" count="11">
           <value>کد,System.String</value>
           <value>عنوان,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>کد_گروه,System.String</value>
           <value>نام_گروه,System.String</value>
           <value>توضیحات,System.String</value>
-          <value>ردیف_ها,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType1`9[System.String,System.String,System.String,System.Int64,System.String,System.String,System.String,System.Int64,System.String]]</value>
+          <value>ردیف_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType5`19[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.Decimal],System.Nullable`1[System.Int32],System.String,System.String,System.Decimal,System.String,System.Nullable`1[System.Decimal],System.String,System.Nullable`1[System.Decimal],System.String,System.String]]</value>
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
           <value>_Current,System.Object</value>
+          <value>وضیت,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Name>داده ها_لیست_قیمت</Name>
@@ -52,16 +60,26 @@
       </داده_x0020_ها_لیست_قیمت>
       <داده_x0020_ها_لیست_قیمت_ردیف_ها Ref="5" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها_لیست_قیمت_ردیف_ها</Alias>
-        <Columns isList="true" count="12">
+        <Columns isList="true" count="22">
           <value>کد,System.String</value>
           <value>نام,System.String</value>
           <value>کد_فنی,System.String</value>
-          <value>کد_واحد,System.Int64</value>
+          <value>شناسه,System.String</value>
+          <value>قفسه,System.String</value>
+          <value>کد_واحد,System.String</value>
           <value>نام_واحد,System.String</value>
+          <value>واحد_فرعی,System.String</value>
+          <value>ضریب_فرعی,System.Decimal</value>
+          <value>اعشار_فرعی,System.Int32</value>
           <value>وضعیت,System.String</value>
-          <value>توضیحات,System.String</value>
-          <value>قیمت,System.Int64</value>
+          <value>توضیحات_کالا,System.String</value>
+          <value>قیمت,System.Decimal</value>
           <value>قیمت_متنی,System.String</value>
+          <value>حداقل_قیمت,System.Decimal</value>
+          <value>حداقل_قیمت_متنی,System.String</value>
+          <value>درصد,System.Decimal</value>
+          <value>درصد_متنی,System.String</value>
+          <value>توضیحات,System.String</value>
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
           <value>_Current,System.Object</value>
@@ -207,27 +225,10 @@
           <Brush>[240:240:240]</Brush>
           <ClientRectangle>0,3.4,19,0.8</ClientRectangle>
           <Components isList="true" count="5">
-            <Text5 Ref="16" type="Text" isKey="true">
+            <Text6 Ref="16" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>2.8,0,4,0.8</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12,Bold</Font>
-              <Guid>2f672c98792c4b5e972d9ae4d9ee5445</Guid>
-              <HorAlignment>Center</HorAlignment>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text5</Name>
-              <Page isRef="9" />
-              <Parent isRef="15" />
-              <Text>کد فنی</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
-              <VertAlignment>Center</VertAlignment>
-            </Text5>
-            <Text6 Ref="17" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
-              <ClientRectangle>9.4,0,7.4,0.8</ClientRectangle>
+              <ClientRectangle>7.8,0,9,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>b2811b11d8f34a14bd8688cf22123079</Guid>
@@ -241,7 +242,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text6>
-            <Text7 Ref="18" type="Text" isKey="true">
+            <Text7 Ref="17" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>16.8,0,2.2,0.8</ClientRectangle>
@@ -258,10 +259,10 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text7>
-            <Text1 Ref="19" type="Text" isKey="true">
+            <Text1 Ref="18" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,2.8,0.8</ClientRectangle>
+              <ClientRectangle>2.8,0,2.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>bbe459a0108a417eae1ae244273bc6db</Guid>
@@ -275,10 +276,10 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text1>
-            <Text9 Ref="20" type="Text" isKey="true">
+            <Text9 Ref="19" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>6.8,0,2.6,0.8</ClientRectangle>
+              <ClientRectangle>5.6,0,2.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12,Bold</Font>
               <Guid>ebeb63e4bee84273a5557a973f2c7678</Guid>
@@ -287,11 +288,28 @@
               <Name>Text9</Name>
               <Page isRef="9" />
               <Parent isRef="15" />
-              <Text>نام واحد</Text>
+              <Text>واحد</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text9>
+            <Text3 Ref="20" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,2.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12,Bold</Font>
+              <Guid>dfbd25fa4177493fb395faba3d7b9ac1</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="9" />
+              <Parent isRef="15" />
+              <Text>قیمت حداقل</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
           </Components>
           <Conditions isList="true" count="0" />
           <Name>HeaderBand1</Name>
@@ -303,99 +321,93 @@
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,5,19,0.8</ClientRectangle>
           <Components isList="true" count="5">
-            <Dataداده_ها_گروه_کل_معین_وضعیت Ref="22" type="Text" isKey="true">
+            <Dataداده_ها_گروه_کل_معین_نام_معین Ref="22" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <CanGrow>True</CanGrow>
-              <ClientRectangle>2.8,0,4,0.8</ClientRectangle>
+              <ClientRectangle>7.8,0,9,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
-              <GrowToHeight>True</GrowToHeight>
-              <Guid>43e7bf469fc34b8aacb29e741c68e006</Guid>
-              <HorAlignment>Center</HorAlignment>
-              <Margins>0,0,0,0</Margins>
-              <Name>Dataداده_ها_گروه_کل_معین_وضعیت</Name>
-              <Page isRef="9" />
-              <Parent isRef="21" />
-              <Text>{داده_ها_لیست_قیمت_ردیف_ها.کد_فنی}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
-              <VertAlignment>Center</VertAlignment>
-            </Dataداده_ها_گروه_کل_معین_وضعیت>
-            <Dataداده_ها_گروه_کل_معین_نام_معین Ref="23" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
-              <CanGrow>True</CanGrow>
-              <ClientRectangle>9.4,0,7.4,0.8</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
-              <GrowToHeight>True</GrowToHeight>
               <Guid>5104905c1e7547fca8e5e3f533f4ea74</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Dataداده_ها_گروه_کل_معین_نام_معین</Name>
               <Page isRef="9" />
               <Parent isRef="21" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Text>{داده_ها_لیست_قیمت_ردیف_ها.نام}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_گروه_کل_معین_نام_معین>
-            <Dataداده_ها_گروه_کل_معین_کد Ref="24" type="Text" isKey="true">
+            <Dataداده_ها_گروه_کل_معین_کد Ref="23" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <CanGrow>True</CanGrow>
               <ClientRectangle>16.8,0,2.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
-              <GrowToHeight>True</GrowToHeight>
               <Guid>2b05651979684b11a1d5ced71e6df6d7</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Dataداده_ها_گروه_کل_معین_کد</Name>
               <Page isRef="9" />
               <Parent isRef="21" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Text>{داده_ها_لیست_قیمت_ردیف_ها.کد}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_گروه_کل_معین_کد>
-            <Text2 Ref="25" type="Text" isKey="true">
+            <Text2 Ref="24" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <CanGrow>True</CanGrow>
-              <ClientRectangle>0,0,2.8,0.8</ClientRectangle>
+              <ClientRectangle>2.8,0,2.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
-              <GrowToHeight>True</GrowToHeight>
               <Guid>eb91d07196e44d58be4dc13c246b496c</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text2</Name>
               <Page isRef="9" />
               <Parent isRef="21" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Text>{داده_ها_لیست_قیمت_ردیف_ها.قیمت_متنی}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text2>
-            <Dataداده_ها_گروه_کل_معین_ماهیت Ref="26" type="Text" isKey="true">
+            <Dataداده_ها_گروه_کل_معین_ماهیت Ref="25" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <CanGrow>True</CanGrow>
-              <ClientRectangle>6.8,0,2.6,0.8</ClientRectangle>
+              <ClientRectangle>5.6,0,2.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>B Nazanin,12</Font>
-              <GrowToHeight>True</GrowToHeight>
               <Guid>9d9c664eb44d4b54b8060860f8206235</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Dataداده_ها_گروه_کل_معین_ماهیت</Name>
               <Page isRef="9" />
               <Parent isRef="21" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Text>{داده_ها_لیست_قیمت_ردیف_ها.نام_واحد}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_گروه_کل_معین_ماهیت>
+            <Text4 Ref="26" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,2.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>B Nazanin,12</Font>
+              <Guid>2c1cef53acce4076bffd2e34be296cb8</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="9" />
+              <Parent isRef="21" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Text>{داده_ها_لیست_قیمت_ردیف_ها.حداقل_قیمت_متنی}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
           </Components>
           <Conditions isList="true" count="0" />
           <DataRelationName>داده ها_لیست_قیمت_ردیف_هاRelation</DataRelationName>
@@ -423,17 +435,17 @@
   </Pages>
   <PrinterSettings Ref="28" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
   <ReferencedAssemblies isList="true" count="5">
-    <value>SayanLibrary</value>
+    <value>Core</value>
     <value>System</value>
     <value>System.Drawing</value>
     <value>System.Windows.Forms</value>
     <value>System.Data</value>
   </ReferencedAssemblies>
   <ReportAlias>گزارش</ReportAlias>
-  <ReportChanged>10/11/2012 2:41:41 PM</ReportChanged>
+  <ReportChanged>12/28/2019 8:33:21 PM</ReportChanged>
   <ReportCreated>5/14/2012 1:52:49 PM</ReportCreated>
-  <ReportFile>E:\My Project\C# Projects\Sayan\Publish\Reports\اتوماسیون خرید و فروش\تعریف لیست قیمت\لیست قیمت A4.mrt</ReportFile>
-  <ReportGuid>d9fa84ea2cd84a33bcfee3de2d5f1629</ReportGuid>
+  <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\خرید و فروش\تعریف لیست قیمت\لیست قیمت A4.mrt</ReportFile>
+  <ReportGuid>9966889df70a4e608556281152d45d78</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2010.1.700</ReportVersion>

@@ -43,7 +43,7 @@
           <value>کد_جزء,System.String</value>
           <value>کد,System.String</value>
           <value>عنوان,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
           <value>حساب_های_زیر_مجموعه,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType8`7[System.String,System.String,System.String,System.String,System.String,System.String,System.String]]</value>
           <value>_ID,System.Int32</value>
@@ -62,7 +62,7 @@
           <value>کد_جزء,System.String</value>
           <value>کد,System.String</value>
           <value>عنوان,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
@@ -340,7 +340,7 @@
               <Name>Text17</Name>
               <Page isRef="9" />
               <Parent isRef="20" />
-              <Text>{داده_ها_لیست_حساب_ها.وضیت}</Text>
+              <Text>{داده_ها_لیست_حساب_ها.وضعیت}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
@@ -431,7 +431,7 @@
               <Name>Text12</Name>
               <Page isRef="9" />
               <Parent isRef="25" />
-              <Text>{داده_ها_لیست_حساب_ها_حساب_های_زیر_مجموعه.وضیت}</Text>
+              <Text>{داده_ها_لیست_حساب_ها_حساب_های_زیر_مجموعه.وضعیت}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>

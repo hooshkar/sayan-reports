@@ -40,7 +40,7 @@
         <Columns isList="true" count="8">
           <value>کد,System.String</value>
           <value>عنوان,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
           <value>ردیف_ها,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType4`18[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]]</value>
           <value>_ID,System.Int32</value>

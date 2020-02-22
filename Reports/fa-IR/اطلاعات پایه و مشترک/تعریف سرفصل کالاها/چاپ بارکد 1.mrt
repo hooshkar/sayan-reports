@@ -49,7 +49,7 @@
           <value>نام_واحد,System.String</value>
           <value>واحد_فرعی,System.String</value>
           <value>ضریب_فرعی,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
           <value>کالا_های_زیر_مجموعه,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType35`12[System.String,System.String,System.String,System.String,System.String,System.String,System.Int64,System.String,System.String,System.String,System.String,System.String]]</value>
           <value>_ID,System.Int32</value>
@@ -73,7 +73,7 @@
           <value>نام_واحد,System.String</value>
           <value>واحد_فرعی,System.String</value>
           <value>ضریب_فرعی,System.String</value>
-          <value>وضیت,System.String</value>
+          <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
