@@ -7,8 +7,8 @@
       <داده_x0020_ها Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها</Alias>
         <Columns isList="true" count="4">
-          <value>گزارش,&lt;&gt;f__AnonymousType27`9[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]</value>
-          <value>حساب_ها,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType32`21[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]]</value>
+          <value>گزارش,&lt;&gt;f__AnonymousType64`16[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String]</value>
+          <value>حساب_ها,System.Linq.IQueryable`1[&lt;&gt;f__AnonymousType69`27[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]]</value>
           <value>_ID,System.Int32</value>
           <value>_Current,System.Object</value>
         </Columns>
@@ -18,12 +18,19 @@
       </داده_x0020_ها>
       <داده_x0020_ها_گزارش Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها_گزارش</Alias>
-        <Columns isList="true" count="12">
+        <Columns isList="true" count="19">
           <value>نام_شرکت,System.String</value>
+          <value>زمینه_فعالیت,System.String</value>
           <value>آدرس,System.String</value>
+          <value>استان,System.String</value>
+          <value>شهر,System.String</value>
           <value>کد_پستی,System.String</value>
           <value>تلفن,System.String</value>
           <value>فکس,System.String</value>
+          <value>ارز,System.String</value>
+          <value>کد_الفبای_ارز,System.String</value>
+          <value>نماد_ارز,System.String</value>
+          <value>تعداد_اعشار_ارز,System.Int32</value>
           <value>شماره_اقتصادی,System.String</value>
           <value>شناسه_ملی,System.String</value>
           <value>شماره_ثبت,System.String</value>
@@ -38,7 +45,7 @@
       </داده_x0020_ها_گزارش>
       <داده_x0020_ها_حساب_ها Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها_حساب_ها</Alias>
-        <Columns isList="true" count="24">
+        <Columns isList="true" count="30">
           <value>کد_گروه,System.String</value>
           <value>کد_کل,System.String</value>
           <value>کد_معین,System.String</value>
@@ -54,6 +61,12 @@
           <value>موقت_یا_دائم_گروه,System.String</value>
           <value>موقت_یا_دائم_کل,System.String</value>
           <value>موقت_یا_دائم_معین,System.String</value>
+          <value>کد_ارز_گروه,System.String</value>
+          <value>کد_ارز_کل,System.String</value>
+          <value>کد_ارز_معین,System.String</value>
+          <value>نام_ارز_گروه,System.String</value>
+          <value>نام_ارز_کل,System.String</value>
+          <value>نام_ارز_معین,System.String</value>
           <value>وضعیت_گروه,System.String</value>
           <value>وضعیت_کل,System.String</value>
           <value>وضعیت_معین,System.String</value>
@@ -156,7 +169,7 @@
         </PageHeaderBand1>
         <Text20 Ref="11" type="Text" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>-0.6,0,0.6,3</ClientRectangle>
+          <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
           <Guid>c9cfc6001ac14a1a99ba7d982db8ead9</Guid>
@@ -164,7 +177,7 @@
           <Name>Text20</Name>
           <Page isRef="7" />
           <Parent isRef="7" />
-          <Text>{PageNofM}</Text>
+          <Text>{PageNofM} - {new Core.DateSystem(Today)}</Text>
           <TextBrush>Black</TextBrush>
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <VertAlignment>Bottom</VertAlignment>
@@ -706,8 +719,8 @@
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>8/24/2016 2:32:31 PM</ReportChanged>
   <ReportCreated>2/3/2012 10:31:20 PM</ReportCreated>
-  <ReportFile>E:\My Project\Sayan\Sayan\Publish\Reports\اتوماسیون مالی و حسابداری\تعریف سرفصل حساب ها\لیست درختی سرفصل.mrt</ReportFile>
-  <ReportGuid>f50030d3fe224d358c8f318700ab3a10</ReportGuid>
+  <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تعریف سرفصل حساب ها\لیست درختی سرفصل.mrt</ReportFile>
+  <ReportGuid>1dd67f6bf0a4491c813f242356d45b13</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2010.1.700</ReportVersion>

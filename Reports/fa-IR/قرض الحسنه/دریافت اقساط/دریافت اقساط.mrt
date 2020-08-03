@@ -1032,7 +1032,7 @@
           <Name>Text46</Name>
           <Page isRef="13" />
           <Parent isRef="13" />
-          <Text>{PageNofM}</Text>
+          <Text>{PageNofM} - {new Core.DateSystem(Today)}</Text>
           <TextBrush>Black</TextBrush>
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <VertAlignment>Center</VertAlignment>

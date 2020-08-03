@@ -155,7 +155,7 @@
           <Name>Text16</Name>
           <Page isRef="7" />
           <Parent isRef="7" />
-          <Text>{PageNofM}</Text>
+          <Text>{PageNofM} - {new Core.DateSystem(Today)}</Text>
           <TextBrush>Black</TextBrush>
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <VertAlignment>Bottom</VertAlignment>
