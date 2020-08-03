@@ -187,7 +187,7 @@
         </ReportTitleBand1>
         <Text18 Ref="11" type="Text" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>-0.6,0,0.6,3</ClientRectangle>
+          <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
           <Guid>7874b9abbdda46ae96a8a05724d5bcfc</Guid>

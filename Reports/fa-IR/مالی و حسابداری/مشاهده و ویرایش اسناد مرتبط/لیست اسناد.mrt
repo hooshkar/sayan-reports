@@ -350,7 +350,7 @@
         </ReportTitleBand1>
         <Text28 Ref="23" type="Text" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>-0.6,0,0.6,3</ClientRectangle>
+          <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
           <Guid>64eba7e9b74e47ce97a12cd1c5fb2d35</Guid>

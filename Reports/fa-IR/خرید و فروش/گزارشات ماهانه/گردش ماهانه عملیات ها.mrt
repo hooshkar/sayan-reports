@@ -322,7 +322,7 @@
         </Text32>
         <Text28 Ref="16" type="Text" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>-0.6,0,0.6,3</ClientRectangle>
+          <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
           <Guid>07916a6f188441959e862f6f6cbe2ab8</Guid>

@@ -163,7 +163,7 @@
         </PageHeaderBand1>
         <Text28 Ref="12" type="Text" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>-0.6,0,0.6,3</ClientRectangle>
+          <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
           <Guid>6009e20465d547d3971cd5324f012db1</Guid>

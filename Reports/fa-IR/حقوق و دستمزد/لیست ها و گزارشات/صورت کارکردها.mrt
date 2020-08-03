@@ -270,7 +270,7 @@
         </PageFooterBand1>
         <Text28 Ref="18" type="Text" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>-0.6,0,0.6,3</ClientRectangle>
+          <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
           <Guid>59e4899fe19744438a33091300a3b386</Guid>

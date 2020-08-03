@@ -174,7 +174,7 @@
       <Components isList="true" count="9">
         <Text33 Ref="10" type="Text" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>-0.6,0,0.6,3</ClientRectangle>
+          <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
           <Guid>bb6cc6ef06c5492f99ac42fffc14b5ce</Guid>
