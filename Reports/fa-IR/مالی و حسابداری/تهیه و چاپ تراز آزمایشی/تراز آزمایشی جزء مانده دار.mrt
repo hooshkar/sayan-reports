@@ -7,7 +7,7 @@
       <داده_x0020_ها Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها</Alias>
         <Columns isList="true" count="4">
-          <value>گزارش,&lt;&gt;f__AnonymousType47`37[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.Nullable`1[System.Int64],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.String]</value>
+          <value>گزارش,&lt;&gt;f__AnonymousType47`39[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.Nullable`1[System.Int64],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.Nullable`1[System.Int64],System.Nullable`1[System.Int64],System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.String]</value>
           <value>لیست_حساب_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType44`34[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[Core.EnumContext`1[Core.InterimOrEternal]],System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType45`35[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[Core.EnumContext`1[Core.InterimOrEternal]],System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String]]]]</value>
           <value>_ID,System.Int32</value>
           <value>_Current,System.Object</value>
@@ -18,7 +18,7 @@
       </داده_x0020_ها>
       <داده_x0020_ها_گزارش Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها_گزارش</Alias>
-        <Columns isList="true" count="44">
+        <Columns isList="true" count="46">
           <value>نام_شرکت,System.String</value>
           <value>زمینه_فعالیت,System.String</value>
           <value>آدرس,System.String</value>
@@ -46,6 +46,8 @@
           <value>تا_تاریخ_شمسی,System.String</value>
           <value>از_تاریخ_میلادی,System.DateTime</value>
           <value>تا_تاریخ_میلادی,System.DateTime</value>
+          <value>از_شماره,System.Int64</value>
+          <value>تا_شماره,System.Int64</value>
           <value>کد_نما,System.String</value>
           <value>نام_نما,System.String</value>
           <value>کد_لایه,System.String</value>
@@ -690,7 +692,7 @@
               <Page isRef="12" />
               <Parent isRef="40" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{داده_ها_لیست_حساب_ها.گردش_بستانکار_طی_دوره}</Text>
+              <Text>{داده_ها_لیست_حساب_ها.گردش_بستانکار}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="42" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -713,7 +715,7 @@
               <Page isRef="12" />
               <Parent isRef="40" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{داده_ها_لیست_حساب_ها.گردش_بدهکار_طی_دوره}</Text>
+              <Text>{داده_ها_لیست_حساب_ها.گردش_بدهکار}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="44" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -753,7 +755,7 @@
               <Page isRef="12" />
               <Parent isRef="40" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{داده_ها_لیست_حساب_ها.مانده_بدهکار_طی_دوره}</Text>
+              <Text>{داده_ها_لیست_حساب_ها.مانده_بدهکار}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="47" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -777,7 +779,7 @@
               <Page isRef="12" />
               <Parent isRef="40" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{داده_ها_لیست_حساب_ها.مانده_بستانکار_طی_دوره}</Text>
+              <Text>{داده_ها_لیست_حساب_ها.مانده_بستانکار}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="49" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -1124,7 +1126,7 @@
               <Page isRef="12" />
               <Parent isRef="73" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{داده_ها_لیست_حساب_ها_جزئیات.گردش_بستانکار_طی_دوره}</Text>
+              <Text>{داده_ها_لیست_حساب_ها_جزئیات.گردش_بستانکار}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="75" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -1148,7 +1150,7 @@
               <Page isRef="12" />
               <Parent isRef="73" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{داده_ها_لیست_حساب_ها_جزئیات.گردش_بدهکار_طی_دوره}</Text>
+              <Text>{داده_ها_لیست_حساب_ها_جزئیات.گردش_بدهکار}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="77" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -1172,7 +1174,7 @@
               <Page isRef="12" />
               <Parent isRef="73" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{داده_ها_لیست_حساب_ها_جزئیات.مانده_بدهکار_طی_دوره}</Text>
+              <Text>{داده_ها_لیست_حساب_ها_جزئیات.مانده_بدهکار}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="79" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -1196,7 +1198,7 @@
               <Page isRef="12" />
               <Parent isRef="73" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{داده_ها_لیست_حساب_ها_جزئیات.مانده_بستانکار_طی_دوره}</Text>
+              <Text>{داده_ها_لیست_حساب_ها_جزئیات.مانده_بستانکار}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="81" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -1290,18 +1292,20 @@
     </Page1>
   </Pages>
   <PrinterSettings Ref="86" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
-  <ReferencedAssemblies isList="true" count="5">
+  <ReferencedAssemblies isList="true" count="7">
     <value>Core</value>
+    <value>Core.Base</value>
+    <value>Core.Data</value>
     <value>System</value>
     <value>System.Drawing</value>
     <value>System.Windows.Forms</value>
     <value>System.Data</value>
   </ReferencedAssemblies>
   <ReportAlias>گزارش</ReportAlias>
-  <ReportChanged>9/8/2020 12:04:25 PM</ReportChanged>
+  <ReportChanged>1/16/2021 1:50:11 PM</ReportChanged>
   <ReportCreated>2/11/2011 11:29:27 PM</ReportCreated>
-  <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ تراز آزمایشی\تراز آزمایشی جزء.mrt</ReportFile>
-  <ReportGuid>2fd4e12dc20f4b94b265d7bd872424c1</ReportGuid>
+  <ReportFile>C:\Users\Sayan Pc\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ تراز آزمایشی\تراز آزمایشی جزء مانده دار.mrt</ReportFile>
+  <ReportGuid>9b8acd7ee12c4076bdb62bb02c9c9b84</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2010.1.700</ReportVersion>
