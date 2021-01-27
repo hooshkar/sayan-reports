@@ -86,7 +86,7 @@
           <value>کد_شغل,System.String</value>
           <value>نام_شغل,System.String</value>
           <value>رسته_شغلی,System.String</value>
-          <value>کد_شغلی,System.String</value>
+          <value>کد_شغلی_بیمه,System.String</value>
           <value>کد_سختی_شغل,System.String</value>
           <value>کد_تحصیلات,System.Int32</value>
           <value>تحصیلات,System.String</value>
