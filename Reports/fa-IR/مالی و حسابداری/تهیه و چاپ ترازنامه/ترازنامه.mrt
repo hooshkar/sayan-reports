@@ -722,7 +722,7 @@
           <Filters isList="true" count="3">
             <value>ماهیت_گروه,EqualTo,بستانکار,,String</value>
             <value>موقت_دائم,EqualTo,دائم,,String</value>
-            <value>مانده_طی_دوره,NotEqualTo,_x0030_,,Numeric</value>
+            <value>مانده,NotEqualTo,_x0030_,,Numeric</value>
           </Filters>
           <Guid>533a4c4221e64a9c8099092139416871</Guid>
           <Name>DataBand2</Name>
@@ -1129,7 +1129,7 @@ Sum(GroupHeaderBand2,داده_ها_لیست_حساب_ها.مانده_علامت�
           <Filters isList="true" count="3">
             <value>ماهیت_گروه,EqualTo,بدهکار,,String</value>
             <value>موقت_دائم,EqualTo,دائم,,String</value>
-            <value>مانده_طی_دوره,NotEqualTo,_x0030_,,Numeric</value>
+            <value>مانده,NotEqualTo,_x0030_,,Numeric</value>
           </Filters>
           <Guid>a4aac7a52d9d40dd855ee9d66c4b3ec7</Guid>
           <Name>DataBand3</Name>
@@ -1245,10 +1245,10 @@ if(مانده_2 &lt; 0)
     <value>System.Data</value>
   </ReferencedAssemblies>
   <ReportAlias>گزارش</ReportAlias>
-  <ReportChanged>1/16/2021 4:26:54 PM</ReportChanged>
+  <ReportChanged>3/14/2021 12:17:20 PM</ReportChanged>
   <ReportCreated>2/11/2011 11:29:27 PM</ReportCreated>
   <ReportFile>C:\Users\Sayan Pc\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ ترازنامه\ترازنامه.mrt</ReportFile>
-  <ReportGuid>878deb1041134efa950eac779e080409</ReportGuid>
+  <ReportGuid>010f4f38898f4c1f88de69a7e785742d</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2010.1.700</ReportVersion>
