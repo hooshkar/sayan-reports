@@ -815,17 +815,17 @@
           <DataSourceName>داده ها_لیست_حساب_ها</DataSourceName>
           <FilterMode>Or</FilterMode>
           <Filters isList="true" count="2">
-            <value>گردش_بدهکار_طی_دوره,GreaterThan,_x0030_,,Numeric</value>
-            <value>گردش_بستانکار_طی_دوره,GreaterThan,_x0030_,,Numeric</value>
+            <value>گردش_بدهکار,GreaterThan,_x0030_,,Numeric</value>
+            <value>گردش_بستانکار,GreaterThan,_x0030_,,Numeric</value>
           </Filters>
           <Name>DataBand1</Name>
           <Page isRef="12" />
           <Parent isRef="12" />
           <PrintIfDetailEmpty>True</PrintIfDetailEmpty>
-          <RenderingEvent>جمع_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بدهکار_طی_دوره;
-جمع_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بستانکار_طی_دوره;
-جمع_مانده_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بدهکار_طی_دوره;
-جمع_مانده_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بستانکار_طی_دوره;</RenderingEvent>
+          <RenderingEvent>جمع_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بدهکار;
+جمع_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بستانکار;
+جمع_مانده_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بدهکار;
+جمع_مانده_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بستانکار;</RenderingEvent>
           <Sort isList="true" count="0" />
         </DataBand1>
         <FooterBand1 Ref="51" type="FooterBand" isKey="true">
@@ -1268,7 +1268,7 @@
           <DataRelationName>داده ها_لیست_حساب_ها_جزئیاتRelation</DataRelationName>
           <DataSourceName>داده ها_لیست_حساب_ها_جزئیات</DataSourceName>
           <Filters isList="true" count="1">
-            <value>مانده_طی_دوره,NotEqualTo,_x0030_,,Numeric</value>
+            <value>مانده,NotEqualTo,_x0030_,,Numeric</value>
           </Filters>
           <MasterComponent isRef="40" />
           <Name>DataBand2</Name>
@@ -1304,7 +1304,7 @@
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>1/16/2021 1:50:11 PM</ReportChanged>
   <ReportCreated>2/11/2011 11:29:27 PM</ReportCreated>
-  <ReportFile>C:\Users\Sayan Pc\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ تراز آزمایشی\تراز آزمایشی جزء مانده دار.mrt</ReportFile>
+  <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ تراز آزمایشی\تراز آزمایشی جزء مانده دار.mrt</ReportFile>
   <ReportGuid>9b8acd7ee12c4076bdb62bb02c9c9b84</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

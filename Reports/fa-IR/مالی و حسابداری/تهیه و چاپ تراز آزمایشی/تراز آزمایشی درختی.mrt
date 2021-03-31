@@ -1113,16 +1113,16 @@ Text115.Height = 0;
           <DataSourceName>داده ها_لیست_حساب_ها</DataSourceName>
           <FilterMode>Or</FilterMode>
           <Filters isList="true" count="2">
-            <value>گردش_بدهکار_طی_دوره,GreaterThan,_x0030_,,Numeric</value>
-            <value>گردش_بستانکار_طی_دوره,GreaterThan,_x0030_,,Numeric</value>
+            <value>گردش_بدهکار,GreaterThan,_x0030_,,Numeric</value>
+            <value>گردش_بستانکار,GreaterThan,_x0030_,,Numeric</value>
           </Filters>
           <Name>DataBand1</Name>
           <Page isRef="12" />
           <Parent isRef="12" />
-          <RenderingEvent>جمع_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بدهکار_طی_دوره;
-جمع_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بستانکار_طی_دوره;
-جمع_مانده_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بدهکار_طی_دوره;
-جمع_مانده_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بستانکار_طی_دوره;</RenderingEvent>
+          <RenderingEvent>جمع_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بدهکار;
+جمع_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بستانکار;
+جمع_مانده_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بدهکار;
+جمع_مانده_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بستانکار;</RenderingEvent>
           <Sort isList="true" count="2">
             <value>ASC</value>
             <value>شماره_حساب</value>
@@ -1281,7 +1281,7 @@ Text115.Height = 0;
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>1/16/2021 11:22:41 AM</ReportChanged>
   <ReportCreated>2/11/2011 11:29:27 PM</ReportCreated>
-  <ReportFile>C:\Users\Sayan Pc\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ تراز آزمایشی\تراز آزمایشی درختی.mrt</ReportFile>
+  <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ تراز آزمایشی\تراز آزمایشی درختی.mrt</ReportFile>
   <ReportGuid>45bfaab3181044fab4fef80a579f1a1c</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

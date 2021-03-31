@@ -815,16 +815,16 @@
           <DataSourceName>داده ها_لیست_حساب_ها</DataSourceName>
           <FilterMode>Or</FilterMode>
           <Filters isList="true" count="2">
-            <value>گردش_بدهکار_طی_دوره,GreaterThan,_x0030_,,Numeric</value>
-            <value>گردش_بستانکار_طی_دوره,GreaterThan,_x0030_,,Numeric</value>
+            <value>گردش_بدهکار,GreaterThan,_x0030_,,Numeric</value>
+            <value>گردش_بستانکار,GreaterThan,_x0030_,,Numeric</value>
           </Filters>
           <Name>DataBand1</Name>
           <Page isRef="12" />
           <Parent isRef="12" />
-          <RenderingEvent>جمع_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بدهکار_طی_دوره;
-جمع_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بستانکار_طی_دوره;
-جمع_مانده_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بدهکار_طی_دوره;
-جمع_مانده_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بستانکار_طی_دوره;</RenderingEvent>
+          <RenderingEvent>جمع_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بدهکار;
+جمع_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بستانکار;
+جمع_مانده_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بدهکار;
+جمع_مانده_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.مانده_بستانکار;</RenderingEvent>
           <Sort isList="true" count="0" />
         </DataBand1>
         <FooterBand1 Ref="51" type="FooterBand" isKey="true">
@@ -978,10 +978,10 @@
     <value>System.Data</value>
   </ReferencedAssemblies>
   <ReportAlias>گزارش</ReportAlias>
-  <ReportChanged>1/16/2021 9:40:25 AM</ReportChanged>
+  <ReportChanged>3/30/2021 2:25:37 PM</ReportChanged>
   <ReportCreated>2/11/2011 11:29:27 PM</ReportCreated>
-  <ReportFile>C:\Users\hooshkar\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ تراز آزمایشی\تراز آزمایشی.mrt</ReportFile>
-  <ReportGuid>8450a0a2c6954a619ec2e55bf98b7de6</ReportGuid>
+  <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ تراز آزمایشی\تراز آزمایشی.mrt</ReportFile>
+  <ReportGuid>c30181167d824bb399c169f1cd6b12f7</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2010.1.700</ReportVersion>
