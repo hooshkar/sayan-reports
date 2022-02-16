@@ -8,7 +8,7 @@
         <Alias>داده ها</Alias>
         <Columns isList="true" count="5">
           <value>گزارش,&lt;&gt;f__AnonymousType3`11[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]</value>
-          <value>کارکرد_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType4`6[System.String,System.String,System.String,System.Nullable`1[System.Boolean],System.String,System.String]]</value>
+          <value>اطلاعات_پایه,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType4`6[System.String,System.String,System.String,System.Nullable`1[System.Boolean],System.String,System.String]]</value>
           <value>_ID,System.Int32</value>
           <value>_Current,System.Object</value>
           <value>فیش_ها,System.Object</value>
@@ -44,8 +44,8 @@
         <Name>داده ها_گزارش</Name>
         <NameInSource>داده ها_گزارش</NameInSource>
       </داده_x0020_ها_گزارش>
-      <داده_x0020_ها_کارکرد_ها Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
-        <Alias>داده ها_کارکرد_ها</Alias>
+      <داده_x0020_ها_اطلاعات_پایه Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
+        <Alias>داده ها_اطلاعات_پایه</Alias>
         <Columns isList="true" count="9">
           <value>نام_پارامتر,System.String</value>
           <value>نوع_پارامتر,System.String</value>
@@ -58,9 +58,9 @@
           <value>_Current,System.Object</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Name>داده ها_کارکرد_ها</Name>
-        <NameInSource>داده ها_کارکرد_ها</NameInSource>
-      </داده_x0020_ها_کارکرد_ها>
+        <Name>داده ها_اطلاعات_پایه</Name>
+        <NameInSource>داده ها_اطلاعات_پایه</NameInSource>
+      </داده_x0020_ها_اطلاعات_پایه>
     </DataSources>
     <Relations isList="true" count="2">
       <داده_x0020_ها Ref="5" type="DataRelation" isKey="true">
@@ -85,7 +85,7 @@
         <ChildSource isRef="4" />
         <Dictionary isRef="1" />
         <Name>داده ها</Name>
-        <NameInSource>داده ها_کارکرد_هاRelation</NameInSource>
+        <NameInSource>داده ها_اطلاعات_پایهRelation</NameInSource>
         <ParentColumns isList="true" count="1">
           <value>_ID</value>
         </ParentColumns>
@@ -327,7 +327,7 @@
               <Name>Text10</Name>
               <Page isRef="7" />
               <Parent isRef="22" />
-              <Text>{داده_ها_کارکرد_ها.مقدار_غنی}</Text>
+              <Text>{داده_ها_اطلاعات_پایه.مقدار_غنی}</Text>
               <TextBrush>Black</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text10>
@@ -342,14 +342,14 @@
               <Name>Text9</Name>
               <Page isRef="7" />
               <Parent isRef="22" />
-              <Text>:{داده_ها_کارکرد_ها.نام_پارامتر}</Text>
+              <Text>:{داده_ها_اطلاعات_پایه.نام_پارامتر}</Text>
               <TextBrush>Black</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text9>
           </Components>
           <Conditions isList="true" count="0" />
           <DataRelationName isNull="true" />
-          <DataSourceName>داده ها_کارکرد_ها</DataSourceName>
+          <DataSourceName>داده ها_اطلاعات_پایه</DataSourceName>
           <Filters isList="true" count="0" />
           <Name>DataBand1</Name>
           <Page isRef="7" />
