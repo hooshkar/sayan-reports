@@ -216,10 +216,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,10.8,19,2</ClientRectangle>
           <Components isList="true" count="3">
-            <Text23 Ref="15" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>Transparent</Brush>
+            <Text23 Ref="15" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>14.6,0.7,1.8,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -234,10 +231,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text23>
-            <Text24 Ref="16" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>Transparent</Brush>
+            <Text24 Ref="16" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>8,0.7,1.8,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -252,10 +246,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text24>
-            <Text25 Ref="17" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>Transparent</Brush>
+            <Text25 Ref="17" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>2.4,0.7,1.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -277,10 +268,7 @@
           <Page isRef="13" />
           <Parent isRef="13" />
         </PageFooterBand1>
-        <Text20 Ref="18" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-          <Brush>Transparent</Brush>
+        <Text20 Ref="18" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
           <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
@@ -294,10 +282,7 @@
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <VertAlignment>Bottom</VertAlignment>
         </Text20>
-        <Text21 Ref="19" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-          <Brush>Transparent</Brush>
+        <Text21 Ref="19" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
           <ClientRectangle>-0.6,9.8,0.6,3</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
@@ -317,10 +302,7 @@
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,0.4,19,2.8</ClientRectangle>
           <Components isList="true" count="8">
-            <Text11 Ref="21" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>Transparent</Brush>
+            <Text11 Ref="21" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>12.6,1.2,4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -333,10 +315,7 @@
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
             </Text11>
-            <Text15 Ref="22" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>Transparent</Brush>
+            <Text15 Ref="22" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>16.6,1.2,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -349,10 +328,7 @@
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
             </Text15>
-            <Text32 Ref="23" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <AutoWidth>True</AutoWidth>
+            <Text32 Ref="23" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.2,0.4,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -368,10 +344,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text32>
-            <Text35 Ref="24" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <AutoWidth>True</AutoWidth>
+            <Text35 Ref="24" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.2,1.2,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -387,10 +360,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text35>
-            <Text36 Ref="25" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>Transparent</Brush>
+            <Text36 Ref="25" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>12.6,0.4,4.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -403,10 +373,7 @@
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
             </Text36>
-            <Text37 Ref="26" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>Transparent</Brush>
+            <Text37 Ref="26" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>17,0.4,1.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -419,10 +386,7 @@
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
             </Text37>
-            <Text6 Ref="27" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>Transparent</Brush>
+            <Text6 Ref="27" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>0.4,2,16.8,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -435,10 +399,7 @@
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
             </Text6>
-            <Text8 Ref="28" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>Transparent</Brush>
+            <Text8 Ref="28" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>17.2,2,1.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -467,10 +428,7 @@
           <Brush>[240:240:240]</Brush>
           <ClientRectangle>0,4,19,1.2</ClientRectangle>
           <Components isList="true" count="6">
-            <Text12 Ref="30" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text12 Ref="30" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,19,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -485,10 +443,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text12>
-            <Text1 Ref="31" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text1 Ref="31" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>17.8,0.6,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -504,10 +459,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text1>
-            <Text27 Ref="32" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text27 Ref="32" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0.6,5,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -523,10 +475,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text27>
-            <Text2 Ref="33" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text2 Ref="33" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>7,0.6,8,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -542,10 +491,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text2>
-            <Text3 Ref="34" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text3 Ref="34" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>15,0.6,2.8,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -561,10 +507,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text3>
-            <Text9 Ref="35" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text9 Ref="35" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>5,0.6,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -593,7 +536,7 @@
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,6,19,0.8</ClientRectangle>
           <Components isList="true" count="5">
-            <Dataداده_ها_کارت_ردیف_ها_نام_مبنا Ref="37" type="Text" isKey="true">
+            <Dataداده_ها_کارت_ردیف_ها_نام_مبنا Ref="37" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>7,0,8,0.8</ClientRectangle>
@@ -609,10 +552,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_کارت_ردیف_ها_نام_مبنا>
-            <Text13 Ref="38" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text13 Ref="38" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>15,0,2.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -628,10 +568,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text13>
-            <Text33 Ref="39" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text33 Ref="39" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>17.8,0,1.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -648,10 +585,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text33>
-            <Text5 Ref="40" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text5 Ref="40" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,5,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -667,10 +601,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text5>
-            <Text7 Ref="41" type="Text" isKey="true">
-              <CanGrow>True</CanGrow>
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text7 Ref="41" type="Text" isKey="true"><CanGrow>True</CanGrow><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>5,0,2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
