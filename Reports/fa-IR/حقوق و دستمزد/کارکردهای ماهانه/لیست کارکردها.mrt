@@ -114,9 +114,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,0.4,19,1.8</ClientRectangle>
           <Components isList="true" count="2">
-            <Text1 Ref="9" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <AutoWidth>True</AutoWidth>
+            <Text1 Ref="9" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.2,0.4,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -132,9 +130,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text1>
-            <Text16 Ref="10" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <AutoWidth>True</AutoWidth>
+            <Text16 Ref="10" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.2,1.2,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -157,9 +153,7 @@
           <Page isRef="7" />
           <Parent isRef="7" />
         </PageHeaderBand1>
-        <Text28 Ref="11" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-          <Brush>Transparent</Brush>
+        <Text28 Ref="11" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
           <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
@@ -173,9 +167,7 @@
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <VertAlignment>Bottom</VertAlignment>
         </Text28>
-        <Text32 Ref="12" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-          <Brush>Transparent</Brush>
+        <Text32 Ref="12" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
           <ClientRectangle>-0.6,24.6,0.6,3</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>

@@ -174,9 +174,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,0.4,19,2.4</ClientRectangle>
           <Components isList="true" count="7">
-            <Text26 Ref="9" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <AutoWidth>True</AutoWidth>
+            <Text26 Ref="9" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.35,0.4,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -192,9 +190,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text26>
-            <Text41 Ref="10" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <AutoWidth>True</AutoWidth>
+            <Text41 Ref="10" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.35,1.2,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -210,9 +206,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text41>
-            <Text5 Ref="11" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>White</Brush>
+            <Text5 Ref="11" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>12.6,1,6,1.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -226,9 +220,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text5>
-            <Text7 Ref="12" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>White</Brush>
+            <Text7 Ref="12" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>0.4,0.8,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -242,9 +234,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text7>
-            <Text10 Ref="13" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>White</Brush>
+            <Text10 Ref="13" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>2.4,0.8,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -258,9 +248,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text10>
-            <Text11 Ref="14" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>White</Brush>
+            <Text11 Ref="14" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>0.4,1.6,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -274,9 +262,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text11>
-            <Text12 Ref="15" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Brush>White</Brush>
+            <Text12 Ref="15" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>2.4,1.6,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -297,9 +283,7 @@
           <Page isRef="7" />
           <Parent isRef="7" />
         </ReportTitleBand1>
-        <Text31 Ref="16" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-          <Brush>Transparent</Brush>
+        <Text31 Ref="16" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
           <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
@@ -313,9 +297,7 @@
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <VertAlignment>Bottom</VertAlignment>
         </Text31>
-        <Text32 Ref="17" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-          <Brush>Transparent</Brush>
+        <Text32 Ref="17" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
           <ClientRectangle>-0.6,24.6,0.6,3</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
@@ -333,7 +315,7 @@
           <Brush>[240:240:240]</Brush>
           <ClientRectangle>0,3.6,19,1</ClientRectangle>
           <Components isList="true" count="7">
-            <Headerداده_ها_گردش_حساب_تشخیص Ref="19" type="Text" isKey="true">
+            <Headerداده_ها_گردش_حساب_تشخیص Ref="19" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>2.4,0,0.8,1</ClientRectangle>
@@ -350,7 +332,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Headerداده_ها_گردش_حساب_تشخیص>
-            <Headerداده_ها_گردش_حساب_گردش_بستانکار Ref="20" type="Text" isKey="true">
+            <Headerداده_ها_گردش_حساب_گردش_بستانکار Ref="20" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>3.2,0,2.4,1</ClientRectangle>
@@ -367,7 +349,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Headerداده_ها_گردش_حساب_گردش_بستانکار>
-            <Headerداده_ها_گردش_حساب_گردش_بدهکار Ref="21" type="Text" isKey="true">
+            <Headerداده_ها_گردش_حساب_گردش_بدهکار Ref="21" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>5.6,0,2.4,1</ClientRectangle>
@@ -384,7 +366,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Headerداده_ها_گردش_حساب_گردش_بدهکار>
-            <Headerداده_ها_گردش_حساب_تاریخ_شمسی Ref="22" type="Text" isKey="true">
+            <Headerداده_ها_گردش_حساب_تاریخ_شمسی Ref="22" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>16,0,2,1</ClientRectangle>
@@ -401,7 +383,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Headerداده_ها_گردش_حساب_تاریخ_شمسی>
-            <Headerداده_ها_گردش_حساب_شرح_ردیف Ref="23" type="Text" isKey="true">
+            <Headerداده_ها_گردش_حساب_شرح_ردیف Ref="23" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>8,0,8,1</ClientRectangle>
@@ -418,9 +400,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Headerداده_ها_گردش_حساب_شرح_ردیف>
-            <Text1 Ref="24" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text1 Ref="24" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>18,0,1,1</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -436,7 +416,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text1>
-            <Headerداده_ها_گردش_حساب_مانده Ref="25" type="Text" isKey="true">
+            <Headerداده_ها_گردش_حساب_مانده Ref="25" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,2.4,1</ClientRectangle>
@@ -464,9 +444,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,5.4,19,0.8</ClientRectangle>
           <Components isList="true" count="5">
-            <Text17 Ref="27" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text17 Ref="27" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>White</Brush>
               <ClientRectangle>2.4,0,0.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -483,9 +461,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text17>
-            <Text18 Ref="28" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text18 Ref="28" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>White</Brush>
               <ClientRectangle>3.2,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -507,9 +483,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text18>
-            <Text19 Ref="30" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text19 Ref="30" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>White</Brush>
               <ClientRectangle>5.6,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -531,9 +505,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text19>
-            <Text23 Ref="32" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text23 Ref="32" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>White</Brush>
               <ClientRectangle>8,0,11,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -550,9 +522,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text23>
-            <Text16 Ref="33" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text16 Ref="33" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>White</Brush>
               <ClientRectangle>0,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -585,9 +555,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,7,19,0.8</ClientRectangle>
           <Components isList="true" count="5">
-            <Text20 Ref="36" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text20 Ref="36" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>3.2,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -609,9 +577,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text20>
-            <Text21 Ref="38" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text21 Ref="38" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>5.6,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -633,9 +599,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text21>
-            <Text22 Ref="40" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text22 Ref="40" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>8,0,11,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -652,9 +616,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text22>
-            <Text25 Ref="41" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text25 Ref="41" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>2.4,0,0.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -671,9 +633,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text25>
-            <Text24 Ref="42" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text24 Ref="42" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -712,7 +672,7 @@
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,8.6,19,0.8</ClientRectangle>
           <Components isList="true" count="7">
-            <Dataداده_ها_گردش_حساب_تشخیص Ref="45" type="Text" isKey="true">
+            <Dataداده_ها_گردش_حساب_تشخیص Ref="45" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>2.4,0,0.8,0.8</ClientRectangle>
@@ -730,7 +690,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_گردش_حساب_تشخیص>
-            <Dataداده_ها_گردش_حساب_گردش_بدهکار Ref="46" type="Text" isKey="true">
+            <Dataداده_ها_گردش_حساب_گردش_بدهکار Ref="46" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>5.6,0,2.4,0.8</ClientRectangle>
@@ -753,7 +713,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_گردش_حساب_گردش_بدهکار>
-            <Dataداده_ها_گردش_حساب_تاریخ_شمسی Ref="48" type="Text" isKey="true">
+            <Dataداده_ها_گردش_حساب_تاریخ_شمسی Ref="48" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>16,0,2,0.8</ClientRectangle>
@@ -771,7 +731,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_گردش_حساب_تاریخ_شمسی>
-            <Dataداده_ها_گردش_حساب_گردش_بستانکار Ref="49" type="Text" isKey="true">
+            <Dataداده_ها_گردش_حساب_گردش_بستانکار Ref="49" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>3.2,0,2.4,0.8</ClientRectangle>
@@ -794,7 +754,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_گردش_حساب_گردش_بستانکار>
-            <Dataداده_ها_گردش_حساب_شرح_سند Ref="51" type="Text" isKey="true">
+            <Dataداده_ها_گردش_حساب_شرح_سند Ref="51" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>8,0,8,0.8</ClientRectangle>
@@ -811,9 +771,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_گردش_حساب_شرح_سند>
-            <Text2 Ref="52" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text2 Ref="52" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>18,0,1,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -830,7 +788,7 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text2>
-            <Dataداده_ها_گردش_حساب_مانده Ref="53" type="Text" isKey="true">
+            <Dataداده_ها_گردش_حساب_مانده Ref="53" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,2.4,0.8</ClientRectangle>
@@ -878,9 +836,7 @@ if(جمع_مانده_صفحه_قبل &lt; 0)
           <Brush>[240:240:240]</Brush>
           <ClientRectangle>0,10.2,19,1</ClientRectangle>
           <Components isList="true" count="5">
-            <Text8 Ref="56" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
+            <Text8 Ref="56" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>3.2,0,2.4,1</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -902,9 +858,7 @@ if(جمع_مانده_صفحه_قبل &lt; 0)
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text8>
-            <Text9 Ref="58" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
+            <Text9 Ref="58" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>5.6,0,2.4,1</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -926,9 +880,7 @@ if(جمع_مانده_صفحه_قبل &lt; 0)
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text9>
-            <Text14 Ref="60" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
+            <Text14 Ref="60" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>8,0,11,1</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -944,9 +896,7 @@ if(جمع_مانده_صفحه_قبل &lt; 0)
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text14>
-            <Text6 Ref="61" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
+            <Text6 Ref="61" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>2.4,0,0.8,1</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -963,9 +913,7 @@ if(جمع_مانده_صفحه_قبل &lt; 0)
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text6>
-            <Text4 Ref="62" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
+            <Text4 Ref="62" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,2.4,1</ClientRectangle>
               <Conditions isList="true" count="0" />
