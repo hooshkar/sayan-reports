@@ -143,7 +143,8 @@
           <ClientRectangle>0,0.4,19,2.2</ClientRectangle>
           <Components isList="true" count="2">
             <Text42 Ref="11" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.4,0.4,2.6,0.6</ClientRectangle>
@@ -161,7 +162,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text42>
             <Text44 Ref="12" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.4,1.2,2.6,0.6</ClientRectangle>
@@ -187,7 +189,8 @@
           <PrintOn>OnlyFirstPage</PrintOn>
         </PageHeaderBand1>
         <Text16 Ref="13" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
           <Brush>Transparent</Brush>
           <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
           <Conditions isList="true" count="0" />
@@ -203,7 +206,8 @@
           <VertAlignment>Bottom</VertAlignment>
         </Text16>
         <Text32 Ref="14" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
           <Brush>Transparent</Brush>
           <ClientRectangle>-0.6,24.6,0.6,3</ClientRectangle>
           <Conditions isList="true" count="0" />
@@ -223,7 +227,8 @@
           <ClientRectangle>0,3.4,19,0.8</ClientRectangle>
           <Components isList="true" count="6">
             <Text5 Ref="16" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6.6,0,2.4,0.8</ClientRectangle>
@@ -241,7 +246,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text5>
             <Text6 Ref="17" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>11.4,0,5.8,0.8</ClientRectangle>
@@ -259,7 +265,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text6>
             <Text7 Ref="18" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>17.2,0,1.8,0.8</ClientRectangle>
@@ -277,7 +284,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text7>
             <Text1 Ref="19" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>4.2,0,2.4,0.8</ClientRectangle>
@@ -295,7 +303,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text1>
             <Text9 Ref="20" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>9,0,2.4,0.8</ClientRectangle>
@@ -313,7 +322,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text9>
             <Text3 Ref="21" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,4.2,0.8</ClientRectangle>
@@ -342,10 +352,10 @@
           <ClientRectangle>0,5,19,0.8</ClientRectangle>
           <Components isList="true" count="6">
             <Text2 Ref="23" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>6.6,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -361,10 +371,10 @@
               <VertAlignment>Center</VertAlignment>
             </Text2>
             <Text4 Ref="24" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>11.4,0,5.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -380,10 +390,10 @@
               <VertAlignment>Center</VertAlignment>
             </Text4>
             <Text15 Ref="25" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>17.2,0,1.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -400,10 +410,10 @@
               <VertAlignment>Center</VertAlignment>
             </Text15>
             <Text17 Ref="26" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>4.2,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -419,10 +429,10 @@
               <VertAlignment>Center</VertAlignment>
             </Text17>
             <Text18 Ref="27" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>9,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -438,10 +448,10 @@
               <VertAlignment>Center</VertAlignment>
             </Text18>
             <Text19 Ref="28" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>0,0,4.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12,Bold</Font>
@@ -472,10 +482,10 @@
           <ClientRectangle>0,6.6,19,0.8</ClientRectangle>
           <Components isList="true" count="6">
             <Text8 Ref="30" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>6.6,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -492,10 +502,10 @@
               <VertAlignment>Center</VertAlignment>
             </Text8>
             <Text10 Ref="31" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>11.4,0,5.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -511,10 +521,10 @@
               <VertAlignment>Center</VertAlignment>
             </Text10>
             <Text11 Ref="32" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>17.2,0,1.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -531,10 +541,10 @@
               <VertAlignment>Center</VertAlignment>
             </Text11>
             <Text12 Ref="33" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>4.2,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -551,10 +561,10 @@
               <VertAlignment>Center</VertAlignment>
             </Text12>
             <Text13 Ref="34" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>9,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
@@ -571,10 +581,10 @@
               <VertAlignment>Center</VertAlignment>
             </Text13>
             <Text14 Ref="35" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
               <ClientRectangle>0,0,4.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>IRANYekan,12</Font>

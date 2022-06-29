@@ -321,7 +321,8 @@
           <ClientRectangle>0,12.2,27.7,6.8</ClientRectangle>
           <Components isList="true" count="28">
             <Text23 Ref="15" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Brush>Transparent</Brush>
               <ClientRectangle>16.8,5.6,10.9,1.2</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -338,7 +339,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text23>
             <Text25 Ref="16" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,5.6,16.8,1.2</ClientRectangle>
@@ -356,7 +358,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text25>
             <Text19 Ref="17" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>16.8,4.4,10.9,1.2</ClientRectangle>
@@ -373,7 +376,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text19>
             <Text61 Ref="18" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Right, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,4.4,16.8,1.2</ClientRectangle>
@@ -389,7 +393,8 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
             </Text61>
             <Text81 Ref="19" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,3.6,4,0.8</ClientRectangle>
@@ -406,7 +411,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text81>
             <Text84 Ref="20" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>4,3.6,3.3,0.8</ClientRectangle>
@@ -424,7 +430,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text84>
             <Text69 Ref="21" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6.4,0,3.4,0.6</ClientRectangle>
@@ -441,7 +448,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text69>
             <Text79 Ref="22" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,4,0.6</ClientRectangle>
@@ -458,7 +466,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text79>
             <Text31 Ref="23" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>14.2,0,13.5,0.6</ClientRectangle>
@@ -476,7 +485,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text31>
             <Text37 Ref="24" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>11.8,0,2.4,0.6</ClientRectangle>
@@ -493,7 +503,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text37>
             <Text64 Ref="25" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>4,0,2.4,0.6</ClientRectangle>
@@ -510,7 +521,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text64>
             <Text13 Ref="26" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>9.8,0,2,0.6</ClientRectangle>
@@ -527,7 +539,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text13>
             <Text32 Ref="27" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6.6,0.6,18.1,0.6</ClientRectangle>
@@ -544,7 +557,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text32>
             <Text35 Ref="28" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,1.2,4,0.6</ClientRectangle>
@@ -562,7 +576,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text35>
             <Text36 Ref="29" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>4,1.2,23,0.6</ClientRectangle>
@@ -580,7 +595,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text36>
             <Text38 Ref="30" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,1.8,4,0.6</ClientRectangle>
@@ -598,7 +614,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text38>
             <Text66 Ref="31" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>4,1.8,23,0.6</ClientRectangle>
@@ -616,7 +633,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text66>
             <Text70 Ref="32" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,2.4,4,0.6</ClientRectangle>
@@ -634,7 +652,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text70>
             <Text71 Ref="33" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>4,2.4,23,0.6</ClientRectangle>
@@ -652,7 +671,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text71>
             <Text74 Ref="34" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,3,4,0.6</ClientRectangle>
@@ -670,7 +690,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text74>
             <Text75 Ref="35" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>4,3,23.7,0.6</ClientRectangle>
@@ -688,7 +709,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text75>
             <Text76 Ref="36" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>7.3,3.6,20.4,0.8</ClientRectangle>
@@ -705,7 +727,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text76>
             <Text88 Ref="37" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>27,1.2,0.7,0.6</ClientRectangle>
@@ -723,7 +746,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text88>
             <Text89 Ref="38" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>27,1.8,0.7,0.6</ClientRectangle>
@@ -741,7 +765,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text89>
             <Text90 Ref="39" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>27,2.4,0.7,0.6</ClientRectangle>
@@ -759,7 +784,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text90>
             <Text107 Ref="40" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>4,0.6,2.6,0.6</ClientRectangle>
@@ -777,7 +803,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text107>
             <Text108 Ref="41" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>24.7,0.6,3,0.6</ClientRectangle>
@@ -794,7 +821,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text108>
             <Text12 Ref="42" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0.6,4,0.6</ClientRectangle>
@@ -818,7 +846,8 @@
           <Parent isRef="13" />
         </PageFooterBand1>
         <Text28 Ref="43" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
           <Brush>Transparent</Brush>
           <ClientRectangle>-0.6,7.8,0.6,7</ClientRectangle>
           <Conditions isList="true" count="0" />
@@ -834,7 +863,8 @@
           <VertAlignment>Center</VertAlignment>
         </Text28>
         <Text65 Ref="44" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
           <Brush>Transparent</Brush>
           <ClientRectangle>-0.6,16.2,0.6,3</ClientRectangle>
           <Conditions isList="true" count="0" />
@@ -856,7 +886,8 @@
           <ClientRectangle>0,0.4,27.7,7.2</ClientRectangle>
           <Components isList="true" count="46">
             <Text3 Ref="46" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Brush>Transparent</Brush>
               <ClientRectangle>0.2,0.2,4.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -875,7 +906,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text3>
             <Text22 Ref="48" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>19.2,4.8,6.8,0.6</ClientRectangle>
@@ -892,7 +924,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text22>
             <Text20 Ref="49" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Brush>Transparent</Brush>
               <ClientRectangle>22.8,3,2.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -907,7 +940,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text20>
             <Text26 Ref="50" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Brush>Transparent</Brush>
               <ClientRectangle>25,3,2.7,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -923,7 +957,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text26>
             <Text4 Ref="51" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Brush>Transparent</Brush>
               <ClientRectangle>4.4,0.2,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -939,7 +974,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text4>
             <Text34 Ref="52" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,1.8,27.7,0.6</ClientRectangle>
@@ -957,7 +993,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text34>
             <Text11 Ref="53" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>9.8,3.6,16.7,0.6</ClientRectangle>
@@ -974,7 +1011,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text11>
             <Text15 Ref="54" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>26.5,3.6,1.2,0.6</ClientRectangle>
@@ -991,7 +1029,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text15>
             <Text16 Ref="55" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,3.6,7.4,0.6</ClientRectangle>
@@ -1008,7 +1047,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text16>
             <Text42 Ref="56" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>7.4,3.6,2.4,0.6</ClientRectangle>
@@ -1025,7 +1065,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text42>
             <Text39 Ref="57" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,4.2,27.7,0.6</ClientRectangle>
@@ -1043,7 +1084,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text39>
             <Text44 Ref="58" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6.6,2.4,3.2,0.63</ClientRectangle>
@@ -1075,7 +1117,8 @@
               <TextBrush>Black</TextBrush>
             </TextInCells1>
             <Text43 Ref="60" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Right, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>17,2.4,2.2,0.63</ClientRectangle>
@@ -1108,7 +1151,8 @@
               <TextBrush>Black</TextBrush>
             </TextInCells2>
             <Text45 Ref="62" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Right, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>15.8,3,3.4,0.6</ClientRectangle>
@@ -1141,7 +1185,8 @@
               <TextBrush>Black</TextBrush>
             </TextInCells3>
             <Text1 Ref="64" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>19.2,2.4,6.8,0.63</ClientRectangle>
@@ -1158,7 +1203,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text1>
             <Text48 Ref="65" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6.6,4.8,3.2,0.6</ClientRectangle>
@@ -1207,7 +1253,8 @@
               <TextBrush>Black</TextBrush>
             </TextInCells5>
             <Text50 Ref="68" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Right, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>15.8,5.4,3.4,0.63</ClientRectangle>
@@ -1240,7 +1287,8 @@
               <TextBrush>Black</TextBrush>
             </TextInCells6>
             <Text9 Ref="70" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Brush>Transparent</Brush>
               <ClientRectangle>0.2,1,4.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -1256,7 +1304,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text9>
             <Text10 Ref="71" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Brush>Transparent</Brush>
               <ClientRectangle>4.6,1,1,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -1272,7 +1321,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text10>
             <Text14 Ref="72" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>11.6,0.4,4.4,0.8</ClientRectangle>
@@ -1290,7 +1340,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text14>
             <Text93 Ref="73" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>26,2.4,1.7,0.63</ClientRectangle>
@@ -1307,7 +1358,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text93>
             <Text40 Ref="74" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Brush>Transparent</Brush>
               <ClientRectangle>19.2,3,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -1322,7 +1374,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text40>
             <Text41 Ref="75" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Brush>Transparent</Brush>
               <ClientRectangle>21.2,3,1.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -1338,7 +1391,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text41>
             <Text94 Ref="76" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,3,8.6,0.6</ClientRectangle>
@@ -1354,7 +1408,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text94>
             <Text95 Ref="77" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.6,3,1.2,0.6</ClientRectangle>
@@ -1371,7 +1426,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text95>
             <Text49 Ref="78" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Right, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>17,4.8,2.2,0.6</ClientRectangle>
@@ -1388,7 +1444,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text49>
             <Text27 Ref="79" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>26,4.8,1.7,0.6</ClientRectangle>
@@ -1405,7 +1462,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text27>
             <Text24 Ref="80" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,6,7.4,0.6</ClientRectangle>
@@ -1422,7 +1480,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text24>
             <Text33 Ref="81" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>7.4,6,2.4,0.6</ClientRectangle>
@@ -1439,7 +1498,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text33>
             <Text46 Ref="82" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,5.4,8.6,0.63</ClientRectangle>
@@ -1456,7 +1516,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text46>
             <Text47 Ref="83" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.6,5.4,1.2,0.63</ClientRectangle>
@@ -1473,7 +1534,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text47>
             <Text17 Ref="84" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>22.8,5.4,2.2,0.63</ClientRectangle>
@@ -1490,7 +1552,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text17>
             <Text21 Ref="85" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>25,5.4,2.7,0.63</ClientRectangle>
@@ -1507,7 +1570,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text21>
             <Text51 Ref="86" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Left, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>9.8,6,16.7,0.6</ClientRectangle>
@@ -1524,7 +1588,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text51>
             <Text96 Ref="87" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>26.5,6,1.2,0.6</ClientRectangle>
@@ -1541,7 +1606,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text96>
             <Text97 Ref="88" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>19.2,5.4,2,0.63</ClientRectangle>
@@ -1558,7 +1624,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text97>
             <Text98 Ref="89" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>21.2,5.4,1.6,0.63</ClientRectangle>
@@ -1575,7 +1642,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text98>
             <Text99 Ref="90" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,6.6,27.7,0.6</ClientRectangle>
@@ -1675,7 +1743,8 @@
               <VertAlignment>Center</VertAlignment>
             </Headerداده_ها_سند_ردیف_ها_کد_ارجاع>
             <Text5 Ref="97" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>19.2,0,6,1.9</ClientRectangle>
@@ -1694,7 +1763,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text5>
             <Text7 Ref="98" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>17.2,0,2,1.9</ClientRectangle>
@@ -1713,7 +1783,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text7>
             <Text2 Ref="99" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>14.2,0,1.6,1.9</ClientRectangle>
@@ -1732,7 +1803,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text2>
             <Text29 Ref="100" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>11.8,0,2.4,1.9</ClientRectangle>
@@ -1751,7 +1823,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text29>
             <Text52 Ref="101" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>25.2,0,1.8,1.9</ClientRectangle>
@@ -1770,7 +1843,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text52>
             <Text62 Ref="102" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>9.8,0,2,1.9</ClientRectangle>
@@ -1789,7 +1863,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text62>
             <Text68 Ref="103" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6.4,0,3.4,1.9</ClientRectangle>
@@ -1808,7 +1883,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text68>
             <Text73 Ref="104" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>4,0,2.4,1.9</ClientRectangle>
@@ -1827,7 +1903,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text73>
             <Text78 Ref="105" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,4,1.9</ClientRectangle>
@@ -1896,7 +1973,8 @@
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_سند_ردیف_ها_کد_ارجاع>
             <Text6 Ref="109" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>19.2,0,6,0.6</ClientRectangle>
@@ -1914,7 +1992,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text6>
             <Text8 Ref="110" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>17.2,0,2,0.6</ClientRectangle>
@@ -1933,7 +2012,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text8>
             <Text18 Ref="111" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>14.2,0,1.6,0.6</ClientRectangle>
@@ -1951,7 +2031,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text18>
             <Text53 Ref="112" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>25.2,0,1.8,0.6</ClientRectangle>
@@ -1969,7 +2050,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text53>
             <Text85 Ref="113" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6.4,0,3.4,0.6</ClientRectangle>
@@ -1987,7 +2069,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text85>
             <Text86 Ref="114" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,4,0.6</ClientRectangle>
@@ -2005,7 +2088,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text86>
             <Text30 Ref="115" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>11.8,0,2.4,0.6</ClientRectangle>
@@ -2023,7 +2107,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text30>
             <Text63 Ref="116" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>9.8,0,2,0.6</ClientRectangle>
@@ -2041,7 +2126,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text63>
             <Text80 Ref="117" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>4,0,2.4,0.6</ClientRectangle>
@@ -2075,7 +2161,8 @@
           <ClientRectangle>0,13.3,27.7,0.6</ClientRectangle>
           <Components isList="true" count="11">
             <Text54 Ref="119" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>15.8,0,1.4,0.6</ClientRectangle>
@@ -2093,7 +2180,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text54>
             <Text55 Ref="120" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>27,0,0.7,0.6</ClientRectangle>
@@ -2112,7 +2200,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text55>
             <Text56 Ref="121" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>19.2,0,6,0.6</ClientRectangle>
@@ -2129,7 +2218,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text56>
             <Text57 Ref="122" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>17.2,0,2,0.6</ClientRectangle>
@@ -2147,7 +2237,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text57>
             <Text58 Ref="123" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>14.2,0,1.6,0.6</ClientRectangle>
@@ -2164,7 +2255,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text58>
             <Text59 Ref="124" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>11.8,0,2.4,0.6</ClientRectangle>
@@ -2181,7 +2273,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text59>
             <Text60 Ref="125" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>25.2,0,1.8,0.6</ClientRectangle>
@@ -2198,7 +2291,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text60>
             <Text67 Ref="126" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>9.8,0,2,0.6</ClientRectangle>
@@ -2215,7 +2309,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text67>
             <Text72 Ref="127" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6.4,0,3.4,0.6</ClientRectangle>
@@ -2232,7 +2327,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text72>
             <Text77 Ref="128" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>4,0,2.4,0.6</ClientRectangle>
@@ -2249,7 +2345,8 @@
               <VertAlignment>Center</VertAlignment>
             </Text77>
             <Text82 Ref="129" type="Text" isKey="true">
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <CanGrow>True</CanGrow>
+              <ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,4,0.6</ClientRectangle>
