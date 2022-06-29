@@ -405,7 +405,7 @@
           <Parent isRef="12" />
         </ReportTitleBand1>
         <Text7 Ref="22" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
-          <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
+          <ClientRectangle>-0.6,0,0.6,7</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
           <Guid>3d98c6de8a0d4c81a2e265a32d9674bd</Guid>
