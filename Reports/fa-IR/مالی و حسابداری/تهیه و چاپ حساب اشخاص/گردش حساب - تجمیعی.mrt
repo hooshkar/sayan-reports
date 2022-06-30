@@ -1360,7 +1360,7 @@ if(جمع_مانده_صفحه_قبل &lt; 0)
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>3/5/2018 2:58:02 AM</ReportChanged>
   <ReportCreated>2/12/2011 1:42:14 AM</ReportCreated>
-  <ReportFile>E:\My Project\Sayan\Sayan\Publish\Reports\اتوماسیون مالی و حسابداری\تهیه و چاپ حساب اشخاص\گردش حساب - تجمیعی.mrt</ReportFile>
+  <ReportFile>گردش حساب - تجمیعی.mrt</ReportFile>
   <ReportGuid>3be501b660364146a957b90170950f9e</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

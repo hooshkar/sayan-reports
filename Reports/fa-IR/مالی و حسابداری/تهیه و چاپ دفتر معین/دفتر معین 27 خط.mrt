@@ -1231,7 +1231,7 @@ if(جمع_مانده_صفحه_قبل &lt; 0)
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>3/4/2018 11:40:05 PM</ReportChanged>
   <ReportCreated>5/25/2011 7:28:51 PM</ReportCreated>
-  <ReportFile>E:\My Project\Sayan\Sayan\Publish\Reports\اتوماسیون مالی و حسابداری\تهیه و چاپ دفتر معین\دفتر معین 27 خط.mrt</ReportFile>
+  <ReportFile>دفتر معین 27 خط.mrt</ReportFile>
   <ReportGuid>9edf05be2495418b970476712c1d57d2</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

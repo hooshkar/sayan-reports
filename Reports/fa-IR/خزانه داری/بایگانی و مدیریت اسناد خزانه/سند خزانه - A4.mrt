@@ -856,7 +856,7 @@
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>2/18/2016 3:49:04 PM</ReportChanged>
   <ReportCreated>12/31/2011 8:02:05 PM</ReportCreated>
-  <ReportFile>C:\Program Files\Sayan Enterprise Resource Planning\Reports\اتوماسیون خزانه داری\بایگانی و مدیریت اسناد خزانه\سند خزانه - A4.mrt</ReportFile>
+  <ReportFile>سند خزانه - A4.mrt</ReportFile>
   <ReportGuid>ff8cdd95b4af430f8942d4d58a27bace</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

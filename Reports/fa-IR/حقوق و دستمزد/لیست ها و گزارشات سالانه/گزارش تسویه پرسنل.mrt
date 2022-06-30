@@ -1113,7 +1113,7 @@ Core.Detail.GetDecimal(داده_ها_فیش_ها.جزئیات,"مساعده")))
   <ReportAlias>Report</ReportAlias>
   <ReportChanged>12/21/2021 1:00:39 PM</ReportChanged>
   <ReportCreated>10/22/2019 2:55:43 AM</ReportCreated>
-  <ReportFile>C:\Users\hooshkar\Documents\Sayan Documents\\Reports\fa-IR\حقوق و دستمزد\لیست ها و گزارشات سالانه\گزارش تسویه پرسنل(پیش آهنگ).mrt</ReportFile>
+  <ReportFile>گزارش تسویه پرسنل.mrt</ReportFile>
   <ReportGuid>7c66283c35284e5188f8ff0a4ab4ca26</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

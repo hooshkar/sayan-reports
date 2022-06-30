@@ -1269,7 +1269,7 @@ Sum(Core.Detail.GetDecimal(داده_ها_فیش_ها.جزئیات,"کسرکار"
   <ReportAlias>Report</ReportAlias>
   <ReportChanged>1/1/2022 5:50:11 PM</ReportChanged>
   <ReportCreated>10/22/2019 2:55:43 AM</ReportCreated>
-  <ReportFile>C:\Users\hooshkar\Documents\Sayan Documents\\Reports\fa-IR\حقوق و دستمزد\لیست ها و گزارشات جامع\لیست حقوق سالانه(جعفری).mrt</ReportFile>
+  <ReportFile>لیست حقوق سالانه.mrt</ReportFile>
   <ReportGuid>0aa7029e6765487aa56420711e29f7d7</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

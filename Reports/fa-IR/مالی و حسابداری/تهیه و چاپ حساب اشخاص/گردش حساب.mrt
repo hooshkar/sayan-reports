@@ -1341,7 +1341,7 @@ if(جمع_مانده_صفحه_قبل &lt; 0)
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>3/5/2018 2:57:18 AM</ReportChanged>
   <ReportCreated>2/12/2011 1:42:14 AM</ReportCreated>
-  <ReportFile>E:\My Project\Sayan\Sayan\Publish\Reports\اتوماسیون مالی و حسابداری\تهیه و چاپ حساب اشخاص\گردش حساب.mrt</ReportFile>
+  <ReportFile>گردش حساب.mrt</ReportFile>
   <ReportGuid>2afb07225552486dbd4bffd201bd642d</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

@@ -747,7 +747,7 @@ if(سود_زیان &lt; 0)
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>3/14/2021 12:51:43 PM</ReportChanged>
   <ReportCreated>2/11/2011 11:29:27 PM</ReportCreated>
-  <ReportFile>C:\Users\hooshkar\Documents\Sayan Documents\\Reports\fa-IR\مالی و حسابداری\تهیه و چاپ سود و زیان\سود و زیان.mrt</ReportFile>
+  <ReportFile>سود و زیان.mrt</ReportFile>
   <ReportGuid>4f3e5271777445dd8d37fb278ff3d5d2</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

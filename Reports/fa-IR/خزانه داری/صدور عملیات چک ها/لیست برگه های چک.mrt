@@ -676,7 +676,7 @@
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>8/12/2012 11:59:11 AM</ReportChanged>
   <ReportCreated>3/12/2012 9:10:16 AM</ReportCreated>
-  <ReportFile>E:\My Project\C# Projects\Sayan\Publish\Reports\اتوماسیون خزانه داری\صدور عملیات چک ها\لیست برگه های چک.mrt</ReportFile>
+  <ReportFile>لیست برگه های چک.mrt</ReportFile>
   <ReportGuid>69d6b28cb7c5410c8f6f44d06714c282</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

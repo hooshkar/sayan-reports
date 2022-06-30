@@ -1313,7 +1313,7 @@ decimal.TryParse(داده_ها_اقلام_حقوق_و_دستمزد_اطلاعا�
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>10/16/2016 8:04:47 PM</ReportChanged>
   <ReportCreated>1/12/2013 4:59:28 PM</ReportCreated>
-  <ReportFile>E:\My Project\Sayan\Sayan\Publish\Reports\اتوماسیون حقوق و دستمزد\تهیه گزارش مالیات\لیست مالیات.mrt</ReportFile>
+  <ReportFile>لیست مالیات.mrt</ReportFile>
   <ReportGuid>d807652f47124227acd9c14057e9c319</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

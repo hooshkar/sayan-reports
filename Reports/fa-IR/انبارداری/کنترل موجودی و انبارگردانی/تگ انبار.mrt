@@ -388,7 +388,7 @@
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>9/19/2017 5:10:09 PM</ReportChanged>
   <ReportCreated>5/14/2012 1:52:49 PM</ReportCreated>
-  <ReportFile>C:\Program Files (x86)\Sayan Enterprise Resource Planning\Reports\اتوماسیون انبارداری\چاپ بارکد\چاپ تگ انبار.mrt</ReportFile>
+  <ReportFile>تگ انبار.mrt</ReportFile>
   <ReportGuid>91ca6ee3c2f44a0494f2d68782fb0c54</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
