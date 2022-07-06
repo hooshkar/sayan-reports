@@ -1777,7 +1777,7 @@
   </Pages>
   <PrinterSettings Ref="132" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
   <ReferencedAssemblies isList="true" count="5">
-    <value>SayanLibrary</value>
+    <value>Core</value>
     <value>System</value>
     <value>System.Drawing</value>
     <value>System.Windows.Forms</value>

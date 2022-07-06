@@ -8,7 +8,7 @@
         <Alias>داده ها</Alias>
         <Columns isList="true" count="4">
           <value>گزارش,&lt;&gt;f__AnonymousType0`9[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]</value>
-          <value>درخواست,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType10`31[System.String,System.String,System.String,System.DateTime,SayanLibrary.DateSystem,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousTypef`29[System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.Nullable`1[System.Decimal],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]]]]</value>
+          <value>درخواست,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType10`31[System.String,System.String,System.String,System.DateTime,Core.DateSystem,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousTypef`29[System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.Nullable`1[System.Decimal],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]]]]</value>
           <value>_ID,System.Int32</value>
           <value>_Current,System.Object</value>
         </Columns>
@@ -43,7 +43,7 @@
           <value>کد_نوع_وام,System.String</value>
           <value>نام_نوع_وام,System.String</value>
           <value>تاریخ_درخواست_میلادی,System.DateTime</value>
-          <value>تاریخ_درخواست,SayanLibrary.DateSystem</value>
+          <value>تاریخ_درخواست,Core.DateSystem</value>
           <value>مبلغ,System.Decimal</value>
           <value>وضعیت,System.String</value>
           <value>توضیحات,System.String</value>
@@ -858,7 +858,7 @@
           <Name>Text44</Name>
           <Page isRef="9" />
           <Parent isRef="9" />
-          <Text>ضمن تایید امضا وام گیرنده   {داده_ها_درخواست.نام_شخص}  {داده_ها_درخواست.نام_خانوادگی_شخص}  با پرداخت مبلغ    {SayanLibrary.StringTools.InsertSeparator(داده_ها_درخواست.مبلغ)} ریال    وام در اقساط ................ ماهه شرعا و قانونا با امضا این تعهد نامه خود را ملزم به پرداخت مباغ وام و کلیه هزینه های احتمالی ان در صورد استنکاف وام گیرنده  از پرداخت هر میزان از اقساط وام میدانم. در صورت عدم پرداخت حداکثر سه قسط از سر رسید اقساط ، صندوق اختیار دارد چک حامل را تکمیل و استیفا حقوق نماید.</Text>
+          <Text>ضمن تایید امضا وام گیرنده   {داده_ها_درخواست.نام_شخص}  {داده_ها_درخواست.نام_خانوادگی_شخص}  با پرداخت مبلغ    {Core.StringHelper.InsertSeparator(داده_ها_درخواست.مبلغ)} ریال    وام در اقساط ................ ماهه شرعا و قانونا با امضا این تعهد نامه خود را ملزم به پرداخت مباغ وام و کلیه هزینه های احتمالی ان در صورد استنکاف وام گیرنده  از پرداخت هر میزان از اقساط وام میدانم. در صورت عدم پرداخت حداکثر سه قسط از سر رسید اقساط ، صندوق اختیار دارد چک حامل را تکمیل و استیفا حقوق نماید.</Text>
           <TextBrush>Black</TextBrush>
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <VertAlignment>Center</VertAlignment>
@@ -1139,7 +1139,7 @@
           <Name>Text26</Name>
           <Page isRef="9" />
           <Parent isRef="9" />
-          <Text>{SayanLibrary.StringTools.InsertSeparator(داده_ها_درخواست.مبلغ)}</Text>
+          <Text>{Core.StringHelper.InsertSeparator(داده_ها_درخواست.مبلغ)}</Text>
           <TextBrush>Black</TextBrush>
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <VertAlignment>Center</VertAlignment>
@@ -1257,7 +1257,7 @@
   </Pages>
   <PrinterSettings Ref="95" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
   <ReferencedAssemblies isList="true" count="5">
-    <value>SayanLibrary</value>
+    <value>Core</value>
     <value>System</value>
     <value>System.Drawing</value>
     <value>System.Windows.Forms</value>

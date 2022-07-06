@@ -7,7 +7,7 @@
       <داده_x0020_ها Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها</Alias>
         <Columns isList="true" count="5">
-          <value>گزارش,&lt;&gt;f__AnonymousType6`19[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,SayanLibrary.DateSystem,System.DateTime,System.Nullable`1[System.Int32],System.Nullable`1[System.Int32],System.String,System.Nullable`1[System.DateTime],System.String,System.Nullable`1[System.DateTime]]</value>
+          <value>گزارش,&lt;&gt;f__AnonymousType6`19[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,Core.DateSystem,System.DateTime,System.Nullable`1[System.Int32],System.Nullable`1[System.Int32],System.String,System.Nullable`1[System.DateTime],System.String,System.Nullable`1[System.DateTime]]</value>
           <value>وام_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType8`49[System.String,System.String,System.String,System.String,System.Decimal,System.Decimal,System.Int32,System.Decimal,System.Decimal,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.DateTime,System.String,System.DateTime,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Int32,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType7`30[System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.Nullable`1[System.Decimal],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String]]]]</value>
           <value>_ID,System.Int32</value>
           <value>_Current,System.Object</value>
@@ -31,7 +31,7 @@
           <value>نام_کاربر,System.String</value>
           <value>کد_نوع_وام,System.String</value>
           <value>نوع_وام,System.String</value>
-          <value>در_تاریخ_سیستم,SayanLibrary.DateSystem</value>
+          <value>در_تاریخ_سیستم,Core.DateSystem</value>
           <value>در_تاریخ_میلادی,System.DateTime</value>
           <value>از_روز_معوق,System.Int32</value>
           <value>تا_روز_معوق,System.Int32</value>
@@ -670,7 +670,7 @@
               <Name>Text19</Name>
               <Page isRef="9" />
               <Parent isRef="32" />
-              <Text>{SayanLibrary.StringTools.InsertSeparator(داده_ها_وام_ها.مبلغ_مانده)}</Text>
+              <Text>{Core.StringHelper.InsertSeparator(داده_ها_وام_ها.مبلغ_مانده)}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
@@ -687,7 +687,7 @@
               <Name>Text12</Name>
               <Page isRef="9" />
               <Parent isRef="32" />
-              <Text>{SayanLibrary.StringTools.InsertSeparator(داده_ها_وام_ها.مبلغ_وام)}</Text>
+              <Text>{Core.StringHelper.InsertSeparator(داده_ها_وام_ها.مبلغ_وام)}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
@@ -704,7 +704,7 @@
               <Name>Text10</Name>
               <Page isRef="9" />
               <Parent isRef="32" />
-              <Text>{SayanLibrary.StringTools.InsertSeparator(داده_ها_وام_ها.مبلغ_معوق)}</Text>
+              <Text>{Core.StringHelper.InsertSeparator(داده_ها_وام_ها.مبلغ_معوق)}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
@@ -791,7 +791,7 @@
               <Name>Text14</Name>
               <Page isRef="9" />
               <Parent isRef="44" />
-              <Text>{SayanLibrary.StringTools.InsertSeparator(Sum(DataBand2,داده_ها_وام_ها.مبلغ_مانده))}</Text>
+              <Text>{Core.StringHelper.InsertSeparator(Sum(DataBand2,داده_ها_وام_ها.مبلغ_مانده))}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
@@ -808,7 +808,7 @@
               <Name>Text24</Name>
               <Page isRef="9" />
               <Parent isRef="44" />
-              <Text>{SayanLibrary.StringTools.InsertSeparator(Sum(DataBand2,داده_ها_وام_ها.مبلغ_وام))}</Text>
+              <Text>{Core.StringHelper.InsertSeparator(Sum(DataBand2,داده_ها_وام_ها.مبلغ_وام))}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
@@ -825,7 +825,7 @@
               <Name>Text13</Name>
               <Page isRef="9" />
               <Parent isRef="44" />
-              <Text>{SayanLibrary.StringTools.InsertSeparator(Sum(DataBand2,داده_ها_وام_ها.مبلغ_معوق))}</Text>
+              <Text>{Core.StringHelper.InsertSeparator(Sum(DataBand2,داده_ها_وام_ها.مبلغ_معوق))}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
@@ -890,7 +890,7 @@
   </Pages>
   <PrinterSettings Ref="52" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
   <ReferencedAssemblies isList="true" count="5">
-    <value>SayanLibrary</value>
+    <value>Core</value>
     <value>System</value>
     <value>System.Drawing</value>
     <value>System.Windows.Forms</value>

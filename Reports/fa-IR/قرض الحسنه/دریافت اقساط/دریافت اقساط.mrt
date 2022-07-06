@@ -619,7 +619,7 @@
               <Name>Text41</Name>
               <Page isRef="13" />
               <Parent isRef="14" />
-              <Text>{SayanLibrary.StringTools.InsertSeparator(داده_ها_وام_ها.مبلغ_وام)}</Text>
+              <Text>{Core.StringHelper.InsertSeparator(داده_ها_وام_ها.مبلغ_وام)}</Text>
               <TextBrush>Black</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text41>
@@ -647,7 +647,7 @@
               <Name>Text43</Name>
               <Page isRef="13" />
               <Parent isRef="14" />
-              <Text>{SayanLibrary.StringTools.InsertSeparator(داده_ها_وام_ها.مبلغ_اقساط)}</Text>
+              <Text>{Core.StringHelper.InsertSeparator(داده_ها_وام_ها.مبلغ_اقساط)}</Text>
               <TextBrush>Black</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text43>
@@ -727,7 +727,7 @@
                       <Name>Text36</Name>
                       <Page isRef="13" />
                       <Parent isRef="48" />
-                      <Text>{SayanLibrary.StringTools.InsertSeparator(داده_ها_وام_ها_دریافت_ها.مبلغ)}</Text>
+                      <Text>{Core.StringHelper.InsertSeparator(داده_ها_وام_ها_دریافت_ها.مبلغ)}</Text>
                       <TextBrush>Black</TextBrush>
                       <VertAlignment>Center</VertAlignment>
                     </Text36>
@@ -809,7 +809,7 @@
                       <Name>Text26</Name>
                       <Page isRef="13" />
                       <Parent isRef="53" />
-                      <Text>{SayanLibrary.StringTools.InsertSeparator(داده_ها_وام_ها_اقساط.مبلغ)}</Text>
+                      <Text>{Core.StringHelper.InsertSeparator(داده_ها_وام_ها_اقساط.مبلغ)}</Text>
                       <TextBrush>Black</TextBrush>
                       <VertAlignment>Center</VertAlignment>
                     </Text26>
@@ -1039,7 +1039,7 @@
   </Pages>
   <PrinterSettings Ref="73" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
   <ReferencedAssemblies isList="true" count="5">
-    <value>SayanLibrary</value>
+    <value>Core</value>
     <value>System</value>
     <value>System.Drawing</value>
     <value>System.Windows.Forms</value>
