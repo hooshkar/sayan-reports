@@ -242,7 +242,7 @@
             <Text18 Ref="9" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>0.4,1.2,2.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>bc9c0938bcb54c92ac71e9ed30251ffe</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text18</Name>
@@ -255,7 +255,7 @@
             <Text2 Ref="10" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>0.4,0.4,2.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>9aae6acd85b94aee9af697e82d17d5c8</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text2</Name>
@@ -268,7 +268,7 @@
             <Text19 Ref="11" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>2.6,0.4,1.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>b91cb4843651404c950f359e1f70d202</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text19</Name>
@@ -281,7 +281,7 @@
             <Text20 Ref="12" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>2.6,1.2,1.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>81692851d6b24e72a3bd23f680cf9162</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text20</Name>
@@ -295,7 +295,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>8.2,0.4,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,14,Bold</Font>
+              <Font>IRANYekanFN,14,Bold</Font>
               <Guid>d7213c112a1c42acb4d8f8aee2cf33b0</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -311,7 +311,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>7.8,1.2,3.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,14,Bold</Font>
+              <Font>IRANYekanFN,14,Bold</Font>
               <Guid>0ad48a3b03304dc5b011e11064e9ac7a</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -367,7 +367,7 @@
               <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
               <Brush>[225:225:225]</Brush>
               <ClientRectangle>0,0.65,2,1.8</ClientRectangle>
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>1a0f7552ee3f4e25928a660afac375b0</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row1_Title</Name>
@@ -382,7 +382,7 @@
               <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
               <Brush>[225:225:225]</Brush>
               <ClientRectangle>0,0,4.2,0.6</ClientRectangle>
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>1668d4e191784e279bd2aebca6eeb833</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_LeftTitle</Name>
@@ -397,7 +397,7 @@
               <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
               <Brush>[225:225:225]</Brush>
               <ClientRectangle>2,0.65,1.2,1.8</ClientRectangle>
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>408f7f29a79a4dd7a72b84267cc0cda6</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row2_Title</Name>
@@ -413,7 +413,7 @@
               <Brush>[225:225:225]</Brush>
               <ClientRectangle>3.2,3.1,1,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>7fe05b116ef348568b51fc0667a7058e</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_RowTotal3</Name>
@@ -427,7 +427,7 @@
               <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
               <Brush>[225:225:225]</Brush>
               <ClientRectangle>3.2,0.65,1,1.8</ClientRectangle>
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>2821c5f3df804c428f1e7e7c8df786e3</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row3_Title</Name>
@@ -443,7 +443,7 @@
               <Brush>[225:225:225]</Brush>
               <ClientRectangle>5.7,0.65,0.81,1.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>801fd54ae5f543afacb7cbc472a40cad</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_ColTotal1</Name>
@@ -458,7 +458,7 @@
               <Brush>[185:255:255]</Brush>
               <ClientRectangle>5.7,1.25,0,0</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>bdb131ea189f44869fa68f07cb69d20e</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_ColTotal2</Name>
@@ -473,7 +473,7 @@
               <Brush>[225:225:225]</Brush>
               <ClientRectangle>2,3.7,2.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>0e44cd40cdc74690912902a952b73635</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_RowTotal2</Name>
@@ -488,7 +488,7 @@
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>4.25,1.85,0.83,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>cd402f3ffa934e77b0a2cd62581e5f51</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_SumHeader1</Name>
@@ -503,7 +503,7 @@
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>5.08,1.85,0.62,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>a37fe2a50e064b9197f326fb49858853</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_SumHeader2</Name>
@@ -518,7 +518,7 @@
               <Brush>[225:225:225]</Brush>
               <ClientRectangle>0,4.3,4.2,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>4e37d1679a29449988a4328a34eacfa0</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_RowTotal1</Name>
@@ -535,7 +535,7 @@
               <ClientRectangle>0,2.5,2,1.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DisplayValue>{داده_ها_ردیف_ها.نام_کامل_واسطه}</DisplayValue>
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>dbf43397c89a4faea95c9b264ecf2439</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row1</Name>
@@ -554,7 +554,7 @@
               <ClientRectangle>2,2.5,1.2,1.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DisplayValue>{داده_ها_ردیف_ها.نام_واحد}</DisplayValue>
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>868fc04e883d4cd5a1a6fcc93d05f5e0</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row2</Name>
@@ -573,7 +573,7 @@
               <ClientRectangle>3.2,2.5,1,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DisplayValue>{داده_ها_ردیف_ها.نام_کالا}</DisplayValue>
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>f65363a5a2b54bb88e414fc6c82a5c36</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row3</Name>
@@ -592,7 +592,7 @@
               <ClientRectangle>4.25,0.65,1.45,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DisplayValue>{داده_ها_ردیف_ها.کد_عملیات}</DisplayValue>
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>5d88cc01f472412aac120adc706503bf</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Column1</Name>
@@ -612,7 +612,7 @@
               <ClientRectangle>4.25,1.25,1.45,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DisplayValue>{داده_ها_ردیف_ها.نام_عملیات}</DisplayValue>
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>3f2b5d82817b45d4a62d6f77e8fa56a2</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Column2</Name>
@@ -631,7 +631,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>4.25,2.5,0.83,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>39fc1557ff3044a1abeff98c3c628728</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -649,7 +649,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>5.08,2.5,0.62,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>fa23d3cffd764f99ac9edf02a670ae88</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Sum2</Name>
@@ -670,7 +670,7 @@
               <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
               <Brush>[225:225:225]</Brush>
               <ClientRectangle>4.25,0,2.26,0.6</ClientRectangle>
-              <Font>IRANYekan,10</Font>
+              <Font>IRANYekanFN,10</Font>
               <Guid>3499d55a80fb4bce958c98283aaafb87</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_RightTitle</Name>

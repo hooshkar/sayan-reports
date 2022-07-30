@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <StiSerializer version="1.02" type="Net" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
@@ -235,7 +235,7 @@
               <ClientRectangle>12.4,0.4,4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekan,14,Bold</Font>
+              <Font>IRANYekanFN,14,Bold</Font>
               <Guid>efb45e5bc4004b87b6f88b09124561b5</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -254,7 +254,7 @@
               <ClientRectangle>12.4,2.2,4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>9d3e22adfd804169a5f67ef0650d01e8</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -273,7 +273,7 @@
               <ClientRectangle>12.4,1.2,4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekan,16,Bold</Font>
+              <Font>IRANYekanFN,16,Bold</Font>
               <Guid>f68560172274440ca37a19fcad267ebe</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -291,7 +291,7 @@
               <ClientRectangle>0.4,1.6,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text1</Name>
               <Page isRef="10" />
@@ -307,7 +307,7 @@
               <ClientRectangle>2.4,1.6,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text2</Name>
               <Page isRef="10" />
@@ -323,7 +323,7 @@
               <ClientRectangle>0.4,2.4,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text3</Name>
               <Page isRef="10" />
@@ -339,7 +339,7 @@
               <ClientRectangle>2.4,2.4,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text4</Name>
               <Page isRef="10" />
@@ -355,7 +355,7 @@
               <ClientRectangle>18.2,1.8,9,1.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text5</Name>
               <Page isRef="10" />

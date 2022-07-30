@@ -117,7 +117,7 @@
             <Text1 Ref="9" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>0.2,1,8.8,1.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text1</Name>
               <Page isRef="7" />
@@ -129,7 +129,7 @@
             <Text2 Ref="10" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>3.8,0.4,5.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>cdabffee37f04f04a67b5667ba96448d</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text2</Name>
@@ -142,7 +142,7 @@
             <Text3 Ref="11" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>0.2,0.4,3.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>a388fcb201e945219e60ce0718d73c86</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text3</Name>
@@ -167,7 +167,7 @@
             <Text4 Ref="14" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>4.6,3,4.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>a2199842666847a18d7c52f9a140d5bb</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text4</Name>
@@ -180,7 +180,7 @@
             <Text5 Ref="15" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>10,1,8.8,1.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>1823a4b60c734760a0382140652888dc</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text5</Name>
@@ -193,7 +193,7 @@
             <Text6 Ref="16" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>13.6,0.4,5.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>c94a20e364104733bfb8ee0ef1d3aaa5</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text6</Name>
@@ -206,7 +206,7 @@
             <Text7 Ref="17" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>10,0.4,3.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>cc98ac4745db40a3b6b8d706fb49f8c0</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text7</Name>
@@ -219,7 +219,7 @@
             <Text8 Ref="18" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <ClientRectangle>10,3,8.8,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>ffff3e3b7d05498b85635b809e4c816f</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text8</Name>

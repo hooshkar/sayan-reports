@@ -171,7 +171,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>7,0.4,5,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,14,Bold</Font>
+              <Font>IRANYekanFN,14,Bold</Font>
               <Guid>7343907700394ce3a194e816333182ea</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -187,7 +187,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>7,1.2,5,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,16,Bold</Font>
+              <Font>IRANYekanFN,16,Bold</Font>
               <Guid>247848f51eef42a8bbe005d9a9d6f050</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -202,7 +202,7 @@
             <Text7 Ref="11" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>0.4,0.4,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>7ccd46e33da542bbb1ffb4012b2029f2</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text7</Name>
@@ -216,7 +216,7 @@
             <Text10 Ref="12" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>2.4,0.4,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>482720cbed3c4ad49596b50ce80eb02e</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text10</Name>
@@ -230,7 +230,7 @@
             <Text11 Ref="13" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>0.4,1.2,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>f226d194df7244089ce642978fabeb7a</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text11</Name>
@@ -244,7 +244,7 @@
             <Text12 Ref="14" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>2.4,1.2,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>30fed0bc38ac4ca7a37d737709ed119d</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text12</Name>
@@ -299,7 +299,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>7.2,0.8,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Headerداده_ها_گردش_حساب_گردش_بدهکار</Name>
@@ -315,7 +315,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>9.6,0,8.4,1.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Headerداده_ها_گردش_حساب_شرح_ردیف</Name>
@@ -330,7 +330,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>18,0,1,1.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,11</Font>
+              <Font>IRANYekanFN,11</Font>
               <Guid>e45f1f3571ac443a88879210a0f9d745</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -346,7 +346,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>7.2,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>be96c55095ed485192bc417dbae61daf</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -362,7 +362,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>2.4,0,4.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>1caee91d379c40ada6b5a019ee7203a1</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -378,7 +378,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>2bb903e747874b64b78a51f2cbaa5614</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -394,7 +394,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>2.4,0.8,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>b90d1dc45b834fc3a36620f60e13fa51</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -410,7 +410,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0.8,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>dd79812260e44a839eee525e9e6e1e0f</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -426,7 +426,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>4.8,0.8,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>67a9b72e0895415699139c9897002cf1</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -453,7 +453,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>9.6,0,8.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>50a57e210b3f42f78f98a9770f3eb6cb</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text16</Name>
@@ -468,7 +468,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>18,0,1,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>e568a80ad7fc4cbc94908c249e965900</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -484,7 +484,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>7.2,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>ac9245b6f7954b09b977914206f17f84</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text2</Name>
@@ -499,7 +499,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>2.4,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>a46e8fa1add54fecbcd4ce3418063588</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text8</Name>
@@ -514,7 +514,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>4b2d0965fc144845ad68d7e7e20e36cb</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text19</Name>
@@ -529,7 +529,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>4.8,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Font>IRANYekanFN,12</Font>
               <Guid>c181308b894c4dbf8915f95eb4b550d3</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text9</Name>
@@ -562,7 +562,7 @@
               <CanGrow>True</CanGrow>
               <ClientRectangle>9.6,0,9.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>9c7df997b9ea47878d72b9f801ef9a30</Guid>
               <HorAlignment>Right</HorAlignment>
@@ -579,7 +579,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>7.2,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>2b74655ccab944a481a500a94da1edf1</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -595,7 +595,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>2.4,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>8968ebdbcc8a49f6b7a15f604287fd58</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -611,7 +611,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>048161edc25a493fa3e5383c3002cfbc</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -627,7 +627,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>4.8,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Font>IRANYekanFN,12,Bold</Font>
               <Guid>23528bd0a26444ef924d2126d05ccefc</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>

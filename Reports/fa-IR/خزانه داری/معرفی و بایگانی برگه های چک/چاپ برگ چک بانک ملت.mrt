@@ -132,7 +132,7 @@
           <Brush>White</Brush>
           <ClientRectangle>21.6,8.4,5.6,0.8</ClientRectangle>
           <Conditions isList="true" count="0" />
-          <Font>IRANYekan,10,Bold</Font>
+          <Font>IRANYekanFN,10,Bold</Font>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
           <Name>Text1</Name>
@@ -145,7 +145,7 @@
           <Brush>White</Brush>
           <ClientRectangle>15.2,9.2,9.2,0.8</ClientRectangle>
           <Conditions isList="true" count="0" />
-          <Font>IRANYekan,14,Bold</Font>
+          <Font>IRANYekanFN,14,Bold</Font>
           <Guid>bb21026f873f49bf81a0ebb670fcfcce</Guid>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -158,7 +158,7 @@
         <Text3 Ref="11" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
           <ClientRectangle>22.6,10.2,4.6,0.6</ClientRectangle>
           <Conditions isList="true" count="0" />
-          <Font>IRANYekan,13,Bold</Font>
+          <Font>IRANYekanFN,13,Bold</Font>
           <Guid>816145d42c9b45a7b8a84fd20e575321</Guid>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -196,7 +196,7 @@
           <CellWidth>0.42</CellWidth>
           <ClientRectangle>13.5,11.9,6.6,1</ClientRectangle>
           <Conditions isList="true" count="0" />
-          <Font>IRANYekan,18,Bold</Font>
+          <Font>IRANYekanFN,18,Bold</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
           <Name>TextInCells1</Name>
@@ -212,7 +212,7 @@
           <CellWidth>0.4</CellWidth>
           <ClientRectangle>24,7.6,3.3,0.6</ClientRectangle>
           <Conditions isList="true" count="0" />
-          <Font>IRANYekan,14,Bold</Font>
+          <Font>IRANYekanFN,14,Bold</Font>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
           <Name>TextInCells2</Name>
