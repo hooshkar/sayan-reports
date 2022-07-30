@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<StiSerializer version="1.0" application="StiReport">
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
     <Databases isList="true" count="0" />
@@ -224,10 +224,12 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,0.4,19,2.8</ClientRectangle>
           <Components isList="true" count="7">
-            <Text26 Ref="9" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
+            <Text26 Ref="12" type="Text" isKey="true">
+              <AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.35,0.2,3.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>IRANYekan,14,Bold</Font>
               <Guid>378b714f35b5499abd3093dd2d21d31c</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -241,10 +243,12 @@
               <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text26>
-            <Text41 Ref="10" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
+            <Text41 Ref="13" type="Text" isKey="true">
+              <AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.35,1,3.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>IRANYekan,16,Bold</Font>
               <Guid>5bad2d97d59f4d86929fdf3dace0bb6f</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -258,9 +262,11 @@
               <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text41>
-            <Text5 Ref="11" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
+            <Text5 Ref="14" type="Text" isKey="true">
+              <Brush>White</Brush>
               <ClientRectangle>0.4,2,18.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
               <Guid>e548aafdb3d24c81821412b0fbfa05ed</Guid>
               <Margins>0,0,0,0</Margins>
@@ -273,9 +279,11 @@
               <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text5>
-            <Text7 Ref="12" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
+            <Text7 Ref="15" type="Text" isKey="true">
+              <Brush>White</Brush>
               <ClientRectangle>0.4,0.4,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
               <Guid>a18fc1c624124a92a6f30379107dd4e3</Guid>
               <Margins>0,0,0,0</Margins>
@@ -288,9 +296,11 @@
               <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text7>
-            <Text10 Ref="13" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
+            <Text10 Ref="16" type="Text" isKey="true">
+              <Brush>White</Brush>
               <ClientRectangle>2.4,0.4,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
               <Guid>d70d5713b6b14b0ea1ca3d9fa4332794</Guid>
               <Margins>0,0,0,0</Margins>
@@ -303,9 +313,11 @@
               <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text10>
-            <Text11 Ref="14" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
+            <Text11 Ref="17" type="Text" isKey="true">
+              <Brush>White</Brush>
               <ClientRectangle>0.4,1.2,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
               <Guid>1ff732361237463fa90168c839bb69d6</Guid>
               <Margins>0,0,0,0</Margins>
@@ -318,9 +330,11 @@
               <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text11>
-            <Text12 Ref="15" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
+            <Text12 Ref="18" type="Text" isKey="true">
+              <Brush>White</Brush>
               <ClientRectangle>2.4,1.2,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>IRANYekan,12</Font>
               <Guid>3e894ca3123f46c08c877597cb940a81</Guid>
               <Margins>0,0,0,0</Margins>
@@ -341,7 +355,8 @@
           <Page isRef="10" />
           <Parent isRef="10" />
         </ReportTitleBand1>
-        <Text32 Ref="16" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
+        <Text32 Ref="19" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
           <ClientRectangle>-0.6,24.6,0.6,3</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -357,7 +372,8 @@
           <TextOptions>,,,,,Angle=90</TextOptions>
           <VertAlignment>Bottom</VertAlignment>
         </Text32>
-        <Text28 Ref="17" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
+        <Text28 Ref="20" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
           <ClientRectangle>-0.6,0,0.6,7</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -382,7 +398,8 @@
               <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>0,0.65,3.4,0.6</ClientRectangle>
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>d7ac990985e042a8b8775306caae914c</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row1_Title</Name>
@@ -397,7 +414,8 @@
               <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>0,0,3.4,0.6</ClientRectangle>
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>5780514cb0df4730ae4948aa7455abba</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_LeftTitle</Name>
@@ -413,7 +431,8 @@
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>2.4,1.3,1,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>55c1cc52878b4477892282e9b76ffea6</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_SumHeader1</Name>
@@ -428,7 +447,8 @@
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>2.4,1.9,1,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>0d4bb666dd5044ed9f6b3741f1b23876</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_SumHeader2</Name>
@@ -443,7 +463,8 @@
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>2.4,2.5,1,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>613a18f7cf9b465fa2631255ba0c4e0b</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_SumHeader3</Name>
@@ -457,7 +478,8 @@
               <Border>All;[35:106:135];1;Solid;False;4;Black</Border>
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>3.45,0,2,0.6</ClientRectangle>
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>f851ca52e99a43cea959518cbbd70a6d</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_RightTitle</Name>
@@ -473,7 +495,8 @@
               <Brush>[225:225:225]</Brush>
               <ClientRectangle>0,3.1,3.4,1.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>21d8f545c47f4cf8a14d2feb9128b9b1</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_RowTotal1</Name>
@@ -490,7 +513,8 @@
               <ClientRectangle>0,1.3,2.4,1.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DisplayValue>{داده_ها_گردش_حساب.نام_تفصیل_تفکیکی}</DisplayValue>
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>f60e1956e7ba4f398c454d46d37ab1ba</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row1</Name>
@@ -509,7 +533,8 @@
               <ClientRectangle>3.45,0.65,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DisplayValue>{داده_ها_گردش_حساب.نام_معین}</DisplayValue>
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>32c91ca1bb114c5cade7286064447bcb</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Column1</Name>
@@ -527,7 +552,8 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>3.45,1.3,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>05005f9fb50440b393af5d12a080c356</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Sum1</Name>
@@ -550,7 +576,8 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>3.45,1.9,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>c47e797a0cab4cf2a183d6cc04dc2249</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Sum2</Name>
@@ -573,7 +600,8 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>3.45,2.5,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>e6ce67448c4943929ebbc39e71d760f1</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Sum3</Name>
@@ -595,7 +623,8 @@
               <Brush>[225:225:225]</Brush>
               <ClientRectangle>4.65,0.65,0.8,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,10</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <Guid>b0110c7693bb472083576d3f4f871132</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_ColTotal1</Name>
@@ -644,8 +673,8 @@
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>7/16/2022 9:47:05 AM</ReportChanged>
   <ReportCreated>6/25/2013 2:15:39 PM</ReportCreated>
-  <ReportFile>ماتریس لایه به معین - عمودی.mrt</ReportFile>
-  <ReportGuid>eb99aef3165e4b5aa7b7b0beb33078b9</ReportGuid>
+  <ReportFile>C:\Users\Administrator\Documents\Hooshkar\Sayan\\Reports\fa-IR\مالی و حسابداری\مرور دفاتر و گردش حساب\با تفکیک لایه\ماتریس لایه به معین - عمودی.mrt</ReportFile>
+  <ReportGuid>6de5e340e2184e098b0f797977f33d6d</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2022.1.1.0</ReportVersion>

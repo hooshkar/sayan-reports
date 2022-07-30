@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<StiSerializer version="1.0" application="StiReport">
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
     <Databases isList="true" count="0" />
@@ -210,11 +210,13 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,0.4,19,2.2</ClientRectangle>
           <Components isList="true" count="2">
-            <Text42 Ref="11" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
+            <Text42 Ref="14" type="Text" isKey="true">
+              <AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8,0.2,4.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,14,Bold</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,14,Bold</Font>
               <Guid>eb0a15be83cc4cdd86fac34ec8b89b44</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -227,11 +229,13 @@
               <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text42>
-            <Text44 Ref="12" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
+            <Text44 Ref="15" type="Text" isKey="true">
+              <AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8,1.2,4.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,16,Bold</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,16,Bold</Font>
               <Guid>35d8e9ebc0ca49e2942acd2fc8958cc7</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -253,7 +257,8 @@
           <Parent isRef="12" />
           <PrintOn>OnlyFirstPage</PrintOn>
         </PageHeaderBand1>
-        <Text16 Ref="13" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
+        <Text16 Ref="16" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
           <ClientRectangle>-0.6,0,0.6,7</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -269,7 +274,8 @@
           <TextOptions>,,RightToLeft=True,,,Angle=90</TextOptions>
           <VertAlignment>Bottom</VertAlignment>
         </Text16>
-        <Text32 Ref="14" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
+        <Text32 Ref="17" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
           <ClientRectangle>-0.6,24.6,0.6,3</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -289,11 +295,13 @@
           <Brush>[240:240:240]</Brush>
           <ClientRectangle>0,3.4,19,0.8</ClientRectangle>
           <Components isList="true" count="4">
-            <Text6 Ref="16" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text6 Ref="19" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.8,0,7.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,11,Bold</Font>
               <Guid>b2811b11d8f34a14bd8688cf22123079</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -306,11 +314,13 @@
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text6>
-            <Text7 Ref="17" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text7 Ref="20" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>16.4,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,11,Bold</Font>
               <Guid>f3f524d28afb4f4e864101138cafc9c1</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -323,11 +333,13 @@
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text7>
-            <Text1 Ref="18" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text1 Ref="21" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6.6,0,2.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,11,Bold</Font>
               <Guid>bbe459a0108a417eae1ae244273bc6db</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -340,11 +352,13 @@
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text1>
-            <Text3 Ref="19" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text3 Ref="22" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,6.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,11,Bold</Font>
               <Guid>76cf14849e0740cb9e8b0d5dfc77aaa6</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -369,12 +383,14 @@
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,5,19,0.8</ClientRectangle>
           <Components isList="true" count="4">
-            <Text4 Ref="21" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text4 Ref="24" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>8.8,0,7.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10,Bold</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>0c08caa545ea487a8537d537743bca0b</Guid>
               <Margins>0,0,0,0</Margins>
@@ -387,12 +403,14 @@
               <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text4>
-            <Text15 Ref="22" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text15 Ref="25" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>16.4,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10,Bold</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>3b11126438ea43d18b13d1ce2120375f</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -406,12 +424,14 @@
               <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text15>
-            <Text17 Ref="23" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text17 Ref="26" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>6.6,0,2.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10,Bold</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>7b912dd41b0645b3af351bfa66e6fc6d</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -425,12 +445,14 @@
               <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text17>
-            <Text19 Ref="24" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text19 Ref="27" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0,0,6.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12,Bold</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10,Bold</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>3beb550e95fc417e8f8330bd3dcf5279</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -461,12 +483,14 @@
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,6.6,19,0.8</ClientRectangle>
           <Components isList="true" count="4">
-            <Text10 Ref="26" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text10 Ref="29" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>8.8,0,7.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>44d65b786735488a850a34f19c299d83</Guid>
               <Margins>0,0,0,0</Margins>
@@ -479,12 +503,14 @@
               <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text10>
-            <Text11 Ref="27" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text11 Ref="30" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>16.4,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>5e9bc9b4bd444132ba424be070b104de</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -498,12 +524,14 @@
               <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text11>
-            <Text12 Ref="28" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text12 Ref="31" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>6.6,0,2.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>04daa1788ab741d8bfc1cd12ba9acc38</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -517,12 +545,14 @@
               <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text12>
-            <Text14 Ref="29" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text14 Ref="32" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0,0,6.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>IRANYekan,12</Font>
+              <Expressions isList="true" count="0" />
+              <Font>IRANYekanFN,10</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>5f33818fa59343c083cf24f2c7f0d297</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -559,9 +589,10 @@
       <Report isRef="0" />
     </Page1>
   </Pages>
-  <PrinterSettings Ref="31" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
-  <ReferencedAssemblies isList="true" count="5">
+  <ReferencedAssemblies isList="true" count="7">
     <value>Core</value>
+    <value>Core.Base</value>
+    <value>Core.Data</value>
     <value>System</value>
     <value>System.Drawing</value>
     <value>System.Windows.Forms</value>
@@ -570,8 +601,8 @@
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>7/12/2022 9:57:08 AM</ReportChanged>
   <ReportCreated>5/14/2012 1:52:49 PM</ReportCreated>
-  <ReportFile>لیست حساب ها A4.mrt</ReportFile>
-  <ReportGuid>e9354ba16f11442993e051aee0137cf3</ReportGuid>
+  <ReportFile>C:\Users\Administrator\Documents\Hooshkar\Sayan\\Reports\fa-IR\مالی و حسابداری\تعریف سرفصل تفصیل\لیست حساب ها A4.mrt</ReportFile>
+  <ReportGuid>5f835e1c90a34d42ae4dc36a8f0283a2</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2022.1.1.0</ReportVersion>
