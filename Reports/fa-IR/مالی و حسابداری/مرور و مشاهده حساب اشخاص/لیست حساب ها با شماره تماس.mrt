@@ -1,43 +1,33 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<StiSerializer version="1.02" type="Net" application="StiReport">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
     <Databases isList="true" count="0" />
-    <DataSources isList="true" count="5">
+    <DataSources isList="true" count="3">
       <داده_x0020_ها Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها</Alias>
         <Columns isList="true" count="4">
-          <value>گزارش,&lt;&gt;f__AnonymousType29`39[System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.Int32_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.Nullable`1[System.Int64]_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.Nullable`1[System.DateTime]_x002c_System.Nullable`1[System.DateTime]_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.Nullable`1[System.DateTime]_x002c_System.Nullable`1[System.DateTime]_x002c_System.Nullable`1[System.Int64]_x002c_System.Nullable`1[System.Int64]_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.Boolean_x002c_System.Boolean_x002c_System.Boolean]</value>
-          <value>لیست_حساب_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType30`33[System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.Nullable`1[System.DateTime]_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.String_x002c_System.Decimal_x002c_System.Decimal_x002c_System.String_x002c_System.Decimal_x002c_System.Decimal_x002c_System.Decimal_x002c_System.Decimal]]</value>
+          <value>گزارش,&lt;&gt;f__AnonymousType20`28[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.Int64],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean]</value>
+          <value>لیست_حساب_ها,System.Collections.Generic.IEnumerable`1[&lt;&gt;f__AnonymousType21`33[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1[System.DateTime],System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal]]</value>
           <value>_ID,System.Int32</value>
           <value>_Current,System.Object</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>ece96359352d4ec690933704172e0955</Key>
         <Name>داده ها</Name>
         <NameInSource>داده ها</NameInSource>
       </داده_x0020_ها>
       <داده_x0020_ها_گزارش Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها_گزارش</Alias>
-        <Columns isList="true" count="42">
+        <Columns isList="true" count="35">
           <value>نام_شرکت,System.String</value>
-          <value>زمینه_فعالیت,System.String</value>
           <value>آدرس,System.String</value>
-          <value>استان,System.String</value>
-          <value>شهر,System.String</value>
           <value>کد_پستی,System.String</value>
           <value>تلفن,System.String</value>
           <value>فکس,System.String</value>
-          <value>ارز,System.String</value>
-          <value>کد_الفبای_ارز,System.String</value>
-          <value>نماد_ارز,System.String</value>
-          <value>تعداد_اعشار_ارز,System.Int32</value>
           <value>شماره_اقتصادی,System.String</value>
           <value>شناسه_ملی,System.String</value>
           <value>شماره_ثبت,System.String</value>
           <value>نام_کاربر,System.String</value>
-          <value>کد_ارز,System.String</value>
-          <value>نام_ارز,System.String</value>
           <value>کد_دوره,System.Int64</value>
           <value>نام_دوره,System.String</value>
           <value>تاریخ_شروع_دوره_شمسی,System.String</value>
@@ -49,8 +39,6 @@
           <value>تا_تاریخ_شمسی,System.String</value>
           <value>از_تاریخ_میلادی,System.DateTime</value>
           <value>تا_تاریخ_میلادی,System.DateTime</value>
-          <value>از_شماره,System.Int64</value>
-          <value>تا_شماره,System.Int64</value>
           <value>کد_نما,System.String</value>
           <value>نام_نما,System.String</value>
           <value>کد_لایه,System.String</value>
@@ -62,15 +50,18 @@
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
           <value>_Current,System.Object</value>
+          <value>جمع_بدهکار,System.Decimal</value>
+          <value>جمع_بستانکار,System.Decimal</value>
+          <value>تشخیص_جمع,System.String</value>
+          <value>جمع_مانده,System.Decimal</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>1012542e2b7a498c9612d0f6eda7d46c</Key>
         <Name>داده ها_گزارش</Name>
         <NameInSource>داده ها_گزارش</NameInSource>
       </داده_x0020_ها_گزارش>
       <داده_x0020_ها_لیست_حساب_ها Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
         <Alias>داده ها_لیست_حساب_ها</Alias>
-        <Columns isList="true" count="36">
+        <Columns isList="true" count="37">
           <value>نوع,System.String</value>
           <value>کد_گروه,System.String</value>
           <value>کد_جزء,System.String</value>
@@ -107,63 +98,15 @@
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
           <value>_Current,System.Object</value>
+          <value>شماره_شناشنامه,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>85a66b9d65ec4490850a32f5762a56ee</Key>
         <Name>داده ها_لیست_حساب_ها</Name>
         <NameInSource>داده ها_لیست_حساب_ها</NameInSource>
       </داده_x0020_ها_لیست_حساب_ها>
-      <سیستم Ref="5" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
-        <Alias>سیستم</Alias>
-        <Columns isList="true" count="4">
-          <value>کلید,System.String</value>
-          <value>انواع,System.Object</value>
-          <value>_ID,System.Int32</value>
-          <value>_Current,System.Object</value>
-        </Columns>
-        <Dictionary isRef="1" />
-        <Key>49d59264bfb24cc7b2151453ef3070c8</Key>
-        <Name>سیستم</Name>
-        <NameInSource>سیستم</NameInSource>
-      </سیستم>
-      <سیستم_انواع Ref="6" type="Stimulsoft.Report.Dictionary.StiBusinessObjectSource" isKey="true">
-        <Alias>سیستم_انواع</Alias>
-        <Columns isList="true" count="26">
-          <value>_ID,System.Int32</value>
-          <value>_parentID,System.Int32</value>
-          <value>_Current,System.Object</value>
-          <value>مقدار_ثابت,Core.ParameterType</value>
-          <value>عدد,Core.ParameterType</value>
-          <value>عدد_صحیح,Core.ParameterType</value>
-          <value>متن,Core.ParameterType</value>
-          <value>متن_کشویی,Core.ParameterType</value>
-          <value>متن_غنی,Core.ParameterType</value>
-          <value>مدت_زمان,Core.ParameterType</value>
-          <value>تاریخ,Core.ParameterType</value>
-          <value>پول,Core.ParameterType</value>
-          <value>اشخاص,Core.ParameterType</value>
-          <value>کالاها,Core.ParameterType</value>
-          <value>اموال,Core.ParameterType</value>
-          <value>انبارها,Core.ParameterType</value>
-          <value>حساب_های_بانکی,Core.ParameterType</value>
-          <value>صندوق_ها,Core.ParameterType</value>
-          <value>تنخواه_داران,Core.ParameterType</value>
-          <value>مراکز_هزینه,Core.ParameterType</value>
-          <value>پروژه_ها,Core.ParameterType</value>
-          <value>شعبات,Core.ParameterType</value>
-          <value>جزء_عملیات,Core.ParameterType</value>
-          <value>حساب,Core.ParameterType</value>
-          <value>الگوی_تجمیع,Core.ParameterType</value>
-          <value>ضریب_شغلی,Core.ParameterType</value>
-        </Columns>
-        <Dictionary isRef="1" />
-        <Key>26a7b79f4f404d799ffcf76032b23178</Key>
-        <Name>سیستم_انواع</Name>
-        <NameInSource>سیستم_انواع</NameInSource>
-      </سیستم_انواع>
     </DataSources>
-    <Relations isList="true" count="3">
-      <داده_x0020_ها Ref="7" type="DataRelation" isKey="true">
+    <Relations isList="true" count="2">
+      <داده_x0020_ها Ref="5" type="DataRelation" isKey="true">
         <Alias>داده ها</Alias>
         <ChildColumns isList="true" count="1">
           <value>_parentID</value>
@@ -177,7 +120,7 @@
         </ParentColumns>
         <ParentSource isRef="2" />
       </داده_x0020_ها>
-      <داده_x0020_ها Ref="8" type="DataRelation" isKey="true">
+      <داده_x0020_ها Ref="6" type="DataRelation" isKey="true">
         <Alias>داده ها</Alias>
         <ChildColumns isList="true" count="1">
           <value>_parentID</value>
@@ -191,426 +134,404 @@
         </ParentColumns>
         <ParentSource isRef="2" />
       </داده_x0020_ها>
-      <سیستم Ref="9" type="DataRelation" isKey="true">
-        <Alias>سیستم</Alias>
-        <ChildColumns isList="true" count="1">
-          <value>_parentID</value>
-        </ChildColumns>
-        <ChildSource isRef="6" />
-        <Dictionary isRef="1" />
-        <Name>سیستم</Name>
-        <NameInSource>سیستم_انواعRelation</NameInSource>
-        <ParentColumns isList="true" count="1">
-          <value>_ID</value>
-        </ParentColumns>
-        <ParentSource isRef="5" />
-      </سیستم>
     </Relations>
     <Report isRef="0" />
-    <Resources isList="true" count="0" />
     <Variables isList="true" count="5">
-      <value>,جمع_بدهکار_صفحه_قبل,جمع_بدهکار_صفحه_قبل,,System.Decimal,,False,False,False,False</value>
-      <value>,جمع_بستانکار_صفحه_قبل,جمع_بستانکار_صفحه_قبل,,System.Decimal,,False,False,False,False</value>
-      <value>,جمع_مانده_صفحه_قبل,جمع_مانده_صفحه_قبل,,System.Decimal,,False,False,False,False</value>
-      <value>,تشخیص_جمع_مانده_صفحه_قبل,تشخیص_جمع_مانده_صفحه_قبل,,System.String,,False,False,False,False</value>
-      <value>,جمع_مانده_علامتدار_صفحه_قبل,جمع_مانده_علامتدار_صفحه_قبل,,System.Decimal,,False,False,False,False</value>
+      <value>,جمع_بدهکار_صفحه_قبل,جمع_بدهکار_صفحه_قبل,System.Decimal,,False,False</value>
+      <value>,جمع_بستانکار_صفحه_قبل,جمع_بستانکار_صفحه_قبل,System.Decimal,,False,False</value>
+      <value>,جمع_مانده_صفحه_قبل,جمع_مانده_صفحه_قبل,System.Decimal,,False,False</value>
+      <value>,تشخیص_جمع_مانده_صفحه_قبل,تشخیص_جمع_مانده_صفحه_قبل,System.String,,False,False</value>
+      <value>,جمع_مانده_علامتدار_صفحه_قبل,جمع_مانده_علامتدار_صفحه_قبل,System.Decimal,,False,False</value>
     </Variables>
   </Dictionary>
   <EngineVersion>EngineV1</EngineVersion>
   <GlobalizationStrings isList="true" count="0" />
-  <Key>927fcbcc69974ca8af97803b668c3179</Key>
   <MetaTags isList="true" count="0" />
   <NumberOfPass>DoublePass</NumberOfPass>
   <Pages isList="true" count="1">
-    <Page1 Ref="10" type="Page" isKey="true">
+    <Page1 Ref="7" type="Page" isKey="true">
       <Border>All;Black;2;Solid;False;4;Black</Border>
       <Brush>Transparent</Brush>
       <Components isList="true" count="7">
-        <ReportTitleBand1 Ref="11" type="ReportTitleBand" isKey="true">
+        <ReportTitleBand1 Ref="8" type="ReportTitleBand" isKey="true">
           <Border>Bottom;Black;1;Solid;False;4;Black</Border>
           <Brush>Transparent</Brush>
           <ClientRectangle>0,0.4,19,2.4</ClientRectangle>
           <Components isList="true" count="8">
-            <Text26 Ref="12" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text26 Ref="9" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
-              <ClientRectangle>7.6,0.4,4,0.6</ClientRectangle>
+              <ClientRectangle>8,0.4,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,14,Bold</Font>
+              <Font>IRANYekan,14,Bold</Font>
               <Guid>efb45e5bc4004b87b6f88b09124561b5</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text26</Name>
-              <Page isRef="10" />
-              <Parent isRef="11" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="8" />
               <Text>{داده_ها_گزارش.نام_شرکت}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text26>
-            <Text41 Ref="13" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text41 Ref="10" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
-              <ClientRectangle>7.6,1.2,4,0.8</ClientRectangle>
+              <ClientRectangle>8,1.2,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,16,Bold</Font>
+              <Font>IRANYekan,16,Bold</Font>
               <Guid>f68560172274440ca37a19fcad267ebe</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text41</Name>
-              <Page isRef="10" />
-              <Parent isRef="11" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="8" />
               <Text>لیست حساب اشخاص</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text41>
-            <Text1 Ref="14" type="Text" isKey="true">
-              <Brush>White</Brush>
+            <Text1 Ref="11" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>0.4,0.8,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,12</Font>
+              <Font>IRANYekan,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text1</Name>
-              <Page isRef="10" />
-              <Parent isRef="11" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="8" />
               <Text>{داده_ها_گزارش.از_تاریخ_شمسی}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text1>
-            <Text2 Ref="15" type="Text" isKey="true">
-              <Brush>White</Brush>
+            <Text2 Ref="12" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>2.4,0.8,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,12,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text2</Name>
-              <Page isRef="10" />
-              <Parent isRef="11" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="8" />
               <Text>از تاریخ:</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text2>
-            <Text3 Ref="16" type="Text" isKey="true">
-              <Brush>White</Brush>
+            <Text3 Ref="13" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>0.4,1.6,2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,12</Font>
+              <Font>IRANYekan,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text3</Name>
-              <Page isRef="10" />
-              <Parent isRef="11" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="8" />
               <Text>{داده_ها_گزارش.تا_تاریخ_شمسی}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text3>
-            <Text4 Ref="17" type="Text" isKey="true">
-              <Brush>White</Brush>
+            <Text4 Ref="14" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>2.4,1.6,1.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,12,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text4</Name>
-              <Page isRef="10" />
-              <Parent isRef="11" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="8" />
               <Text>تا تاریخ:</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text4>
-            <Text5 Ref="18" type="Text" isKey="true">
-              <Brush>White</Brush>
+            <Text5 Ref="15" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>12.4,1,5.4,1.2</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,12</Font>
+              <Font>IRANYekan,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text5</Name>
-              <Page isRef="10" />
-              <Parent isRef="11" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+
               <Text>{داده_ها_گزارش.نام_نما}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text5>
-            <Text17 Ref="19" type="Text" isKey="true">
-              <Brush>White</Brush>
+            <Text17 Ref="16" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>White</Brush>
               <ClientRectangle>17.8,1,0.8,1.2</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,12,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Guid>82ca494e6d6d41f4959677065223133d</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text17</Name>
-              <Page isRef="10" />
-              <Parent isRef="11" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="8" />
               <Text>نما:</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text17>
           </Components>
           <Conditions isList="true" count="0" />
-          <Expressions isList="true" count="0" />
           <Name>ReportTitleBand1</Name>
-          <Page isRef="10" />
-          <Parent isRef="10" />
+          <Page isRef="7" />
+          <Parent isRef="7" />
         </ReportTitleBand1>
-        <Text18 Ref="20" type="Text" isKey="true">
-          <Brush>Transparent</Brush>
+        <Text18 Ref="17" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
           <ClientRectangle>-0.6,0,0.6,7</ClientRectangle>
           <Conditions isList="true" count="0" />
-          <Expressions isList="true" count="0" />
-          <Font>IRANYekanFN,8</Font>
+          <Font>Tahoma,8</Font>
           <Guid>82214cd78c2644e6bf86c34487e612fe</Guid>
           <Margins>0,0,0,0</Margins>
           <Name>Text18</Name>
-          <Page isRef="10" />
-          <Parent isRef="10" />
-          <ShrinkFontToFit>True</ShrinkFontToFit>
+          <Page isRef="7" />
+          <Parent isRef="7" />
           <Text>{PageNofM} - {new Core.DateSystem(Today)}</Text>
           <TextBrush>Black</TextBrush>
-          <TextOptions>,,RightToLeft=True,,,Angle=90</TextOptions>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <VertAlignment>Bottom</VertAlignment>
         </Text18>
-        <Text32 Ref="21" type="Text" isKey="true">
-          <Brush>Transparent</Brush>
+        <Text32 Ref="18" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
           <ClientRectangle>-0.6,24.6,0.6,3</ClientRectangle>
           <Conditions isList="true" count="0" />
-          <Expressions isList="true" count="0" />
-          <Font>IRANYekanFN,8</Font>
+          <Font>Tahoma,8</Font>
           <Guid>8b8d0216ac33463c8f13a0ee977fd974</Guid>
           <Margins>0,0,0,0</Margins>
           <Name>Text32</Name>
-          <Page isRef="10" />
-          <Parent isRef="10" />
-          <ShrinkFontToFit>True</ShrinkFontToFit>
+          <Page isRef="7" />
+          <Parent isRef="7" />
           <Text>www.hooshkar.com</Text>
           <TextBrush>Black</TextBrush>
-          <TextOptions>,,,,,Angle=90</TextOptions>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <VertAlignment>Bottom</VertAlignment>
         </Text32>
-        <HeaderBand1 Ref="22" type="HeaderBand" isKey="true">
+        <HeaderBand1 Ref="19" type="HeaderBand" isKey="true">
           <Brush>[240:240:240]</Brush>
           <ClientRectangle>0,3.6,19,1</ClientRectangle>
           <Components isList="true" count="7">
-            <Headerداده_ها_لیست_حساب_ها_تشخیص Ref="23" type="Text" isKey="true">
+            <Headerداده_ها_لیست_حساب_ها_تشخیص Ref="20" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>2.6,0,0.8,1</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Headerداده_ها_لیست_حساب_ها_تشخیص</Name>
-              <Page isRef="10" />
-              <Parent isRef="22" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="19" />
+
               <Text>ت</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Headerداده_ها_لیست_حساب_ها_تشخیص>
-            <Headerداده_ها_لیست_حساب_ها_گردش_بستانکار Ref="24" type="Text" isKey="true">
+            <Headerداده_ها_لیست_حساب_ها_گردش_بستانکار Ref="21" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>3.4,0,2.6,1</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Headerداده_ها_لیست_حساب_ها_گردش_بستانکار</Name>
-              <Page isRef="10" />
-              <Parent isRef="22" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="19" />
+
               <Text>گردش بستانکار</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Headerداده_ها_لیست_حساب_ها_گردش_بستانکار>
-            <Headerداده_ها_لیست_حساب_ها_گردش_بدهکار Ref="25" type="Text" isKey="true">
+            <Headerداده_ها_لیست_حساب_ها_گردش_بدهکار Ref="22" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6,0,2.6,1</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Headerداده_ها_لیست_حساب_ها_گردش_بدهکار</Name>
-              <Page isRef="10" />
-              <Parent isRef="22" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="19" />
+
               <Text>گردش بدهکار</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Headerداده_ها_لیست_حساب_ها_گردش_بدهکار>
-            <Headerداده_ها_لیست_حساب_ها_مانده Ref="26" type="Text" isKey="true">
+            <Headerداده_ها_لیست_حساب_ها_مانده Ref="23" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,2.6,1</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Headerداده_ها_لیست_حساب_ها_مانده</Name>
-              <Page isRef="10" />
-              <Parent isRef="22" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="19" />
+
               <Text>مانده</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Headerداده_ها_لیست_حساب_ها_مانده>
-            <Text20 Ref="27" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text20 Ref="24" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>12,0,5.4,1</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Guid>b7b1710d475b4f6388daa93acc040bb1</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text20</Name>
-              <Page isRef="10" />
-              <Parent isRef="22" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="19" />
+
               <Text>نام</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text20>
-            <Text15 Ref="28" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text15 Ref="25" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.6,0,3.4,1</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Guid>3652f1186bbb4715aab1447417e34ae6</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text15</Name>
-              <Page isRef="10" />
-              <Parent isRef="22" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="19" />
+
               <Text>شماره تماس</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text15>
-            <Text22 Ref="29" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text22 Ref="26" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>17.4,0,1.6,1</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Guid>466e2991ac67466a9b46763e96762d40</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text22</Name>
-              <Page isRef="10" />
-              <Parent isRef="22" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="19" />
+
               <Text>کد</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text22>
           </Components>
           <Conditions isList="true" count="0" />
-          <Expressions isList="true" count="0" />
           <Name>HeaderBand1</Name>
-          <Page isRef="10" />
-          <Parent isRef="10" />
+          <Page isRef="7" />
+          <Parent isRef="7" />
         </HeaderBand1>
-        <HeaderBand2 Ref="30" type="HeaderBand" isKey="true">
+        <HeaderBand2 Ref="27" type="HeaderBand" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0,5.4,19,0.8</ClientRectangle>
           <Components isList="true" count="5">
-            <Text12 Ref="31" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text12 Ref="28" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>White</Brush>
               <ClientRectangle>2.6,0,0.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>5ea07eb6ceb84ca2a01036705a4ed74b</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text12</Name>
-              <Page isRef="10" />
-              <Parent isRef="30" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="27" />
+
               <Text>{تشخیص_جمع_مانده_صفحه_قبل}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text12>
-            <Text13 Ref="32" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text13 Ref="29" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>White</Brush>
               <ClientRectangle>3.4,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>e83c61b382dc456ba198141f30117f00</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text13</Name>
-              <Page isRef="10" />
-              <Parent isRef="30" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="27" />
+
               <Text>{جمع_بستانکار_صفحه_قبل}</Text>
               <TextBrush>Black</TextBrush>
-              <TextFormat Ref="33" type="NumberFormat" isKey="true">
+              <TextFormat Ref="30" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>3</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text13>
-            <Text14 Ref="34" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text14 Ref="31" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>White</Brush>
               <ClientRectangle>6,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>cf82a083110c477d96167e406a5e6290</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text14</Name>
-              <Page isRef="10" />
-              <Parent isRef="30" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="27" />
+
               <Text>{جمع_بدهکار_صفحه_قبل}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="32" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>3</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text16 Ref="33" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>8.6,0,10.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>IRANYekan,12</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>8c7fa33df5bf4559b1d24d878c756967</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="7" />
+              <Parent isRef="27" />
+
+              <Text>نقل از صفحه قبل:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text11 Ref="34" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0,0,2.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>IRANYekan,12</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>d546f799316b475bb4bd9a52d0923036</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="7" />
+              <Parent isRef="27" />
+
+              <Text>{جمع_مانده_صفحه_قبل}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="35" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -618,63 +539,17 @@
                 <NegativePattern>3</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
-              <VertAlignment>Center</VertAlignment>
-            </Text14>
-            <Text16 Ref="36" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>White</Brush>
-              <ClientRectangle>8.6,0,10.4,0.8</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
-              <GrowToHeight>True</GrowToHeight>
-              <Guid>8c7fa33df5bf4559b1d24d878c756967</Guid>
-              <HorAlignment>Right</HorAlignment>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text16</Name>
-              <Page isRef="10" />
-              <Parent isRef="30" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>نقل از صفحه قبل:</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
-              <VertAlignment>Center</VertAlignment>
-            </Text16>
-            <Text11 Ref="37" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>White</Brush>
-              <ClientRectangle>0,0,2.6,0.8</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
-              <GrowToHeight>True</GrowToHeight>
-              <Guid>d546f799316b475bb4bd9a52d0923036</Guid>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text11</Name>
-              <Page isRef="10" />
-              <Parent isRef="30" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{جمع_مانده_صفحه_قبل}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextFormat Ref="38" type="NumberFormat" isKey="true">
-                <DecimalDigits>0</DecimalDigits>
-                <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>3</NegativePattern>
-                <UseLocalSetting>False</UseLocalSetting>
-              </TextFormat>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text11>
           </Components>
           <Conditions isList="true" count="0" />
-          <Expressions isList="true" count="0" />
           <Name>HeaderBand2</Name>
-          <Page isRef="10" />
-          <Parent isRef="10" />
+          <Page isRef="7" />
+          <Parent isRef="7" />
           <PrintOn>ExceptFirstPage</PrintOn>
         </HeaderBand2>
-        <DataBand1 Ref="39" type="DataBand" isKey="true">
+        <DataBand1 Ref="36" type="DataBand" isKey="true">
           <BeginRenderEvent>جمع_بدهکار_صفحه_قبل = 0;
 جمع_بستانکار_صفحه_قبل = 0;
 جمع_مانده_علامتدار_صفحه_قبل = 0;
@@ -684,163 +559,152 @@
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,7,19,0.8</ClientRectangle>
           <Components isList="true" count="7">
-            <Dataداده_ها_لیست_حساب_ها_تشخیص Ref="40" type="Text" isKey="true">
+            <Dataداده_ها_لیست_حساب_ها_تشخیص Ref="37" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>2.6,0,0.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Dataداده_ها_لیست_حساب_ها_تشخیص</Name>
-              <Page isRef="10" />
-              <Parent isRef="39" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="36" />
+
               <Text>{داده_ها_لیست_حساب_ها.تشخیص}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_لیست_حساب_ها_تشخیص>
-            <Dataداده_ها_لیست_حساب_ها_گردش_بستانکار Ref="41" type="Text" isKey="true">
+            <Dataداده_ها_لیست_حساب_ها_گردش_بستانکار Ref="38" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>3.4,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Margins>0,0,0,0</Margins>
               <Name>Dataداده_ها_لیست_حساب_ها_گردش_بستانکار</Name>
-              <Page isRef="10" />
-              <Parent isRef="39" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="36" />
+
               <Text>{داده_ها_لیست_حساب_ها.گردش_بستانکار}</Text>
               <TextBrush>Black</TextBrush>
-              <TextFormat Ref="42" type="NumberFormat" isKey="true">
+              <TextFormat Ref="39" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>3</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_لیست_حساب_ها_گردش_بستانکار>
-            <Dataداده_ها_لیست_حساب_ها_گردش_بدهکار Ref="43" type="Text" isKey="true">
+            <Dataداده_ها_لیست_حساب_ها_گردش_بدهکار Ref="40" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Margins>0,0,0,0</Margins>
               <Name>Dataداده_ها_لیست_حساب_ها_گردش_بدهکار</Name>
-              <Page isRef="10" />
-              <Parent isRef="39" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="36" />
+
               <Text>{داده_ها_لیست_حساب_ها.گردش_بدهکار}</Text>
               <TextBrush>Black</TextBrush>
-              <TextFormat Ref="44" type="NumberFormat" isKey="true">
+              <TextFormat Ref="41" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>3</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_لیست_حساب_ها_گردش_بدهکار>
-            <Dataداده_ها_لیست_حساب_ها_مانده Ref="45" type="Text" isKey="true">
+            <Dataداده_ها_لیست_حساب_ها_مانده Ref="42" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Margins>0,0,0,0</Margins>
               <Name>Dataداده_ها_لیست_حساب_ها_مانده</Name>
-              <Page isRef="10" />
-              <Parent isRef="39" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="36" />
+
               <Text>{داده_ها_لیست_حساب_ها.مانده}</Text>
               <TextBrush>Black</TextBrush>
-              <TextFormat Ref="46" type="NumberFormat" isKey="true">
+              <TextFormat Ref="43" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>3</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_لیست_حساب_ها_مانده>
-            <Text21 Ref="47" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text21 Ref="44" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>12,0,5.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>78fc432372d1462d957800925533588c</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text21</Name>
-              <Page isRef="10" />
-              <Parent isRef="39" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="36" />
+
               <Text>{داده_ها_لیست_حساب_ها.نام} {داده_ها_لیست_حساب_ها.نام_خانوادگی}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text21>
-            <Text19 Ref="48" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text19 Ref="45" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.6,0,3.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>894fde67287e48c3a15ba1cca5c19a34</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text19</Name>
-              <Page isRef="10" />
-              <Parent isRef="39" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="36" />
+
               <Text>{داده_ها_لیست_حساب_ها.تلفن}{IIF(داده_ها_لیست_حساب_ها.تلفن != "" &amp; داده_ها_لیست_حساب_ها.تلفن_همراه != "","/",null)}{داده_ها_لیست_حساب_ها.تلفن_همراه}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text19>
-            <Text23 Ref="49" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text23 Ref="46" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>17.4,0,1.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>3d6d5701b30249c1b1589019c0cdb045</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text23</Name>
-              <Page isRef="10" />
-              <Parent isRef="39" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="36" />
+
               <Text>{داده_ها_لیست_حساب_ها.کد}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text23>
           </Components>
           <Conditions isList="true" count="0" />
           <DataSourceName>داده ها_لیست_حساب_ها</DataSourceName>
-          <Expressions isList="true" count="0" />
           <Filters isList="true" count="0" />
           <Name>DataBand1</Name>
-          <Page isRef="10" />
-          <Parent isRef="10" />
+          <Page isRef="7" />
+          <Parent isRef="7" />
           <RenderingEvent>جمع_بدهکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بدهکار;
 
 جمع_بستانکار_صفحه_قبل += داده_ها_لیست_حساب_ها.گردش_بستانکار;
@@ -859,70 +723,104 @@ else
 }</RenderingEvent>
           <Sort isList="true" count="0" />
         </DataBand1>
-        <FooterBand1 Ref="50" type="FooterBand" isKey="true">
+        <FooterBand1 Ref="47" type="FooterBand" isKey="true">
           <Brush>[240:240:240]</Brush>
           <ClientRectangle>0,8.6,19,1</ClientRectangle>
           <Components isList="true" count="5">
-            <Text7 Ref="51" type="Text" isKey="true">
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
+            <Text7 Ref="48" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>2.6,0,0.8,1</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>0e8d68975e914695a13d1f400c41474d</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text7</Name>
-              <Page isRef="10" />
-              <Parent isRef="50" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="47" />
+
               <Text>{تشخیص_جمع_مانده_صفحه_قبل}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text7>
-            <Text8 Ref="52" type="Text" isKey="true">
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
+            <Text8 Ref="49" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>3.4,0,2.6,1</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>8ad345a392e84b0fb51b9b55f754965f</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text8</Name>
-              <Page isRef="10" />
-              <Parent isRef="50" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="47" />
+
               <Text>{جمع_بستانکار_صفحه_قبل}</Text>
               <TextBrush>Black</TextBrush>
-              <TextFormat Ref="53" type="NumberFormat" isKey="true">
+              <TextFormat Ref="50" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>3</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text8>
-            <Text9 Ref="54" type="Text" isKey="true">
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
+            <Text9 Ref="51" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>6,0,2.6,1</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>5bb245a0149942b1810d0a97842f0d9d</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text9</Name>
-              <Page isRef="10" />
-              <Parent isRef="50" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Page isRef="7" />
+              <Parent isRef="47" />
+
               <Text>{جمع_بدهکار_صفحه_قبل}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="52" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>3</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text10 Ref="53" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.6,0,10.4,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>IRANYekan,12</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>924bf69d7ec24f65a8f660a9b82761ab</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="7" />
+              <Parent isRef="47" />
+
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text6 Ref="54" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,2.6,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>IRANYekan,12</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>a6a751810e4d4ed8b8ccf2a5af90d8a9</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="7" />
+              <Parent isRef="47" />
+
+              <Text>{جمع_مانده_صفحه_قبل}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="55" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -930,89 +828,46 @@ else
                 <NegativePattern>3</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
-              <VertAlignment>Center</VertAlignment>
-            </Text9>
-            <Text10 Ref="56" type="Text" isKey="true">
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
-              <ClientRectangle>8.6,0,10.4,1</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
-              <GrowToHeight>True</GrowToHeight>
-              <Guid>924bf69d7ec24f65a8f660a9b82761ab</Guid>
-              <HorAlignment>Right</HorAlignment>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text10</Name>
-              <Page isRef="10" />
-              <Parent isRef="50" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
-              <VertAlignment>Center</VertAlignment>
-            </Text10>
-            <Text6 Ref="57" type="Text" isKey="true">
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,2.6,1</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,10</Font>
-              <GrowToHeight>True</GrowToHeight>
-              <Guid>a6a751810e4d4ed8b8ccf2a5af90d8a9</Guid>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text6</Name>
-              <Page isRef="10" />
-              <Parent isRef="50" />
-              <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{جمع_مانده_صفحه_قبل}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextFormat Ref="58" type="NumberFormat" isKey="true">
-                <DecimalDigits>0</DecimalDigits>
-                <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>3</NegativePattern>
-                <UseLocalSetting>False</UseLocalSetting>
-              </TextFormat>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text6>
           </Components>
           <Conditions isList="true" count="0" />
-          <Expressions isList="true" count="0" />
           <Name>FooterBand1</Name>
-          <Page isRef="10" />
-          <Parent isRef="10" />
+          <Page isRef="7" />
+          <Parent isRef="7" />
           <PrintOnAllPages>True</PrintOnAllPages>
         </FooterBand1>
       </Components>
       <Conditions isList="true" count="0" />
-      <Expressions isList="true" count="0" />
       <Guid>719fad6648344c5fad7611db7e02b172</Guid>
       <Margins>1,1,1,1</Margins>
       <Name>Page1</Name>
       <PageHeight>29.7</PageHeight>
       <PageWidth>21</PageWidth>
       <Report isRef="0" />
+      <Watermark Ref="56" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
     </Page1>
   </Pages>
-  <ReferencedAssemblies isList="true" count="7">
+  <PrinterSettings Ref="57" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="5">
     <value>Core</value>
-    <value>Core.Base</value>
-    <value>Core.Data</value>
     <value>System</value>
     <value>System.Drawing</value>
     <value>System.Windows.Forms</value>
     <value>System.Data</value>
   </ReferencedAssemblies>
   <ReportAlias>گزارش</ReportAlias>
-  <ReportChanged>7/16/2022 10:52:27 AM</ReportChanged>
+  <ReportChanged>3/5/2018 3:02:22 AM</ReportChanged>
   <ReportCreated>2/11/2011 11:29:27 PM</ReportCreated>
-  <ReportFile>C:\Users\Administrator\Documents\Hooshkar\Sayan\\Reports\fa-IR\مالی و حسابداری\مرور و مشاهده حساب اشخاص\لیست حساب ها با شماره تماس.mrt</ReportFile>
-  <ReportGuid>ca820ff20978495b814fda7daa8a17a3</ReportGuid>
+  <ReportFile>لیست حساب ها با شماره تماس.mrt</ReportFile>
+  <ReportGuid>a494b8537d364f598970edcdcc81fe55</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
-  <ReportVersion>2022.1.1.0</ReportVersion>
+  <ReportVersion>2010.1.700</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -1033,8 +888,7 @@ namespace Reports
         {
             this.InitializeComponent();
         }
-        #region StiReport Designer generated code - do not modify
-		#endregion StiReport Designer generated code - do not modify
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
     }
 }
 </Script>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <StiSerializer version="1.0" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
@@ -114,12 +114,11 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,0.4,19,1.8</ClientRectangle>
           <Components isList="true" count="2">
-            <Text1 Ref="9" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text1 Ref="9" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.2,0.4,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,14,Bold</Font>
+              <Font>IRANYekan,14,Bold</Font>
               <Guid>0cc2a99762f24731a099ebd66ee54760</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -131,12 +130,11 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text1>
-            <Text16 Ref="10" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text16 Ref="10" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.2,1.2,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,14,Bold</Font>
+              <Font>IRANYekan,14,Bold</Font>
               <Guid>378ae90557ab4311b0c150dc6ad35e41</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -155,9 +153,8 @@
           <Page isRef="7" />
           <Parent isRef="7" />
         </PageHeaderBand1>
-        <Text28 Ref="11" type="Text" isKey="true">
-          <Brush>Transparent</Brush>
-          <ClientRectangle>-0.6,0,0.6,3.4</ClientRectangle>
+        <Text28 Ref="11" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
+          <ClientRectangle>-0.6,0,0.6,7</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
           <Guid>59e4899fe19744438a33091300a3b386</Guid>
@@ -170,8 +167,7 @@
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
           <VertAlignment>Bottom</VertAlignment>
         </Text28>
-        <Text32 Ref="12" type="Text" isKey="true">
-          <Brush>Transparent</Brush>
+        <Text32 Ref="12" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
           <ClientRectangle>-0.6,24.6,0.6,3</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
@@ -221,7 +217,7 @@
               <Border>All;[121:60:121];1;Solid;False;4;Black</Border>
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>0,0.85,1.8,0.8</ClientRectangle>
-              <Font>B Nazanin,10</Font>
+              <Font>IRANYekan,10</Font>
               <Guid>b0f1c511e78147b09b29963d2c8de494</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row1_Title</Name>
@@ -251,7 +247,7 @@
               <Border>All;[121:60:121];1;Solid;False;4;Black</Border>
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>1.8,0.85,2.6,0.8</ClientRectangle>
-              <Font>B Nazanin,10</Font>
+              <Font>IRANYekan,10</Font>
               <Guid>1165cfe93fa64c3e86ef0f9354844ce8</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row2_Title</Name>
@@ -281,7 +277,7 @@
               <Border>All;[121:60:121];1;Solid;False;4;Black</Border>
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>0,0,4.4,0.8</ClientRectangle>
-              <Font>B Nazanin,10</Font>
+              <Font>IRANYekan,10</Font>
               <Guid>fabab2405a954599b6be98a709a5aa16</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_LeftTitle</Name>
@@ -299,7 +295,7 @@
               <ClientRectangle>0,1.7,1.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DisplayValue>{داده_ها_پارامترها.کد_پرسنلی}</DisplayValue>
-              <Font>B Nazanin,10</Font>
+              <Font>IRANYekan,10</Font>
               <Guid>73e726e114c74b7cbcae225955f2f409</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row1</Name>
@@ -319,7 +315,7 @@
               <ClientRectangle>1.8,1.7,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DisplayValue>{داده_ها_پارامترها.نام_کامل_کارمند}</DisplayValue>
-              <Font>B Nazanin,10</Font>
+              <Font>IRANYekan,10</Font>
               <Guid>0e63660d17654a90b3dd5054041a5dee</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Row2</Name>
@@ -339,7 +335,7 @@
               <ClientRectangle>4.45,0.85,1.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <DisplayValue>{داده_ها_پارامترها.نام_پارامتر}</DisplayValue>
-              <Font>B Nazanin,10</Font>
+              <Font>IRANYekan,10</Font>
               <Guid>459271c46c034e9a9eba55e20f4b610f</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_Column1</Name>
@@ -358,7 +354,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>4.45,1.7,1.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,10</Font>
+              <Font>IRANYekan,10</Font>
               <Guid>56f3df99f896442fa3290315600549c2</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -375,7 +371,7 @@
               <Border>All;[121:60:121];1;Solid;False;4;Black</Border>
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>4.45,0,1.6,0.8</ClientRectangle>
-              <Font>B Nazanin,10</Font>
+              <Font>IRANYekan,10</Font>
               <Guid>c95313d64cf541cfb4178fea5d2dc6c2</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>CrossTab1_RightTitle</Name>
@@ -415,7 +411,7 @@
   </Pages>
   <PrinterSettings Ref="29" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
   <ReferencedAssemblies isList="true" count="5">
-    <value>SayanLibrary</value>
+    <value>Core</value>
     <value>System</value>
     <value>System.Drawing</value>
     <value>System.Windows.Forms</value>
@@ -424,7 +420,7 @@
   <ReportAlias>گزارش</ReportAlias>
   <ReportChanged>6/8/2015 3:46:47 PM</ReportChanged>
   <ReportCreated>1/12/2013 4:59:28 PM</ReportCreated>
-  <ReportFile>E:\My Project\Sayan\Sayan\Publish\Reports\اتوماسیون حقوق و دستمزد\کارکردهای ماهانه\لیست کارکردها.mrt</ReportFile>
+  <ReportFile>لیست کارکردها.mrt</ReportFile>
   <ReportGuid>fd172de702e5499eb98252ed51061af6</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

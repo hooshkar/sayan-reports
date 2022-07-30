@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <StiSerializer version="1.0" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
@@ -183,12 +183,11 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,0.4,19,2.2</ClientRectangle>
           <Components isList="true" count="5">
-            <Text1 Ref="11" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text1 Ref="11" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>9.2,0.4,1.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,14,Bold</Font>
+              <Font>IRANYekan,14,Bold</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text1</Name>
@@ -198,12 +197,11 @@
               <TextBrush>Black</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text1>
-            <Text2 Ref="12" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text2 Ref="12" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>15,0.6,3.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>c60b5fd6d3934b5daa7e4eab800b8910</Guid>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -215,12 +213,11 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text2>
-            <Text3 Ref="13" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text3 Ref="13" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>0.4,1.2,3.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>83e2904a78624ba7bc8373742bd9b937</Guid>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -232,12 +229,11 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text3>
-            <Text19 Ref="14" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text19 Ref="14" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>0.4,0.4,3.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>4f1450dcefc449df8259afdfd3cb5c85</Guid>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -249,12 +245,11 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text19>
-            <Text17 Ref="15" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text17 Ref="15" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>15,1.4,3.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>75d08aa849a646168cb674ab586e1cdd</Guid>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -276,12 +271,11 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,24.7,19,3</ClientRectangle>
           <Components isList="true" count="4">
-            <Text6 Ref="17" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text6 Ref="17" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>14.6,0.3,3.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Guid>336d981541824adabcf4cedb05cf8b78</Guid>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -293,12 +287,11 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text6>
-            <Text7 Ref="18" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text7 Ref="18" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>14.6,0.9,3.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>9e42608fcb344f6881a39ce6be9c7aae</Guid>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -310,12 +303,11 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text7>
-            <Text8 Ref="19" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text8 Ref="19" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>2.4,0.3,3.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Guid>65e3da1cbc054194b8538d404f9516a0</Guid>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -327,12 +319,11 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text8>
-            <Text9 Ref="20" type="Text" isKey="true">
-              <AutoWidth>True</AutoWidth>
+            <Text9 Ref="20" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <ClientRectangle>2.4,0.9,3.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>70500c171579441387433f1bb70ec3e7</Guid>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -354,12 +345,11 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,3.4,19,1</ClientRectangle>
           <Components isList="true" count="1">
-            <Text4 Ref="22" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
+            <Text4 Ref="22" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0.4,0.2,18.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text4</Name>
               <Page isRef="9" />
@@ -378,8 +368,7 @@
           <Page isRef="9" />
           <Parent isRef="9" />
         </ReportTitleBand1>
-        <Text32 Ref="23" type="Text" isKey="true">
-          <Brush>Transparent</Brush>
+        <Text32 Ref="23" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
           <ClientRectangle>-0.6,24.6,0.6,3</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Font>Tahoma,8</Font>
@@ -397,12 +386,12 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,5.2,19,1</ClientRectangle>
           <Components isList="true" count="2">
-            <Headerداده_ها_فیش_ها_ردیف_ها_نام Ref="25" type="Text" isKey="true">
+            <Headerداده_ها_فیش_ها_ردیف_ها_نام Ref="25" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>13,0.4,4.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Headerداده_ها_فیش_ها_ردیف_ها_نام</Name>
@@ -413,12 +402,12 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Headerداده_ها_فیش_ها_ردیف_ها_نام>
-            <Headerداده_ها_فیش_ها_ردیف_ها_مقدار_غنی Ref="26" type="Text" isKey="true">
+            <Headerداده_ها_فیش_ها_ردیف_ها_مقدار_غنی Ref="26" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>[240:240:240]</Brush>
               <ClientRectangle>1.6,0.4,11.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Headerداده_ها_فیش_ها_ردیف_ها_مقدار_غنی</Name>
@@ -440,13 +429,12 @@
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,7,19,0.6</ClientRectangle>
           <Components isList="true" count="3">
-            <Text11 Ref="28" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text11 Ref="28" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>13,0,4.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>8812a0f6798443d7b48f743b9f65c194</Guid>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -458,13 +446,12 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text11>
-            <Text12 Ref="29" type="Text" isKey="true">
-              <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+            <Text12 Ref="29" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>1.6,0,8.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>df32a45619ee4387a9886f41d6cd7edd</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text12</Name>
@@ -481,13 +468,12 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text12>
-            <Text10 Ref="31" type="Text" isKey="true">
-              <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+            <Text10 Ref="31" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>10,0,3,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>671e80bba3524e49af18c6781c47acf2</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text10</Name>
@@ -523,13 +509,13 @@
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,8.4,19,0.6</ClientRectangle>
           <Components isList="true" count="3">
-            <Dataداده_ها_فیش_ها_ردیف_ها_نام Ref="34" type="Text" isKey="true">
+            <Dataداده_ها_فیش_ها_ردیف_ها_نام Ref="34" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>13,0,4.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Dataداده_ها_فیش_ها_ردیف_ها_نام</Name>
@@ -540,13 +526,13 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_فیش_ها_ردیف_ها_نام>
-            <Dataداده_ها_فیش_ها_ردیف_ها_مقدار_غنی Ref="35" type="Text" isKey="true">
+            <Dataداده_ها_فیش_ها_ردیف_ها_مقدار_غنی Ref="35" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>1.6,0,8.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Dataداده_ها_فیش_ها_ردیف_ها_مقدار_غنی</Name>
               <Page isRef="9" />
@@ -562,13 +548,12 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Dataداده_ها_فیش_ها_ردیف_ها_مقدار_غنی>
-            <Text15 Ref="37" type="Text" isKey="true">
-              <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+            <Text15 Ref="37" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>10,0,3,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>0bfb0812eb564c5b8e287c187bb1183d</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text15</Name>
@@ -607,13 +592,12 @@
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,9.8,19,0.6</ClientRectangle>
           <Components isList="true" count="3">
-            <Text13 Ref="40" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+            <Text13 Ref="40" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>13,0,4.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>fe73e9ce514f4598b1b4f7cd60a028f3</Guid>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -625,13 +609,12 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text13>
-            <Text14 Ref="41" type="Text" isKey="true">
-              <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+            <Text14 Ref="41" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>1.6,0,8.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>bccc60f0680a4cc5a04a266ef1ad54a2</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text14</Name>
@@ -648,13 +631,12 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text14>
-            <Text16 Ref="43" type="Text" isKey="true">
-              <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+            <Text16 Ref="43" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>10,0,3,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>4b633600d55740469e4b09777cc91084</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text16</Name>
@@ -689,12 +671,12 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,11.2,19,0.6</ClientRectangle>
           <Components isList="true" count="2">
-            <Footerداده_ها_فیش_ها_ردیف_ها_نام Ref="46" type="Text" isKey="true">
+            <Footerداده_ها_فیش_ها_ردیف_ها_نام Ref="46" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>13,0,4.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Footerداده_ها_فیش_ها_ردیف_ها_نام</Name>
@@ -705,12 +687,12 @@
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Footerداده_ها_فیش_ها_ردیف_ها_نام>
-            <Footerداده_ها_فیش_ها_ردیف_ها_مقدار_غنی Ref="47" type="Text" isKey="true">
+            <Footerداده_ها_فیش_ها_ردیف_ها_مقدار_غنی Ref="47" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit>
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>1.6,0,11.4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Footerداده_ها_فیش_ها_ردیف_ها_مقدار_غنی</Name>
@@ -737,12 +719,11 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0,12.6,19,1.2</ClientRectangle>
           <Components isList="true" count="1">
-            <Text5 Ref="50" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
+            <Text5 Ref="50" type="Text" isKey="true"><ShrinkFontToFit>True</ShrinkFontToFit><Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0.4,0.4,18.2,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>B Nazanin,12</Font>
+              <Font>IRANYekan,12</Font>
               <Guid>0da9e8643f024e029796299421941c87</Guid>
               <Margins>0,0,0,0</Margins>
               <Name>Text5</Name>
@@ -793,7 +774,7 @@
   <ReportAlias>Report</ReportAlias>
   <ReportChanged>10/30/2019 12:48:14 PM</ReportChanged>
   <ReportCreated>7/13/2014 12:18:52 PM</ReportCreated>
-  <ReportFile>C:\Users\vahid\Documents\Sayan Documents\\Reports\fa-IR\حقوق و دستمزد\صدور احکام\قرارداد کار.mrt</ReportFile>
+  <ReportFile>قرارداد کار.mrt</ReportFile>
   <ReportGuid>6e6ad595c0534b869c2fe448473a61b1</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <StiSerializer version="1.02" type="Net" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
@@ -13,7 +13,7 @@
           <value>_Current,System.Object</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>51429196529a4701bfca6c933c795b32</Key>
+        <Key>4c3a6768a34c4e10be1b758c58211a6d</Key>
         <Name>داده ها</Name>
         <NameInSource>داده ها</NameInSource>
       </داده_x0020_ها>
@@ -41,7 +41,7 @@
           <value>_Current,System.Object</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>bd407cc448c847db946e1b2ae4a72f7e</Key>
+        <Key>c0790466fd384a0491c228e5af56c262</Key>
         <Name>داده ها_گزارش</Name>
         <NameInSource>داده ها_گزارش</NameInSource>
       </داده_x0020_ها_گزارش>
@@ -65,7 +65,7 @@
           <value>_Current,System.Object</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>e072e70ca7c246799df82940ecadc918</Key>
+        <Key>765f4c3700aa476aa7be244f99cb50e7</Key>
         <Name>داده ها_لیست_حساب_ها</Name>
         <NameInSource>داده ها_لیست_حساب_ها</NameInSource>
       </داده_x0020_ها_لیست_حساب_ها>
@@ -78,7 +78,7 @@
           <value>_Current,System.Object</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>b21953f9ac434fb788771fcaff1ea092</Key>
+        <Key>c7334be73ebb4d8c8274323d7b611789</Key>
         <Name>سیستم</Name>
         <NameInSource>سیستم</NameInSource>
       </سیستم>
@@ -113,7 +113,7 @@
           <value>ضریب_شغلی,Core.ParameterType</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>e0351ab93a8745a096e9400fcf0b0166</Key>
+        <Key>28f67bb939044a5990cea95bd2f4cec7</Key>
         <Name>سیستم_انواع</Name>
         <NameInSource>سیستم_انواع</NameInSource>
       </سیستم_انواع>
@@ -185,10 +185,10 @@
               <AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>8.2,0.4,3.4,0.6</ClientRectangle>
+              <ClientRectangle>8.4,0.4,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,14,Bold</Font>
+              <Font>IRANYekan,14,Bold</Font>
               <Guid>eb0a15be83cc4cdd86fac34ec8b89b44</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -205,10 +205,10 @@
               <AutoWidth>True</AutoWidth>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>8.2,1.2,3.4,0.6</ClientRectangle>
+              <ClientRectangle>8.4,1.2,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,16,Bold</Font>
+              <Font>IRANYekan,16,Bold</Font>
               <Guid>35d8e9ebc0ca49e2942acd2fc8958cc7</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -235,7 +235,7 @@
           <ClientRectangle>-0.6,0,0.6,7</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
-          <Font>IRANYekanFN,8</Font>
+          <Font>Tahoma,8</Font>
           <Guid>4bcf2013d7184883b3f66937405123a4</Guid>
           <Margins>0,0,0,0</Margins>
           <Name>Text16</Name>
@@ -252,7 +252,7 @@
           <ClientRectangle>-0.6,24.6,0.6,3</ClientRectangle>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
-          <Font>IRANYekanFN,8</Font>
+          <Font>Tahoma,8</Font>
           <Guid>04cd30fa113942449d32602bd1c38f61</Guid>
           <Margins>0,0,0,0</Margins>
           <Name>Text32</Name>
@@ -275,7 +275,7 @@
               <ClientRectangle>7.8,0,8.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,11,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Guid>b2811b11d8f34a14bd8688cf22123079</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -295,7 +295,7 @@
               <ClientRectangle>16,0,3,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,11,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Guid>f3f524d28afb4f4e864101138cafc9c1</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -315,7 +315,7 @@
               <ClientRectangle>5.2,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,11,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Guid>bbe459a0108a417eae1ae244273bc6db</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -335,7 +335,7 @@
               <ClientRectangle>2.6,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,11,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Guid>76cf14849e0740cb9e8b0d5dfc77aaa6</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -355,7 +355,7 @@
               <ClientRectangle>0,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,11,Bold</Font>
+              <Font>IRANYekan,12,Bold</Font>
               <Guid>4dd02c9bc7a440339dfdbedfc68ac2d6</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -387,7 +387,7 @@
               <ClientRectangle>7.8,0,8.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,11</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>0c08caa545ea487a8537d537743bca0b</Guid>
               <Margins>0,0,0,0</Margins>
@@ -407,7 +407,7 @@
               <ClientRectangle>16,0,3,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,11</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>3b11126438ea43d18b13d1ce2120375f</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -428,7 +428,7 @@
               <ClientRectangle>5.2,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,11</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>7b912dd41b0645b3af351bfa66e6fc6d</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -449,7 +449,7 @@
               <ClientRectangle>2.6,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,11</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>3beb550e95fc417e8f8330bd3dcf5279</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -470,7 +470,7 @@
               <ClientRectangle>0,0,2.6,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>IRANYekanFN,11</Font>
+              <Font>IRANYekan,12</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>4bf576909a574ffdbc9a3e5b1627b015</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -516,10 +516,10 @@
     <value>System.Data</value>
   </ReferencedAssemblies>
   <ReportAlias>گزارش</ReportAlias>
-  <ReportChanged>7/12/2022 9:34:58 AM</ReportChanged>
+  <ReportChanged>6/29/2022 11:04:34 PM</ReportChanged>
   <ReportCreated>5/14/2012 1:52:49 PM</ReportCreated>
-  <ReportFile>C:\Users\Administrator\Documents\Hooshkar\Sayan\\Reports\fa-IR\مالی و حسابداری\تعریف سرفصل حساب ها\چاپ لیستی\لیست حساب ها A4.mrt</ReportFile>
-  <ReportGuid>636002c988e14cf9a544073a31630cdc</ReportGuid>
+  <ReportFile>لیست حساب ها A4.mrt</ReportFile>
+  <ReportGuid>6119067589cc44c7925bb9257710b502</ReportGuid>
   <ReportName>گزارش</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2022.1.1.0</ReportVersion>
